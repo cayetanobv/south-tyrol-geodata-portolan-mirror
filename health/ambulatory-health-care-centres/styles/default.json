@@ -1,0 +1,34 @@
+{
+  "version": 8,
+  "name": "AmbulatoryHealthCareCenter",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../ambulatory-health-care-centres.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 3
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-circle",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "ambulatory-health-care-centres",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          "#555555",
+          "#FFFF00",
+          "#cccccc"
+        ],
+        "circle-radius": 10,
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.264022Z",
+      "breaking": false,
+      "assets": {
+        "air-quality-stations.pmtiles": {
+          "sha256": "f1b041c1ab489aa93e1345d1006d25dc8e99d16d57d2e14688988a8f98a8b22c",
+          "size_bytes": 4496,
+          "href": "environment-and-infrastructure/air-quality-stations/air-quality-stations.pmtiles",
+          "mtime": 1788447534.293624
+        },
+        "air-quality-stations.parquet": {
+          "sha256": "b98a0db3eab40863ae5008ad4bc6bc890c8f0cebd4ebdf952488094720c33e74",
+          "size_bytes": 5589,
+          "href": "environment-and-infrastructure/air-quality-stations/air-quality-stations.parquet",
+          "source_mtime": 1788447309.0055542,
+          "mtime": 1788447309.0055542,
+          "feature_count": 15,
+          "schema_fingerprint": "16ec2f8c0b238a05"
+        },
+        "README.md": {
+          "sha256": "c2439dab49f9b3229d7f9512fd67f43bccc8c813b1991d3aa58faa65b850ef9a",
+          "size_bytes": 3903,
+          "href": "environment-and-infrastructure/air-quality-stations/README.md",
+          "mtime": 1788448923.137237
+        },
+        "air-quality-stations.thumb.jpg": {
+          "sha256": "b2e9b4c7d65786c160c05ca20020edc5e6d3782d44d2a14a3e263939dc803882",
+          "size_bytes": 30995,
+          "href": "environment-and-infrastructure/air-quality-stations/air-quality-stations.thumb.jpg",
+          "mtime": 1788449305.2244778
+        }
+      },
+      "changes": [
+        "air-quality-stations.pmtiles",
+        "air-quality-stations.parquet",
+        "README.md",
+        "air-quality-stations.thumb.jpg"
+      ]
+    }
+  ]
+}

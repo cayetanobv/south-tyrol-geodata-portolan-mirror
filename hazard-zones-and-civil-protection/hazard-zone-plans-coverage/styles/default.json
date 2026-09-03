@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "name": "UrbanPlan-HazardZonePlan-Coverages",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../hazard-zone-plans-coverage.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "hazard-zone-plans-coverage",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          0,
+          "#CCCCCC",
+          1,
+          "#EB5CB6",
+          "#cccccc"
+        ],
+        "fill-opacity": 0.3,
+        "fill-outline-color": "#646464"
+      }
+    }
+  ]
+}

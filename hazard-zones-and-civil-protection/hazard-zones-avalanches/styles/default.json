@@ -1,0 +1,55 @@
+{
+  "version": 8,
+  "name": "UrbanPlan-HazardZonePlan-Avalanches",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../hazard-zones-avalanches.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "hazard-zones-avalanches",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          1040301,
+          "#888888",
+          1040302,
+          "#888888",
+          1040303,
+          "#888888",
+          1040304,
+          "#888888",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0,
+        "fill-outline-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          1040301,
+          "#B2B2B2",
+          1040302,
+          "#E6E600",
+          1040303,
+          "#005CE6",
+          1040304,
+          "#E60000",
+          "#000000"
+        ]
+      }
+    }
+  ]
+}

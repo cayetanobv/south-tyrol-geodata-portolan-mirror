@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.444708Z",
+      "breaking": false,
+      "assets": {
+        "health-regions.pmtiles": {
+          "sha256": "2c5a63faf08ee4a2b14fec28aef093db1450bb0fd1771dd5ce62f8adda884009",
+          "size_bytes": 62507,
+          "href": "health/health-regions/health-regions.pmtiles",
+          "mtime": 1788448414.2913597
+        },
+        "README.md": {
+          "sha256": "e562988dc2d6e1dd43efb4bd869dcfcf0a21b75bdb0aa4f46afba413601b2790",
+          "size_bytes": 3384,
+          "href": "health/health-regions/README.md",
+          "mtime": 1788448923.2532392
+        },
+        "health-regions.thumb.jpg": {
+          "sha256": "d3731a830a64e48c941909fea10e1f221cdc3d203f27f457aa2537da69e19bd1",
+          "size_bytes": 55199,
+          "href": "health/health-regions/health-regions.thumb.jpg",
+          "mtime": 1788449312.512615
+        },
+        "health-regions.parquet": {
+          "sha256": "430051de39875dda4dbbb8a7220e51d05cff6f026c658d2145475cecfce9d4d3",
+          "size_bytes": 105843,
+          "href": "health/health-regions/health-regions.parquet",
+          "source_mtime": 1788447274.9649396,
+          "mtime": 1788447274.9649396,
+          "feature_count": 4,
+          "schema_fingerprint": "b8c5f018bdaadbb3"
+        }
+      },
+      "changes": [
+        "health-regions.pmtiles",
+        "README.md",
+        "health-regions.thumb.jpg",
+        "health-regions.parquet"
+      ]
+    }
+  ]
+}

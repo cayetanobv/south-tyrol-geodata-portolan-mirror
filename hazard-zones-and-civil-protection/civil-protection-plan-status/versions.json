@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.348294Z",
+      "breaking": false,
+      "assets": {
+        "civil-protection-plan-status.pmtiles": {
+          "sha256": "c9aff964deee6c231bc4cab99e413b56be488e8c071e4d541c3a8a2900afcbfe",
+          "size_bytes": 487730,
+          "href": "hazard-zones-and-civil-protection/civil-protection-plan-status/civil-protection-plan-status.pmtiles",
+          "mtime": 1788448370.5544884
+        },
+        "civil-protection-plan-status.parquet": {
+          "sha256": "488f9201537c6d051c1ee66f8978336f05bac52ef3d4e1bd86565cb7901882da",
+          "size_bytes": 472142,
+          "href": "hazard-zones-and-civil-protection/civil-protection-plan-status/civil-protection-plan-status.parquet",
+          "source_mtime": 1788448320.3534822,
+          "mtime": 1788448320.3534822,
+          "feature_count": 116,
+          "schema_fingerprint": "2a73406f30f0c5e1"
+        },
+        "README.md": {
+          "sha256": "7739189e23c8deceda39bc5e560bd54812cfdc387dab249ce01bdd186fffab26",
+          "size_bytes": 4147,
+          "href": "hazard-zones-and-civil-protection/civil-protection-plan-status/README.md",
+          "mtime": 1788448923.193238
+        },
+        "civil-protection-plan-status.thumb.jpg": {
+          "sha256": "26c9f66068044ba9f086ceadfb8c76ebc742205656195d17eb7996be69feefd9",
+          "size_bytes": 103842,
+          "href": "hazard-zones-and-civil-protection/civil-protection-plan-status/civil-protection-plan-status.thumb.jpg",
+          "mtime": 1788449308.5645406
+        }
+      },
+      "changes": [
+        "civil-protection-plan-status.pmtiles",
+        "civil-protection-plan-status.parquet",
+        "README.md",
+        "civil-protection-plan-status.thumb.jpg"
+      ]
+    }
+  ]
+}

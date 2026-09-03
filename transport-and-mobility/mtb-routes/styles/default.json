@@ -1,0 +1,56 @@
+{
+  "version": 8,
+  "name": "Routes-MTB",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../mtb-routes.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-line",
+      "type": "line",
+      "source": "data",
+      "source-layer": "mtb-routes",
+      "paint": {
+        "line-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          "#555555",
+          "#0070FF",
+          "#cccccc"
+        ],
+        "line-width": 2.0,
+        "line-opacity": 1.0
+      }
+    },
+    {
+      "id": "categorical-line-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "mtb-routes",
+      "layout": {
+        "text-field": [
+          "get",
+          "MTB_CODE"
+        ],
+        "text-size": 12.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#323216",
+        "text-halo-color": "#FCFC72",
+        "text-halo-width": 1.0
+      }
+    }
+  ]
+}

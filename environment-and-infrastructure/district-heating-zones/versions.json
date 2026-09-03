@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.272163Z",
+      "breaking": false,
+      "assets": {
+        "district-heating-zones.parquet": {
+          "sha256": "d3882e6c3359640fab2dd6be52f114fe73431adffa6ddbe5eb109a7411ac7dbc",
+          "size_bytes": 128607,
+          "href": "environment-and-infrastructure/district-heating-zones/district-heating-zones.parquet",
+          "source_mtime": 1788448317.805431,
+          "mtime": 1788448317.805431,
+          "feature_count": 83,
+          "schema_fingerprint": "73da2234831bf934"
+        },
+        "district-heating-zones.pmtiles": {
+          "sha256": "ebd9843528bd10c9f32d679aa694967eca91be9898caf514a8a0e178ad206309",
+          "size_bytes": 145274,
+          "href": "environment-and-infrastructure/district-heating-zones/district-heating-zones.pmtiles",
+          "mtime": 1788448348.3500443
+        },
+        "district-heating-zones.thumb.jpg": {
+          "sha256": "c8f3735f5f42f179d0c73690a39d43729b5e7a01a333d11eff4183822df37e07",
+          "size_bytes": 51345,
+          "href": "environment-and-infrastructure/district-heating-zones/district-heating-zones.thumb.jpg",
+          "mtime": 1788449305.4484818
+        },
+        "README.md": {
+          "sha256": "0d4e84d05abb5dd3fd5873adb5bebdf384ad07d6476ce6bcd01df42ccee4f514",
+          "size_bytes": 3598,
+          "href": "environment-and-infrastructure/district-heating-zones/README.md",
+          "mtime": 1788448923.141237
+        }
+      },
+      "changes": [
+        "district-heating-zones.parquet",
+        "district-heating-zones.pmtiles",
+        "district-heating-zones.thumb.jpg",
+        "README.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "name": "CivilProtectionPlan-Status",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../civil-protection-plan-status.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "civil-protection-plan-status",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          "abgeschlossen",
+          "#267300",
+          "#555555",
+          "#FFAA00",
+          "#cccccc"
+        ],
+        "fill-opacity": 0.5,
+        "fill-outline-color": "#FFFFFF"
+      }
+    }
+  ]
+}

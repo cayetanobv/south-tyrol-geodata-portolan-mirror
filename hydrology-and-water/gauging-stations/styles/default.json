@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "name": "GaugingStations",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../gauging-stations.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4
+    }
+  },
+  "layers": [
+    {
+      "id": "circle-0",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "gauging-stations",
+      "paint": {
+        "circle-color": "#FFFFFF",
+        "circle-radius": 5.0,
+        "circle-opacity": 1.0
+      }
+    },
+    {
+      "id": "circle-1",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "gauging-stations",
+      "paint": {
+        "circle-color": "#888888",
+        "circle-radius": 5.0,
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}

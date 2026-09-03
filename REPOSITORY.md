@@ -1,0 +1,21 @@
+# About this repository
+
+This repository is the **git-backed metadata tree** of the Portolan catalog
+*South Tyrol open geodata — community mirror (OGC Metadata Summit 2026 demo)*.
+
+- **Published catalog (data + metadata):** https://storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json
+  (interim hosting on Google Cloud Storage, europe-west8 / Milan; intended home: Source Cooperative
+  `cayetanobv/south-tyrol-geodata-portolan-mirror`, same slug).
+- **Browse it:** https://browser.portolan-sdi.org/#/external/storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json
+- **What is here:** `catalog.json`, the 11 theme `catalog.json` files, 69 `collection.json` files, every `README.md`
+  and `AGENTS.md`, styles, legends and thumbnails. **Not here:** the GeoParquet and PMTiles data files (~140 MB), which
+  are served from the bucket; `.gitignore` refuses them.
+- **This is a community MIRROR, not an official publication** of the Autonomous Province of Bolzano – South Tyrol.
+  All data are the Province's open data (CC0 1.0), attributed in every collection. Authoritative sources:
+  https://geoservices1.civis.bz.it and https://data.civis.bz.it.
+- **Validation:** every push and pull request runs `rashid check . --schema --no-data` (spec v0.2.0 rules).
+- **Publisher:** `portolan push` (state in `versions.json`). The template's `tools/publish.py` is not used here; do not mix them.
+- **Corrections welcome:** open an issue or a pull request against the metadata files. Re-run
+  `portolan check --fix` before committing so checksums and sizes stay consistent.
+- **How it was built:** portolan-cli 0.8.0 paired with rashid 0.1.8; scripts and notes in the OGC Metadata Summit 2026
+  talk repository (`talks/ogc-metadata-summit-bolzano/tools/`).

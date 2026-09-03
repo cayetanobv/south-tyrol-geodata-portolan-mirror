@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.289192Z",
+      "breaking": false,
+      "assets": {
+        "telecom-transmitters.parquet": {
+          "sha256": "499f3de9ca9f16eac0436a214ef9465cda2c3c282b282e0849cf3c5846ba9e1f",
+          "size_bytes": 88913,
+          "href": "environment-and-infrastructure/telecom-transmitters/telecom-transmitters.parquet",
+          "source_mtime": 1788447361.6825054,
+          "mtime": 1788447361.6825054,
+          "feature_count": 1795,
+          "schema_fingerprint": "e54a86219ed44d35"
+        },
+        "telecom-transmitters.pmtiles": {
+          "sha256": "babac30e92f7baa1a63b3fc87d03bac39e0249ebbdc5a70efeafa7fa7de66441",
+          "size_bytes": 188308,
+          "href": "environment-and-infrastructure/telecom-transmitters/telecom-transmitters.pmtiles",
+          "mtime": 1788448351.6541104
+        },
+        "telecom-transmitters.thumb.jpg": {
+          "sha256": "40990ad5110c3d5f58650d38f9de691e44360382f889e13bd44963d285391668",
+          "size_bytes": 60318,
+          "href": "environment-and-infrastructure/telecom-transmitters/telecom-transmitters.thumb.jpg",
+          "mtime": 1788449306.3964999
+        },
+        "README.md": {
+          "sha256": "df6f95052dbf27ca640d0c7d6eff243d00b6333fbcea0059d1afd4248a9527b0",
+          "size_bytes": 4130,
+          "href": "environment-and-infrastructure/telecom-transmitters/README.md",
+          "mtime": 1788448923.1492372
+        }
+      },
+      "changes": [
+        "telecom-transmitters.parquet",
+        "telecom-transmitters.pmtiles",
+        "telecom-transmitters.thumb.jpg",
+        "README.md"
+      ]
+    }
+  ]
+}

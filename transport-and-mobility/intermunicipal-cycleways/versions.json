@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.751041Z",
+      "breaking": false,
+      "assets": {
+        "intermunicipal-cycleways.pmtiles": {
+          "sha256": "d57c17d64f01dd0fefabb926cfc25e5da931b17f9242a185665dd2d92f72dce5",
+          "size_bytes": 107238,
+          "href": "transport-and-mobility/intermunicipal-cycleways/intermunicipal-cycleways.pmtiles",
+          "mtime": 1788447533.5176098
+        },
+        "intermunicipal-cycleways.thumb.jpg": {
+          "sha256": "de8642dce102594f660d82f55497476263b74ab3e2deddf17eb9ac3e51d355a2",
+          "size_bytes": 59306,
+          "href": "transport-and-mobility/intermunicipal-cycleways/intermunicipal-cycleways.thumb.jpg",
+          "mtime": 1788449323.9168298
+        },
+        "intermunicipal-cycleways.parquet": {
+          "sha256": "d1bc0b8d1ad75e81ae82a4aa764319c8191a05380dcd2de59b3baad7164e2d00",
+          "size_bytes": 133262,
+          "href": "transport-and-mobility/intermunicipal-cycleways/intermunicipal-cycleways.parquet",
+          "source_mtime": 1788447396.551135,
+          "mtime": 1788447396.551135,
+          "feature_count": 34,
+          "schema_fingerprint": "87b3be661f3555c5"
+        },
+        "README.md": {
+          "sha256": "500e417ca7051b609c9ea23e6f7c4c136a978fe35a7659476bb9b266435b89d7",
+          "size_bytes": 3857,
+          "href": "transport-and-mobility/intermunicipal-cycleways/README.md",
+          "mtime": 1788448923.445243
+        }
+      },
+      "changes": [
+        "intermunicipal-cycleways.pmtiles",
+        "intermunicipal-cycleways.thumb.jpg",
+        "intermunicipal-cycleways.parquet",
+        "README.md"
+      ]
+    }
+  ]
+}

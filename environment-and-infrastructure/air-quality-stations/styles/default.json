@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "name": "MonitoringStations-Air",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../air-quality-stations.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 5
+    }
+  },
+  "layers": [
+    {
+      "id": "circle-0",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "air-quality-stations",
+      "paint": {
+        "circle-color": "#32A6FF",
+        "circle-radius": 5.0,
+        "circle-opacity": 1.0
+      }
+    },
+    {
+      "id": "circle-1",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "air-quality-stations",
+      "paint": {
+        "circle-color": "#32A6FF",
+        "circle-radius": 5.0,
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}

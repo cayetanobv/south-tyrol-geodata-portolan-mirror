@@ -1,0 +1,13 @@
+title: Land use — mirror of Provincia Autonoma di Bolzano – Alto Adige open data
+description: CORINE land cover. Community MIRROR of the Province's open geodata (CC0 1.0), extracted 2026-09-03
+  from the provincial WFS; not an official publication. Attribution to the Province is given in every
+  collection.
+attribution: 'Data: Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol, CC0
+  1.0 (data.civis.bz.it). Mirror by Cayetano Benavent, 2026-09-03.'
+license: CC0-1.0
+license_url: https://creativecommons.org/publicdomain/zero/1.0/
+contact:
+  name: Cayetano Benavent
+  email: cayetano@cartodb.com
+known_issues: Community mirror, not an official publication. See each collection for dataset-specific
+  caveats.

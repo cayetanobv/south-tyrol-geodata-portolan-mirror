@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "name": "Default",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../tourist-overnight-stays.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "tourist-overnight-stays-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "tourist-overnight-stays",
+      "paint": {
+        "fill-color": "#3388ff",
+        "fill-opacity": 0.6,
+        "fill-outline-color": "#2266cc"
+      }
+    }
+  ]
+}

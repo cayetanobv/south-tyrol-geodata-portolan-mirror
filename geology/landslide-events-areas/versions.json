@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.323022Z",
+      "breaking": false,
+      "assets": {
+        "landslide-events-areas.thumb.jpg": {
+          "sha256": "13c32e98c6f133cfb5d0ee57c3fb11cbfb8469ec9c681efa4ed3648e16f3451a",
+          "size_bytes": 142795,
+          "href": "geology/landslide-events-areas/landslide-events-areas.thumb.jpg",
+          "mtime": 1788449307.6485233
+        },
+        "landslide-events-areas.pmtiles": {
+          "sha256": "c985ae2f8ecbe4966d4e8a21cfd1b63f47eb5e031de70a3c9fbaae18a3a74c71",
+          "size_bytes": 6105927,
+          "href": "geology/landslide-events-areas/landslide-events-areas.pmtiles",
+          "mtime": 1788448362.1503205
+        },
+        "landslide-events-areas.parquet": {
+          "sha256": "a9a79934e45e8972e1cd4bb83d5f5f28ea0938314e3ff9cba5ac8c36947edd14",
+          "size_bytes": 2622410,
+          "href": "geology/landslide-events-areas/landslide-events-areas.parquet",
+          "source_mtime": 1788448319.0774565,
+          "mtime": 1788448319.0774565,
+          "feature_count": 10463,
+          "schema_fingerprint": "c7ecc65fc8f9955c"
+        },
+        "README.md": {
+          "sha256": "875ee0e33f1ca00e19d70c06ab375f8ab3f006612d4cee674995f995891ad478",
+          "size_bytes": 3613,
+          "href": "geology/landslide-events-areas/README.md",
+          "mtime": 1788448923.1732376
+        }
+      },
+      "changes": [
+        "landslide-events-areas.thumb.jpg",
+        "landslide-events-areas.pmtiles",
+        "landslide-events-areas.parquet",
+        "README.md"
+      ]
+    }
+  ]
+}

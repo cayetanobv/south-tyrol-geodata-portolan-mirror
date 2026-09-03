@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.532277Z",
+      "breaking": false,
+      "assets": {
+        "lakes.thumb.jpg": {
+          "sha256": "50e05ceea9b6939be9b03a990cfb002792adfd7d97d8d1e9420eea5f46f5bdf4",
+          "size_bytes": 47455,
+          "href": "hydrology-and-water/lakes/lakes.thumb.jpg",
+          "mtime": 1788449315.7926767
+        },
+        "lakes.parquet": {
+          "sha256": "8d2bf8346d9c19bcd0c096392105fc09f11749bd6e616dc98ef596c9b2f96756",
+          "size_bytes": 90563,
+          "href": "hydrology-and-water/lakes/lakes.parquet",
+          "source_mtime": 1788447350.082296,
+          "mtime": 1788447350.082296,
+          "feature_count": 351,
+          "schema_fingerprint": "1ed3765f1ddc07d4"
+        },
+        "README.md": {
+          "sha256": "bac0f2e4d0f9828529db4b0f2296c54d7614ffddb4f834f64853f3ee31e315f9",
+          "size_bytes": 3678,
+          "href": "hydrology-and-water/lakes/README.md",
+          "mtime": 1788448923.3052402
+        },
+        "lakes.pmtiles": {
+          "sha256": "ee6aee7f6c30e2c6b1b0a43a21fbceb5213ca7fb0b8f1044539b51b4408715bc",
+          "size_bytes": 249958,
+          "href": "hydrology-and-water/lakes/lakes.pmtiles",
+          "mtime": 1788448443.05593
+        }
+      },
+      "changes": [
+        "lakes.thumb.jpg",
+        "lakes.parquet",
+        "README.md",
+        "lakes.pmtiles"
+      ]
+    }
+  ]
+}

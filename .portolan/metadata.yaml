@@ -1,0 +1,44 @@
+contact:
+  name: Cayetano Benavent
+  email: cayetano@cartodb.com
+license: CC0-1.0
+source_url: https://geoservices1.civis.bz.it/geoserver/ows
+description: 'Community MIRROR of 69 open datasets of the Provincia Autonoma di Bolzano – Alto Adige /
+  Autonome Provinz Bozen – Südtirol, grouped in 11 themes (administrative units, population and statistics,
+  health, hazard zones and civil protection, nature and landscape, hydrology and water, transport and
+  mobility, cultural heritage, environment and infrastructure, geology, land use). Extracted on 2026-09-03
+  from the provincial WFS (207 INSPIRE-themed layers) and republished as a Portolan (spec v0.2.0) catalog
+  for the OGC Metadata Summit 2026, Bolzano. This is NOT an official publication of the Province: the
+  authoritative sources are the Province''s geoportal (https://geoservices1.civis.bz.it) and open-data
+  portal (https://data.civis.bz.it). All data CC0 1.0; attribution to the Province is given in every collection.'
+keywords:
+- South Tyrol
+- Alto Adige
+- Südtirol
+- Bolzano
+- open data
+- mirror
+- OGC Metadata Summit 2026
+- INSPIRE
+title: South Tyrol open geodata — community mirror (OGC Metadata Summit 2026 demo)
+attribution: 'Data: Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol, CC0
+  1.0 (data.civis.bz.it). Mirror by Cayetano Benavent, 2026-09-03.'
+citations:
+- Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol. Open geodata (69 datasets,
+  see collections). Licence CC0 1.0. https://data.civis.bz.it — mirrored 2026-09-03.
+license_url: https://creativecommons.org/publicdomain/zero/1.0/
+providers:
+- name: Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol
+  roles:
+  - producer
+  - licensor
+  url: https://geoservices1.civis.bz.it/geoserver/ows
+- name: Cayetano Benavent — community mirror for the OGC Metadata Summit 2026 (not the Province)
+  roles:
+  - processor
+  - host
+  url: https://github.com/portolan-sdi
+known_issues: 'Demo mirror extracted on 2026-09-03; not an official publication. Point layers are locations,
+  not service catchments. Hazard zones are approved planning classes, not event forecasts. Geometries
+  repaired during extraction were cleaned to valid single-type geometries. Basemap in thumbnails: © OpenFreeMap,
+  © OpenMapTiles, data © OpenStreetMap contributors (ODbL).'

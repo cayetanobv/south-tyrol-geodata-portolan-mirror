@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.506329Z",
+      "breaking": false,
+      "assets": {
+        "drinking-water-protection-areas.parquet": {
+          "sha256": "6b06c0732eac716f479bd5c86b7b6df7e499af3fb47df9122aeaae3983bd6f1e",
+          "size_bytes": 526010,
+          "href": "hydrology-and-water/drinking-water-protection-areas/drinking-water-protection-areas.parquet",
+          "source_mtime": 1788447373.4467177,
+          "mtime": 1788447373.4467177,
+          "feature_count": 2767,
+          "schema_fingerprint": "da794cab6442d4ef"
+        },
+        "drinking-water-protection-areas.pmtiles": {
+          "sha256": "7700ebf274d4cf830788ecbbf2c9eccc3163876628b3fc3389a7311084ced565",
+          "size_bytes": 1281740,
+          "href": "hydrology-and-water/drinking-water-protection-areas/drinking-water-protection-areas.pmtiles",
+          "mtime": 1788448431.1236937
+        },
+        "README.md": {
+          "sha256": "c070c6dca8eca0441bafdabcb70cb5b7a5b91713ab9e30c92a2dc0aa0252eb0c",
+          "size_bytes": 3720,
+          "href": "hydrology-and-water/drinking-water-protection-areas/README.md",
+          "mtime": 1788448923.2932398
+        },
+        "drinking-water-protection-areas.thumb.jpg": {
+          "sha256": "14aaa626e557319695e38a06b03306c8231a7eb6bcdbd1675d3e9218639cdce1",
+          "size_bytes": 95455,
+          "href": "hydrology-and-water/drinking-water-protection-areas/drinking-water-protection-areas.thumb.jpg",
+          "mtime": 1788449314.796658
+        }
+      },
+      "changes": [
+        "drinking-water-protection-areas.parquet",
+        "drinking-water-protection-areas.pmtiles",
+        "README.md",
+        "drinking-water-protection-areas.thumb.jpg"
+      ]
+    }
+  ]
+}

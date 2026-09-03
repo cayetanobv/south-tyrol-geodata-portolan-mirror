@@ -1,0 +1,80 @@
+{
+  "version": 8,
+  "name": "CensusSections-2021",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../census-sections-2021.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "fill-0",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "census-sections-2021",
+      "paint": {
+        "fill-color": "#888888",
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#FF1D20"
+      }
+    },
+    {
+      "id": "fill-0-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "census-sections-2021",
+      "layout": {
+        "text-field": [
+          "get",
+          "SEZ21"
+        ],
+        "text-size": 12.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#FF1D20",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1.2
+      }
+    },
+    {
+      "id": "fill-2",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "census-sections-2021",
+      "paint": {
+        "fill-color": "#888888",
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#FF1D20"
+      }
+    },
+    {
+      "id": "fill-2-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "census-sections-2021",
+      "layout": {
+        "text-field": [
+          "get",
+          "SEZ21"
+        ],
+        "text-size": 12.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#FF1D20",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 1.2
+      }
+    }
+  ]
+}

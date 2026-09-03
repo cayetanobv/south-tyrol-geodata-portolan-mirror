@@ -1,0 +1,190 @@
+{
+  "version": 8,
+  "name": "Municipalities",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../municipalities.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "fill-0",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "municipalities",
+      "paint": {
+        "fill-color": "#888888",
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#FFFFFF"
+      }
+    },
+    {
+      "id": "fill-1",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "municipalities",
+      "paint": {
+        "fill-color": "#888888",
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#FFFFFF"
+      }
+    },
+    {
+      "id": "fill-1-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "municipalities",
+      "layout": {
+        "text-field": [
+          "get",
+          "MAP_LABEL"
+        ],
+        "text-size": 10.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 2.0
+      }
+    },
+    {
+      "id": "fill-3",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "municipalities",
+      "paint": {
+        "fill-color": "#888888",
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#FFFFFF"
+      }
+    },
+    {
+      "id": "fill-3-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "municipalities",
+      "layout": {
+        "text-field": [
+          "get",
+          "MAP_LABEL"
+        ],
+        "text-size": 10.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 2.0
+      }
+    },
+    {
+      "id": "fill-5",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "municipalities",
+      "paint": {
+        "fill-color": "#888888",
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#FFFFFF"
+      }
+    },
+    {
+      "id": "fill-6",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "municipalities",
+      "paint": {
+        "fill-color": "#AAAAAA",
+        "fill-opacity": 0.5,
+        "fill-outline-color": "#174ac1"
+      }
+    },
+    {
+      "id": "fill-7",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "municipalities",
+      "paint": {
+        "fill-color": "#AAAAAA",
+        "fill-opacity": 0.5,
+        "fill-outline-color": "#174ac1"
+      }
+    },
+    {
+      "id": "fill-7-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "municipalities",
+      "layout": {
+        "text-field": [
+          "get",
+          "MAP_LABEL"
+        ],
+        "text-size": 10.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#174ac1",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 2.0
+      }
+    },
+    {
+      "id": "fill-9",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "municipalities",
+      "paint": {
+        "fill-color": "#AAAAAA",
+        "fill-opacity": 0.0,
+        "fill-outline-color": "#174ac1"
+      }
+    },
+    {
+      "id": "fill-9-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "municipalities",
+      "layout": {
+        "text-field": [
+          "get",
+          "MAP_LABEL"
+        ],
+        "text-size": 10.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#174ac1",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 2.0
+      }
+    },
+    {
+      "id": "fill-11",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "municipalities",
+      "paint": {
+        "fill-color": "#AAAAAA",
+        "fill-opacity": 0.0,
+        "fill-outline-color": "#174ac1"
+      }
+    }
+  ]
+}

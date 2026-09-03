@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.544558Z",
+      "breaking": false,
+      "assets": {
+        "water-quality-watercourses.parquet": {
+          "sha256": "38d915a14e82462c1fcea22bb554f05bffc94acd7cf8ac0a3a0c4d69787cfa03",
+          "size_bytes": 434107,
+          "href": "hydrology-and-water/water-quality-watercourses/water-quality-watercourses.parquet",
+          "source_mtime": 1788447342.4301577,
+          "mtime": 1788447342.4301577,
+          "feature_count": 431,
+          "schema_fingerprint": "b37d7cb0dfad3c08"
+        },
+        "water-quality-watercourses.thumb.jpg": {
+          "sha256": "3f62d1a4ad1087654f6c5e6d3d46c33333cee322be482bf05f74653b40b8ec69",
+          "size_bytes": 144266,
+          "href": "hydrology-and-water/water-quality-watercourses/water-quality-watercourses.thumb.jpg",
+          "mtime": 1788449316.328687
+        },
+        "water-quality-watercourses.pmtiles": {
+          "sha256": "e09efd1d5a21ad82a505bab770e33da3a9527e767b17b9b45fca5ed83fdae009",
+          "size_bytes": 933001,
+          "href": "hydrology-and-water/water-quality-watercourses/water-quality-watercourses.pmtiles",
+          "mtime": 1788448451.8161032
+        },
+        "README.md": {
+          "sha256": "fe89388cd2d6be4548eb8dbbb4ccba2d90179ae844906e83aa7f5895f1a68f7a",
+          "size_bytes": 6883,
+          "href": "hydrology-and-water/water-quality-watercourses/README.md",
+          "mtime": 1788448923.3132403
+        }
+      },
+      "changes": [
+        "water-quality-watercourses.parquet",
+        "water-quality-watercourses.thumb.jpg",
+        "water-quality-watercourses.pmtiles",
+        "README.md"
+      ]
+    }
+  ]
+}

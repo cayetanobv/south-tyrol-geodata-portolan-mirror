@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.306457Z",
+      "breaking": false,
+      "assets": {
+        "boreholes.pmtiles": {
+          "sha256": "df20f6701a4e57f2af31038d435ec33d3e64451d6f1d75b0f97f2c08957eef03",
+          "size_bytes": 687835,
+          "href": "geology/boreholes/boreholes.pmtiles",
+          "mtime": 1788448355.1661806
+        },
+        "boreholes.thumb.jpg": {
+          "sha256": "47f0b2dcdc4ecc3049be023ca7333e817cb831cc9ebe960633dedcfae243cddb",
+          "size_bytes": 86889,
+          "href": "geology/boreholes/boreholes.thumb.jpg",
+          "mtime": 1788449306.9205096
+        },
+        "README.md": {
+          "sha256": "821641fe8b2b5dc4bd991ac3a1d8d510d0290e52cf6ad4223edb0f98ea63e3d0",
+          "size_bytes": 3532,
+          "href": "geology/boreholes/README.md",
+          "mtime": 1788448923.1652374
+        },
+        "boreholes.parquet": {
+          "sha256": "1ffab774de0343dd8c2cb85ba3db2fe1a461cdf75062480be482440c722bd6fd",
+          "size_bytes": 315066,
+          "href": "geology/boreholes/boreholes.parquet",
+          "source_mtime": 1788447228.4441001,
+          "mtime": 1788447228.4441001,
+          "feature_count": 5516,
+          "schema_fingerprint": "05b28daf7b689674"
+        }
+      },
+      "changes": [
+        "boreholes.pmtiles",
+        "boreholes.thumb.jpg",
+        "README.md",
+        "boreholes.parquet"
+      ]
+    }
+  ]
+}

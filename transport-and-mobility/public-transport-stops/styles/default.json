@@ -1,0 +1,73 @@
+{
+  "version": 8,
+  "name": "PublicTransport-Stops",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../public-transport-stops.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 10
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-circle",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "public-transport-stops",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "get",
+            "MOT"
+          ],
+          "BUS",
+          "#005980",
+          "TRAIN",
+          "#434242",
+          "CABLEWAY",
+          "#752034",
+          "#cccccc"
+        ],
+        "circle-radius": [
+          "match",
+          [
+            "get",
+            "MOT"
+          ],
+          "BUS",
+          7.0,
+          "TRAIN",
+          7.0,
+          "CABLEWAY",
+          7.0,
+          5.0
+        ],
+        "circle-opacity": 1.0
+      }
+    },
+    {
+      "id": "categorical-circle-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "public-transport-stops",
+      "layout": {
+        "text-field": [
+          "get",
+          "MAP_LABEL"
+        ],
+        "text-size": 12.0,
+        "text-anchor": "bottom",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#752034",
+        "text-halo-color": "#FFFFFF",
+        "text-halo-width": 1.0
+      }
+    }
+  ]
+}

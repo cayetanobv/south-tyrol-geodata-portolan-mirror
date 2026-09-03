@@ -1,0 +1,55 @@
+{
+  "version": 8,
+  "name": "RockGlaciers",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../rock-glaciers.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "rock-glaciers",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "ACTIVITY"
+          ],
+          1,
+          "#FFA77F",
+          2,
+          "#FFD37F",
+          3,
+          "#FFFFBE",
+          0,
+          "#E9FF96",
+          "#cccccc"
+        ],
+        "fill-opacity": 0.6,
+        "fill-outline-color": [
+          "match",
+          [
+            "get",
+            "ACTIVITY"
+          ],
+          1,
+          "#E60000",
+          2,
+          "#FFAA00",
+          3,
+          "#E6E600",
+          0,
+          "#38A800",
+          "#000000"
+        ]
+      }
+    }
+  ]
+}

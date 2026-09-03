@@ -1,0 +1,70 @@
+{
+  "version": 8,
+  "name": "Districts",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../districts.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 10
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "districts",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          1,
+          "#80FFFF",
+          2,
+          "#8080FF",
+          3,
+          "#FF80FF",
+          4,
+          "#FFFFE4",
+          5,
+          "#A0FFCC",
+          6,
+          "#80FF80",
+          7,
+          "#FF8080",
+          8,
+          "#FF0080",
+          "#cccccc"
+        ],
+        "fill-opacity": 0.75,
+        "fill-outline-color": "#6E6E6E"
+      }
+    },
+    {
+      "id": "categorical-fill-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "districts",
+      "layout": {
+        "text-field": [
+          "get",
+          "MAP_LABEL"
+        ],
+        "text-size": 10.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 2.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "version": 8,
+  "name": "WaterQuality-Lakes-Balneability",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../bathing-lakes-quality.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 8
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-circle",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "bathing-lakes-quality",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          1,
+          "#33a02c",
+          2,
+          "#33a02c",
+          3,
+          "#e31a1c",
+          4,
+          "#FFAA00",
+          99,
+          "#ababab",
+          "#cccccc"
+        ],
+        "circle-radius": 13.0,
+        "circle-opacity": 1.0
+      }
+    },
+    {
+      "id": "categorical-circle-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "bathing-lakes-quality",
+      "layout": {
+        "text-field": [
+          "get",
+          "MAP_LABEL"
+        ],
+        "text-size": 11.0,
+        "text-anchor": "left",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-color": "#FFFFFF",
+        "text-halo-width": 1.0
+      }
+    }
+  ]
+}

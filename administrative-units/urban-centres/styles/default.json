@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "name": "Places-UrbanCenters",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../urban-centres.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "fill-0",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "urban-centres",
+      "paint": {
+        "fill-color": "#FFFF0F",
+        "fill-opacity": 0.5,
+        "fill-outline-color": "#FFCA0A"
+      }
+    },
+    {
+      "id": "fill-1",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "urban-centres",
+      "paint": {
+        "fill-color": "#FFBEE8",
+        "fill-opacity": 0.6,
+        "fill-outline-color": "#FFFFFF"
+      }
+    }
+  ]
+}

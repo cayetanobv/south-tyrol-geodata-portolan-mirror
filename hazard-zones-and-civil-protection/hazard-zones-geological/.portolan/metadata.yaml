@@ -1,0 +1,41 @@
+contact:
+  name: Cayetano Benavent
+  email: cayetano@cartodb.com
+source_url: https://geoservices1.civis.bz.it/geoserver/ows?service=WFS&request=GetFeature&typename=p_bz-TerritorialPlans%3AUrbanPlan-HazardZonePlan-Geology
+description: 'Community mirror of the dataset «Piano delle Zone di Pericolo: Zone rischio geologico D.L.
+  180, 11.6.1998» published by the Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen
+  – Südtirol as open data (CC0 1.0). Extracted on 2026-09-03 from WFS layer p_bz-TerritorialPlans:UrbanPlan-HazardZonePlan-Geology
+  and converted to GeoParquet. This copy is NOT the official publication: the authoritative source is
+  the Province''s geoportal and open-data portal (https://data.civis.bz.it). Published for the OGC Metadata
+  Summit 2026 demo.'
+keywords:
+- features
+- Bauleitplan
+- Piano Urbanistico Comunale
+- Gefahrzonenplan
+- Piano delle Zone di Pericolo
+- Geologische Risikozonen
+- Zone rischio geologico
+- South Tyrol
+- Alto Adige
+- Südtirol
+- Bolzano
+- open data
+- mirror
+- Hazard zones and civil protection
+processing_notes: 'Extracted from wfs layer: p_bz-TerritorialPlans:UrbanPlan-HazardZonePlan-Geology (Gefahrenzonenplan:
+  Geologische Risikozonen D.L. 180, 11.6.1998 - Piano delle Zone di Pericolo: Zone rischio geologico D.L.
+  180, 11.6.1998)'
+title: 'Hazard zones geological — mirror of «Piano delle Zone di Pericolo: Zone rischio geologico D.L.
+  180, 11.6.1998», Provincia Autonoma di Bolzano'
+attribution: 'Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol, «Piano delle
+  Zone di Pericolo: Zone rischio geologico D.L. 180, 11.6.1998», CC0 1.0, https://data.civis.bz.it'
+citations:
+- 'Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol (Provincia Autonoma
+  di Bolzano - Alto Adige). «Piano delle Zone di Pericolo: Zone rischio geologico D.L. 180, 11.6.1998».
+  Open data, licence CC0 1.0. https://data.civis.bz.it — mirrored 2026-09-03 via WFS p_bz-TerritorialPlans:UrbanPlan-HazardZonePlan-Geology
+  (https://geoservices1.civis.bz.it/geoserver/ows).'
+license: CC0-1.0
+license_url: https://creativecommons.org/publicdomain/zero/1.0/
+known_issues: Demo mirror; not an official publication. Point layers are locations, not service areas;
+  planning zones are not forecasts.

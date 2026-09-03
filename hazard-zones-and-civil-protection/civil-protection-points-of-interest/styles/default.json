@@ -1,0 +1,34 @@
+{
+  "version": 8,
+  "name": "CivilProtectionPlan-PointsOfInterest",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../civil-protection-points-of-interest.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 8
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-circle",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "civil-protection-points-of-interest",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "get",
+            "BEREIT"
+          ],
+          1,
+          "#888888",
+          "#cccccc"
+        ],
+        "circle-radius": 10,
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}

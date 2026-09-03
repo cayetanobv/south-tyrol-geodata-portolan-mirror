@@ -1,0 +1,68 @@
+{
+  "version": 8,
+  "name": "Land",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../province.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 10
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "province",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          0,
+          "#888888",
+          1,
+          "#FFFFFF",
+          "#cccccc"
+        ],
+        "fill-opacity": [
+          "match",
+          [
+            "get",
+            "IS_MASK"
+          ],
+          0,
+          1.0,
+          1,
+          0.5,
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "categorical-fill-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "province",
+      "layout": {
+        "text-field": [
+          "get",
+          "MAP_LABEL"
+        ],
+        "text-size": 10.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 3.0
+      }
+    }
+  ]
+}

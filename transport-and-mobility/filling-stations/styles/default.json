@@ -1,0 +1,69 @@
+{
+  "version": 8,
+  "name": "Infrastructures-FillingStations",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../filling-stations.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 5
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-circle",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "filling-stations",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "get",
+            "SUSPENDED"
+          ],
+          0,
+          "#888888",
+          1,
+          "#888888",
+          "#cccccc"
+        ],
+        "circle-radius": [
+          "match",
+          [
+            "get",
+            "SUSPENDED"
+          ],
+          0,
+          10,
+          1,
+          10,
+          5.0
+        ],
+        "circle-opacity": 1.0
+      }
+    },
+    {
+      "id": "categorical-circle-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "filling-stations",
+      "layout": {
+        "text-field": [
+          "get",
+          "LABEL"
+        ],
+        "text-size": 12.0,
+        "text-anchor": "bottom",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#686868",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 2.0
+      }
+    }
+  ]
+}

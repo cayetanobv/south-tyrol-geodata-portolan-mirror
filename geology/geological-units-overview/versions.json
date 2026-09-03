@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.314852Z",
+      "breaking": false,
+      "assets": {
+        "geological-units-overview.thumb.jpg": {
+          "sha256": "f54bed4c246b7b004e1681566d9cd7d2980f9b7139143216de0bbd9fb7c31de5",
+          "size_bytes": 155988,
+          "href": "geology/geological-units-overview/geological-units-overview.thumb.jpg",
+          "mtime": 1788449307.204515
+        },
+        "README.md": {
+          "sha256": "8e2400badbe62f31b38c7f48752a31fe57477c5a9e52b288bc23982ce9a6f539",
+          "size_bytes": 3749,
+          "href": "geology/geological-units-overview/README.md",
+          "mtime": 1788448923.1692376
+        },
+        "geological-units-overview.pmtiles": {
+          "sha256": "ec0c81fffa28b37a7f14db29612f55f7b6e3c86c947c7e70e4e2ea2b581b1eaf",
+          "size_bytes": 115020,
+          "href": "geology/geological-units-overview/geological-units-overview.pmtiles",
+          "mtime": 1788448356.9182158
+        },
+        "geological-units-overview.parquet": {
+          "sha256": "49171c9c88c0c70cf433ab94a9124fdcad870303fc0d9cf78065bca219827407",
+          "size_bytes": 138335,
+          "href": "geology/geological-units-overview/geological-units-overview.parquet",
+          "source_mtime": 1788447271.0328686,
+          "mtime": 1788447271.0328686,
+          "feature_count": 245,
+          "schema_fingerprint": "33f994af13f0bbca"
+        }
+      },
+      "changes": [
+        "geological-units-overview.thumb.jpg",
+        "README.md",
+        "geological-units-overview.pmtiles",
+        "geological-units-overview.parquet"
+      ]
+    }
+  ]
+}

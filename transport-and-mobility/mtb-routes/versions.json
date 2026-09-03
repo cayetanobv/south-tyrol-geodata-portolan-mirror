@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.760685Z",
+      "breaking": false,
+      "assets": {
+        "mtb-routes.thumb.jpg": {
+          "sha256": "132bf0fd823136f8ce991161af475409a81a371a145e5c90b1f188d7fe7e00b8",
+          "size_bytes": 105266,
+          "href": "transport-and-mobility/mtb-routes/mtb-routes.thumb.jpg",
+          "mtime": 1788449324.8208468
+        },
+        "mtb-routes.parquet": {
+          "sha256": "02a992be46783c60d17147aca3e5ee5cce134cef9e6f8dba29c050529de222db",
+          "size_bytes": 1003224,
+          "href": "transport-and-mobility/mtb-routes/mtb-routes.parquet",
+          "source_mtime": 1788447333.6619992,
+          "mtime": 1788447333.6619992,
+          "feature_count": 349,
+          "schema_fingerprint": "c1b23fd1a792c7bd"
+        },
+        "README.md": {
+          "sha256": "86c81ef0f6541e59ce08a60d8eed871e6bd0d345cb0a07cab2817c48c1df1cf2",
+          "size_bytes": 3918,
+          "href": "transport-and-mobility/mtb-routes/README.md",
+          "mtime": 1788448923.4492428
+        },
+        "mtb-routes.pmtiles": {
+          "sha256": "e16593ca0ad691bcc65bf16ad25da8ecfcbafc9cc14ee217c81757380ff51e08",
+          "size_bytes": 1420804,
+          "href": "transport-and-mobility/mtb-routes/mtb-routes.pmtiles",
+          "mtime": 1788448529.597635
+        }
+      },
+      "changes": [
+        "mtb-routes.thumb.jpg",
+        "mtb-routes.parquet",
+        "README.md",
+        "mtb-routes.pmtiles"
+      ]
+    }
+  ]
+}

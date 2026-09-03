@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.740471Z",
+      "breaking": false,
+      "assets": {
+        "hiking-trails.pmtiles": {
+          "sha256": "cf78adf5f361feb009b7071c6ef58992823d17d6881f674ca365582135194188",
+          "size_bytes": 5337377,
+          "href": "transport-and-mobility/hiking-trails/hiking-trails.pmtiles",
+          "mtime": 1788448523.6495185
+        },
+        "hiking-trails.thumb.jpg": {
+          "sha256": "c2be8a428dfb3a57ae6796f9717aaaad02e82208ea6d24315fd18adedbcf7fb3",
+          "size_bytes": 292810,
+          "href": "transport-and-mobility/hiking-trails/hiking-trails.thumb.jpg",
+          "mtime": 1788449323.5168223
+        },
+        "hiking-trails.parquet": {
+          "sha256": "3f08499a5e1dd4b3c30d50408cadcb0828f8b453d4ffa98c7759df261244cab9",
+          "size_bytes": 5854137,
+          "href": "transport-and-mobility/hiking-trails/hiking-trails.parquet",
+          "source_mtime": 1788447405.9753053,
+          "mtime": 1788447405.9753053,
+          "feature_count": 4606,
+          "schema_fingerprint": "597ec8469f0550a3"
+        },
+        "README.md": {
+          "sha256": "fe2ec41a368bc4270327a9e72bf12c938009a0d17e4a77c98db971c6892d749b",
+          "size_bytes": 3651,
+          "href": "transport-and-mobility/hiking-trails/README.md",
+          "mtime": 1788448923.4412427
+        }
+      },
+      "changes": [
+        "hiking-trails.pmtiles",
+        "hiking-trails.thumb.jpg",
+        "hiking-trails.parquet",
+        "README.md"
+      ]
+    }
+  ]
+}

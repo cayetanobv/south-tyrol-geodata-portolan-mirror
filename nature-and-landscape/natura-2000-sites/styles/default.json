@@ -1,0 +1,24 @@
+{
+  "version": 8,
+  "name": "LandscapePlan-Natura2000",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../natura-2000-sites.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "fill-0",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "natura-2000-sites",
+      "paint": {
+        "fill-color": "#888888",
+        "fill-opacity": 1.0
+      }
+    }
+  ]
+}

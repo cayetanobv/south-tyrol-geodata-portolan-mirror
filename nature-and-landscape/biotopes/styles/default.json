@@ -1,0 +1,67 @@
+{
+  "version": 8,
+  "name": "LandscapePlan-Biotopes",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../biotopes.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
+    }
+  },
+  "layers": [
+    {
+      "id": "fill-0",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "biotopes",
+      "paint": {
+        "fill-color": "#888888",
+        "fill-opacity": 1.0
+      }
+    },
+    {
+      "id": "fill-1",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "biotopes",
+      "paint": {
+        "fill-color": "#888888",
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#CC0033"
+      }
+    },
+    {
+      "id": "fill-1-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "biotopes",
+      "layout": {
+        "text-field": [
+          "get",
+          ""
+        ],
+        "text-size": 9.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#E6E600",
+        "text-halo-color": "#A80084",
+        "text-halo-width": 1.0
+      }
+    },
+    {
+      "id": "fill-3",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "biotopes",
+      "paint": {
+        "fill-color": "#888888",
+        "fill-opacity": 1.0
+      }
+    }
+  ]
+}

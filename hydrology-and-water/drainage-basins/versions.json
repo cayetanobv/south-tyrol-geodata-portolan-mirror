@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.497623Z",
+      "breaking": false,
+      "assets": {
+        "drainage-basins.parquet": {
+          "sha256": "e4e72cf78b4352722906438e1be140d6550fe13a0cca08e30cb688e135baf23b",
+          "size_bytes": 241602,
+          "href": "hydrology-and-water/drainage-basins/drainage-basins.parquet",
+          "source_mtime": 1788447385.2269306,
+          "mtime": 1788447385.2269306,
+          "feature_count": 150,
+          "schema_fingerprint": "73af4bd9af46ad07"
+        },
+        "drainage-basins.thumb.jpg": {
+          "sha256": "4439de60e886b791baab7d661e5a2ff49b81143b2db497b1e83d952df7ff3308",
+          "size_bytes": 105631,
+          "href": "hydrology-and-water/drainage-basins/drainage-basins.thumb.jpg",
+          "mtime": 1788449314.4886522
+        },
+        "drainage-basins.pmtiles": {
+          "sha256": "d34dad2f0f3fe0fdd112783e0b62fad0981b5d99c30b03d6c39cedc2dedd39b4",
+          "size_bytes": 192055,
+          "href": "hydrology-and-water/drainage-basins/drainage-basins.pmtiles",
+          "mtime": 1788448427.9236302
+        },
+        "README.md": {
+          "sha256": "25101ca88c56c49fb6d9a32e933a6d2d17c0e3711e6e132c8579bf92ca1de9e3",
+          "size_bytes": 3658,
+          "href": "hydrology-and-water/drainage-basins/README.md",
+          "mtime": 1788448923.28924
+        }
+      },
+      "changes": [
+        "drainage-basins.parquet",
+        "drainage-basins.thumb.jpg",
+        "drainage-basins.pmtiles",
+        "README.md"
+      ]
+    }
+  ]
+}

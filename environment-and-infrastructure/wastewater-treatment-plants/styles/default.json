@@ -1,0 +1,47 @@
+{
+  "version": 8,
+  "name": "Sewerage-BiologicalPurifiers",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../wastewater-treatment-plants.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 3
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-circle",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "wastewater-treatment-plants",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "get",
+            "TYPE"
+          ],
+          1,
+          "#FF00C5",
+          2,
+          "#FF00C5",
+          "#cccccc"
+        ],
+        "circle-radius": [
+          "match",
+          [
+            "get",
+            "TYPE"
+          ],
+          1,
+          7.0,
+          2,
+          13.0,
+          5.0
+        ],
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": 8,
+  "name": "DrainageBasins",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../drainage-basins.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 9
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "drainage-basins",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          "Avisio",
+          "#42CEF5",
+          "Drau",
+          "#BEFFE8",
+          "Eisack",
+          "#73B2FF",
+          "Etsch",
+          "#9EBBD7",
+          "Noce",
+          "#2771B8",
+          "Piave",
+          "#AFEAFA",
+          "Rienz",
+          "#00FFC5",
+          "Talfer",
+          "#73FFDF",
+          "#cccccc"
+        ],
+        "fill-opacity": 0.49,
+        "fill-outline-color": "#828282"
+      }
+    }
+  ]
+}

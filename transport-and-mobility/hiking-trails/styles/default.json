@@ -1,0 +1,58 @@
+{
+  "version": 8,
+  "name": "Routes-HikingTrails",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../hiking-trails.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
+    }
+  },
+  "layers": [
+    {
+      "id": "line-0",
+      "type": "line",
+      "source": "data",
+      "source-layer": "hiking-trails",
+      "paint": {
+        "line-color": "#FF0000",
+        "line-width": 1,
+        "line-opacity": 1.0
+      }
+    },
+    {
+      "id": "line-1",
+      "type": "line",
+      "source": "data",
+      "source-layer": "hiking-trails",
+      "paint": {
+        "line-color": "#FFFFFF",
+        "line-width": 1,
+        "line-opacity": 1.0
+      }
+    },
+    {
+      "id": "line-1-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "hiking-trails",
+      "layout": {
+        "text-field": [
+          "get",
+          "CODE_NAME"
+        ],
+        "text-size": 12.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#440000",
+        "text-halo-color": "#FFFFFF",
+        "text-halo-width": 1.5
+      }
+    }
+  ]
+}

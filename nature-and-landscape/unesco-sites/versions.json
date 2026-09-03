@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.633144Z",
+      "breaking": false,
+      "assets": {
+        "unesco-sites.parquet": {
+          "sha256": "de254eaada39a0eff09261f8c56b65eac67a8fb4936c2babe4bb68073b7590ab",
+          "size_bytes": 103991,
+          "href": "nature-and-landscape/unesco-sites/unesco-sites.parquet",
+          "source_mtime": 1788447377.1867852,
+          "mtime": 1788447377.1867852,
+          "feature_count": 13,
+          "schema_fingerprint": "57606b43ca8001cf"
+        },
+        "unesco-sites.pmtiles": {
+          "sha256": "3400110488f9fd934177a6e79a34027055014b5f894d82fa821f090de354a227",
+          "size_bytes": 92238,
+          "href": "nature-and-landscape/unesco-sites/unesco-sites.pmtiles",
+          "mtime": 1788448470.9924822
+        },
+        "README.md": {
+          "sha256": "177af6e02954f691a7fe41c16dc2497a02018aaf3de9cb35682bcb2f13185d01",
+          "size_bytes": 3384,
+          "href": "nature-and-landscape/unesco-sites/README.md",
+          "mtime": 1788448923.3692415
+        },
+        "unesco-sites.thumb.jpg": {
+          "sha256": "1c0daf73b61b9cec03397d3b959855586399601c3fd3151ef502fb55414057f8",
+          "size_bytes": 67676,
+          "href": "nature-and-landscape/unesco-sites/unesco-sites.thumb.jpg",
+          "mtime": 1788449319.4847465
+        }
+      },
+      "changes": [
+        "unesco-sites.parquet",
+        "unesco-sites.pmtiles",
+        "README.md",
+        "unesco-sites.thumb.jpg"
+      ]
+    }
+  ]
+}

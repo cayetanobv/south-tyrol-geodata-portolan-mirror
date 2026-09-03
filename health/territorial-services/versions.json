@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.479085Z",
+      "breaking": false,
+      "assets": {
+        "territorial-services.parquet": {
+          "sha256": "c0f32040d27b15836b877d61eedea7585d32b84f8de19b68e01facb45ae08e26",
+          "size_bytes": 8202,
+          "href": "health/territorial-services/territorial-services.parquet",
+          "source_mtime": 1788447370.5946662,
+          "mtime": 1788447370.5946662,
+          "feature_count": 19,
+          "schema_fingerprint": "a2ddd6bae399059b"
+        },
+        "README.md": {
+          "sha256": "1191417652b5b8668e4afa189106eb826ccde2cec608695696d8ef5abcc82e9c",
+          "size_bytes": 3660,
+          "href": "health/territorial-services/README.md",
+          "mtime": 1788448923.2732396
+        },
+        "territorial-services.pmtiles": {
+          "sha256": "5a4c1ca7f1fb2615aa9d1fb6e04b485c246c5849a88a514578f1046db9d7e19f",
+          "size_bytes": 14660,
+          "href": "health/territorial-services/territorial-services.pmtiles",
+          "mtime": 1788448423.1435354
+        },
+        "territorial-services.thumb.jpg": {
+          "sha256": "2c1ecb697b7a7f35d27692f817648b6ba9c6113364222819765561196c7c1265",
+          "size_bytes": 43737,
+          "href": "health/territorial-services/territorial-services.thumb.jpg",
+          "mtime": 1788449313.8166397
+        }
+      },
+      "changes": [
+        "territorial-services.parquet",
+        "README.md",
+        "territorial-services.pmtiles",
+        "territorial-services.thumb.jpg"
+      ]
+    }
+  ]
+}

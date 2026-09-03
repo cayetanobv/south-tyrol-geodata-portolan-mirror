@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.666799Z",
+      "breaking": false,
+      "assets": {
+        "official-resident-population.parquet": {
+          "sha256": "7ac7786fa1c3c806c3a7a358c8a97275e52bd5f28d5e2b290de0d5390cb33097",
+          "size_bytes": 422776,
+          "href": "population-and-statistics/official-resident-population/official-resident-population.parquet",
+          "source_mtime": 1788447188.5993812,
+          "mtime": 1788447188.5993812,
+          "feature_count": 116,
+          "schema_fingerprint": "784d083692012432"
+        },
+        "README.md": {
+          "sha256": "110dad0b55587b142b47f0ac6ab4bd17d6b5e3501a0951ba0ba633f0ec331b3d",
+          "size_bytes": 3961,
+          "href": "population-and-statistics/official-resident-population/README.md",
+          "mtime": 1788448923.393242
+        },
+        "official-resident-population.pmtiles": {
+          "sha256": "cef3de87c7ac139f091c09323d00a80f51166a42bf58ce0a919b3cce99d0fac6",
+          "size_bytes": 541131,
+          "href": "population-and-statistics/official-resident-population/official-resident-population.pmtiles",
+          "mtime": 1788448492.1128986
+        },
+        "official-resident-population.thumb.jpg": {
+          "sha256": "00e66087f639b1582a75e3005abf1525b60634d5e17147a0bc62cf3203d91e91",
+          "size_bytes": 86542,
+          "href": "population-and-statistics/official-resident-population/official-resident-population.thumb.jpg",
+          "mtime": 1788449320.6247678
+        }
+      },
+      "changes": [
+        "official-resident-population.parquet",
+        "README.md",
+        "official-resident-population.pmtiles",
+        "official-resident-population.thumb.jpg"
+      ]
+    }
+  ]
+}

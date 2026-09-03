@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.693427Z",
+      "breaking": false,
+      "assets": {
+        "resident-population-civil-registry.thumb.jpg": {
+          "sha256": "00e66087f639b1582a75e3005abf1525b60634d5e17147a0bc62cf3203d91e91",
+          "size_bytes": 86542,
+          "href": "population-and-statistics/resident-population-civil-registry/resident-population-civil-registry.thumb.jpg",
+          "mtime": 1788449321.4127827
+        },
+        "resident-population-civil-registry.pmtiles": {
+          "sha256": "99a069ebbc280c86f54fec071a8cb698a0747534333cd65a093338777a64ff6f",
+          "size_bytes": 550520,
+          "href": "population-and-statistics/resident-population-civil-registry/resident-population-civil-registry.pmtiles",
+          "mtime": 1788448498.9250326
+        },
+        "resident-population-civil-registry.parquet": {
+          "sha256": "5a8b16184120156d2e76f5b39eb34e232f3fb77e855b66c57ac76a4ed501a3c8",
+          "size_bytes": 423103,
+          "href": "population-and-statistics/resident-population-civil-registry/resident-population-civil-registry.parquet",
+          "source_mtime": 1788447387.526972,
+          "mtime": 1788447387.526972,
+          "feature_count": 116,
+          "schema_fingerprint": "b5751ed62ec0b098"
+        },
+        "README.md": {
+          "sha256": "1734ca16ad53b75b01b1a92f78471ae812dd1302fed2fff31de4f503cca011a2",
+          "size_bytes": 4122,
+          "href": "population-and-statistics/resident-population-civil-registry/README.md",
+          "mtime": 1788448923.4092422
+        }
+      },
+      "changes": [
+        "resident-population-civil-registry.thumb.jpg",
+        "resident-population-civil-registry.pmtiles",
+        "resident-population-civil-registry.parquet",
+        "README.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.205583Z",
+      "breaking": false,
+      "assets": {
+        "boundaries.parquet": {
+          "sha256": "333caf826811e0a9a40fdb4c0e5e6ade18aab48f16335c21955cf45fb51ccc0f",
+          "size_bytes": 339781,
+          "href": "administrative-units/boundaries/boundaries.parquet",
+          "source_mtime": 1788447186.3793411,
+          "mtime": 1788447186.3793411,
+          "feature_count": 352,
+          "schema_fingerprint": "215e80516c673b41"
+        },
+        "boundaries.thumb.jpg": {
+          "sha256": "e8bdacda5d2381fa35b1d38aa0411780af7d5037ff84b35c3404fc7634c5e67e",
+          "size_bytes": 134473,
+          "href": "administrative-units/boundaries/boundaries.thumb.jpg",
+          "mtime": 1788449302.4084246
+        },
+        "boundaries.pmtiles": {
+          "sha256": "3472339918e493268cfcce0436f1aa96f8fb46bc388ef46bedcfa4e6c7267745",
+          "size_bytes": 357054,
+          "href": "administrative-units/boundaries/boundaries.pmtiles",
+          "mtime": 1788448328.6616492
+        },
+        "README.md": {
+          "sha256": "01a188fe7e224888c40030ebd81a46903e00dc45f134ad6b1a072781f12970fb",
+          "size_bytes": 3720,
+          "href": "administrative-units/boundaries/README.md",
+          "mtime": 1788448923.0932362
+        }
+      },
+      "changes": [
+        "boundaries.parquet",
+        "boundaries.thumb.jpg",
+        "boundaries.pmtiles",
+        "README.md"
+      ]
+    }
+  ]
+}

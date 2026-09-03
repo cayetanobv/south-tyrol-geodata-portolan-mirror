@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.238779Z",
+      "breaking": false,
+      "assets": {
+        "urban-centres.thumb.jpg": {
+          "sha256": "dc0f68438e6cebf3263fe7e10e46c57aa3932388fa5f70c23ba7eae169cc5972",
+          "size_bytes": 69757,
+          "href": "administrative-units/urban-centres/urban-centres.thumb.jpg",
+          "mtime": 1788449303.596447
+        },
+        "urban-centres.parquet": {
+          "sha256": "81a5b38a48ad2c9662094ddd487c4f953bb7b285cdd6c1a555f5fab189ca78f2",
+          "size_bytes": 305284,
+          "href": "administrative-units/urban-centres/urban-centres.parquet",
+          "source_mtime": 1788448316.121397,
+          "mtime": 1788448316.121397,
+          "feature_count": 574,
+          "schema_fingerprint": "5cc04a02c0da9df6"
+        },
+        "urban-centres.pmtiles": {
+          "sha256": "0688b5073b8f87e27ed7a0cd9535e9f72584fed83dc70d3b0020f6c27a3090cb",
+          "size_bytes": 452990,
+          "href": "administrative-units/urban-centres/urban-centres.pmtiles",
+          "mtime": 1788448338.2458415
+        },
+        "README.md": {
+          "sha256": "81e64853510da52bac774e298cda4cf9c5bd39b3bf80e41e704cac3813ccbaef",
+          "size_bytes": 3924,
+          "href": "administrative-units/urban-centres/README.md",
+          "mtime": 1788448923.1132364
+        }
+      },
+      "changes": [
+        "urban-centres.thumb.jpg",
+        "urban-centres.parquet",
+        "urban-centres.pmtiles",
+        "README.md"
+      ]
+    }
+  ]
+}

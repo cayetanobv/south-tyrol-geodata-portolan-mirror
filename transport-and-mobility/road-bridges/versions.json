@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.779661Z",
+      "breaking": false,
+      "assets": {
+        "road-bridges.parquet": {
+          "sha256": "086ed442e1afa12da013c5c2fbeffba21b33300760c92bd24178920a3f2c974c",
+          "size_bytes": 155746,
+          "href": "transport-and-mobility/road-bridges/road-bridges.parquet",
+          "source_mtime": 1788447234.1682034,
+          "mtime": 1788447234.1682034,
+          "feature_count": 1722,
+          "schema_fingerprint": "95624b496208eeec"
+        },
+        "road-bridges.thumb.jpg": {
+          "sha256": "f690d7163bbfc2851dc6ad46aadbaa5847cc8f1b40f7e74f2bc8265befdc6180",
+          "size_bytes": 55131,
+          "href": "transport-and-mobility/road-bridges/road-bridges.thumb.jpg",
+          "mtime": 1788449326.264874
+        },
+        "road-bridges.pmtiles": {
+          "sha256": "258dbb80e0e20e3406c607b6c282bcd117cac5c5a8c07a8a0d178cec0098cf69",
+          "size_bytes": 690125,
+          "href": "transport-and-mobility/road-bridges/road-bridges.pmtiles",
+          "mtime": 1788448535.2377458
+        },
+        "README.md": {
+          "sha256": "8bc542f411a951f3b4cdb4257880bc57749fe7b4b8db16c7ed0dd7c9c99d732d",
+          "size_bytes": 4515,
+          "href": "transport-and-mobility/road-bridges/README.md",
+          "mtime": 1788448923.4612432
+        }
+      },
+      "changes": [
+        "road-bridges.parquet",
+        "road-bridges.thumb.jpg",
+        "road-bridges.pmtiles",
+        "README.md"
+      ]
+    }
+  ]
+}

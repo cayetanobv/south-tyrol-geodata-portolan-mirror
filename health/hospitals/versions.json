@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.453106Z",
+      "breaking": false,
+      "assets": {
+        "hospitals.pmtiles": {
+          "sha256": "968c92c3335bad95dc71a3ca20dabd97bb5f85dd8081539a1e0726f102e32347",
+          "size_bytes": 6492,
+          "href": "health/hospitals/hospitals.pmtiles",
+          "mtime": 1788448230.5116627
+        },
+        "hospitals.thumb.jpg": {
+          "sha256": "6182b0754fb7ddee72bb354767c8e3eeffb6a94be535a7cb24952de3c4ac5301",
+          "size_bytes": 35962,
+          "href": "health/hospitals/hospitals.thumb.jpg",
+          "mtime": 1788449312.936623
+        },
+        "README.md": {
+          "sha256": "c185cd5715da00dafc52a5ea47cc5fc4f05dcfb7c396b27e02dc5d62cae970f7",
+          "size_bytes": 3424,
+          "href": "health/hospitals/README.md",
+          "mtime": 1788448923.2572393
+        },
+        "hospitals.parquet": {
+          "sha256": "b62b420c5c0f70fcbc7527d437e1623e10dde1c2fd3393649f343391f057027a",
+          "size_bytes": 10316,
+          "href": "health/hospitals/hospitals.parquet",
+          "source_mtime": 1788447300.3693984,
+          "mtime": 1788447300.3693984,
+          "feature_count": 17,
+          "schema_fingerprint": "f586023e46403fae"
+        }
+      },
+      "changes": [
+        "hospitals.pmtiles",
+        "hospitals.thumb.jpg",
+        "README.md",
+        "hospitals.parquet"
+      ]
+    }
+  ]
+}

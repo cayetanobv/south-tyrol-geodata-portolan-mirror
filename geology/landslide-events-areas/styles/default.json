@@ -1,0 +1,94 @@
+{
+  "version": 8,
+  "name": "IdroGEO-Landslides-Events-Areas",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../landslide-events-areas.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "landslide-events-areas",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          1,
+          "#FFEBAF",
+          2,
+          "#BEFFE8",
+          4,
+          "#C500FF",
+          5,
+          "#FFFFFF",
+          6,
+          "#FF00FF",
+          3,
+          "#BA3A30",
+          7,
+          "#A5F57A",
+          9,
+          "#888888",
+          10,
+          "#888888",
+          11,
+          "#888888",
+          "#cccccc"
+        ],
+        "fill-opacity": [
+          "match",
+          [
+            "get",
+            "MOVEMENT_CODE"
+          ],
+          1,
+          0.7,
+          2,
+          0.7,
+          4,
+          0.7,
+          5,
+          0.7,
+          6,
+          0.7,
+          3,
+          0.7,
+          7,
+          0.7,
+          9,
+          1.0,
+          10,
+          1.0,
+          11,
+          1.0,
+          1.0
+        ],
+        "fill-outline-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          3,
+          "#6E6E6E",
+          9,
+          "#FFEBAF",
+          10,
+          "#FF00FF",
+          11,
+          "#E64C00",
+          "#000000"
+        ]
+      }
+    }
+  ]
+}

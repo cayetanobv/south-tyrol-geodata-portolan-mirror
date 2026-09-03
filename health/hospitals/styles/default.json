@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "name": "Hospitals",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../hospitals.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-circle",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "hospitals",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          1,
+          "#888888",
+          2,
+          "#888888",
+          "#cccccc"
+        ],
+        "circle-radius": 10,
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+contact:
+  name: Cayetano Benavent
+  email: cayetano@cartodb.com
+source_url: https://data.civis.bz.it/dataset/impianti-di-depurazione-biologici
+description: 'Community mirror of the dataset «Impianti di depurazione biologici» published by the Provincia
+  Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol as open data (CC0 1.0). Extracted
+  on 2026-09-03 from WFS layer p_bz-Infrastructures:Sewerage-Biological-Purifiers and converted to GeoParquet.
+  This copy is NOT the official publication: the authoritative source is the Province''s geoportal and
+  open-data portal (https://data.civis.bz.it/dataset/impianti-di-depurazione-biologici). Published for
+  the OGC Metadata Summit 2026 demo.'
+keywords:
+- features
+- Abwasser
+- Aque reflue
+- Biologische Kläranlagen
+- Impianti di depurazione biologici
+- South Tyrol
+- Alto Adige
+- Südtirol
+- Bolzano
+- open data
+- mirror
+- Environment and infrastructure
+processing_notes: 'Extracted from wfs layer: p_bz-Infrastructures:Sewerage-Biological-Purifiers (Biologische
+  Kläranlagen - Impianti di depurazione biologici)'
+title: Wastewater treatment plants — mirror of «Impianti di depurazione biologici», Provincia Autonoma
+  di Bolzano
+attribution: Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol, «Impianti
+  di depurazione biologici», CC0 1.0, https://data.civis.bz.it/dataset/impianti-di-depurazione-biologici
+citations:
+- Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol (Provincia Autonoma di
+  Bolzano - Alto Adige). «Impianti di depurazione biologici». Open data, licence CC0 1.0. https://data.civis.bz.it/dataset/impianti-di-depurazione-biologici
+  — mirrored 2026-09-03 via WFS p_bz-Infrastructures:Sewerage-Biological-Purifiers (https://geoservices1.civis.bz.it/geoserver/ows).
+license: CC0-1.0
+license_url: https://creativecommons.org/publicdomain/zero/1.0/
+known_issues: Demo mirror; not an official publication. Point layers are locations, not service areas;
+  planning zones are not forecasts.

@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.297615Z",
+      "breaking": false,
+      "assets": {
+        "wastewater-treatment-plants.pmtiles": {
+          "sha256": "1365343b88693840c59b9bdadbb7196f98da46ab7ffd3f0a903bfc96bb73b512",
+          "size_bytes": 6580,
+          "href": "environment-and-infrastructure/wastewater-treatment-plants/wastewater-treatment-plants.pmtiles",
+          "mtime": 1788448353.2061415
+        },
+        "wastewater-treatment-plants.thumb.jpg": {
+          "sha256": "8a77f466c2ff95892beeb0115b09ed3ca449912b6cc0ea2026d51e5a01c5b9d9",
+          "size_bytes": 53071,
+          "href": "environment-and-infrastructure/wastewater-treatment-plants/wastewater-treatment-plants.thumb.jpg",
+          "mtime": 1788449306.624504
+        },
+        "wastewater-treatment-plants.parquet": {
+          "sha256": "1f95aefbddb2b3a2ac31c468cac32ba1208217ee32bd5ef90c7abd7f015ade6f",
+          "size_bytes": 8837,
+          "href": "environment-and-infrastructure/wastewater-treatment-plants/wastewater-treatment-plants.parquet",
+          "source_mtime": 1788447208.035732,
+          "mtime": 1788447208.035732,
+          "feature_count": 57,
+          "schema_fingerprint": "bc18f7d33198adda"
+        },
+        "README.md": {
+          "sha256": "eeef21644f12fdea406d8d9fc006e8d94bc27d2919eaa59988ea66d173e868f8",
+          "size_bytes": 3905,
+          "href": "environment-and-infrastructure/wastewater-treatment-plants/README.md",
+          "mtime": 1788448923.1572373
+        }
+      },
+      "changes": [
+        "wastewater-treatment-plants.pmtiles",
+        "wastewater-treatment-plants.thumb.jpg",
+        "wastewater-treatment-plants.parquet",
+        "README.md"
+      ]
+    }
+  ]
+}

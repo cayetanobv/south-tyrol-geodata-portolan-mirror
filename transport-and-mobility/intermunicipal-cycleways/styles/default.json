@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "name": "Routes-CyclewaysIntermunicipalPaths",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../intermunicipal-cycleways.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "line-0",
+      "type": "line",
+      "source": "data",
+      "source-layer": "intermunicipal-cycleways",
+      "paint": {
+        "line-color": "#207700",
+        "line-width": 1,
+        "line-opacity": 1.0
+      }
+    },
+    {
+      "id": "line-1",
+      "type": "line",
+      "source": "data",
+      "source-layer": "intermunicipal-cycleways",
+      "paint": {
+        "line-color": "#32AC00",
+        "line-width": 1,
+        "line-opacity": 1.0
+      }
+    }
+  ]
+}

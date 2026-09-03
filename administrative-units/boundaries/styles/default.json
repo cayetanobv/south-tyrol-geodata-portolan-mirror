@@ -1,0 +1,70 @@
+{
+  "version": 8,
+  "name": "Boundaries",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../boundaries.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 10
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-line",
+      "type": "line",
+      "source": "data",
+      "source-layer": "boundaries",
+      "paint": {
+        "line-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          1,
+          "#FFFFFF",
+          2,
+          "#FFFFFF",
+          3,
+          "#FFFFFF",
+          4,
+          "#FFFFFF",
+          "#cccccc"
+        ],
+        "line-width": [
+          "match",
+          [
+            "get",
+            "IS_LAND"
+          ],
+          1,
+          1.5,
+          2,
+          4.0,
+          3,
+          4.0,
+          4,
+          2.5,
+          1.0
+        ],
+        "line-opacity": [
+          "match",
+          [
+            "get",
+            "IS_LAND"
+          ],
+          1,
+          0.85,
+          2,
+          0.85,
+          3,
+          0.85,
+          4,
+          0.85,
+          1.0
+        ]
+      }
+    }
+  ]
+}

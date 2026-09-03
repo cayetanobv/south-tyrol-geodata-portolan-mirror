@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.374507Z",
+      "breaking": false,
+      "assets": {
+        "hazard-zones-avalanches.pmtiles": {
+          "sha256": "c4fd64a9f159a8585ecd5887e81f0286c105aa19ac341f71a6216a4ef4b7ec28",
+          "size_bytes": 5478622,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-avalanches/hazard-zones-avalanches.pmtiles",
+          "mtime": 1788448381.0866985
+        },
+        "hazard-zones-avalanches.parquet": {
+          "sha256": "1cba11fb2a1c7bda36550edc65e0c01a316d05a37095272bc9b3578a5c43d9af",
+          "size_bytes": 3766661,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-avalanches/hazard-zones-avalanches.parquet",
+          "source_mtime": 1788448322.0215158,
+          "mtime": 1788448322.0215158,
+          "feature_count": 13752,
+          "schema_fingerprint": "52c42038a29cf998"
+        },
+        "hazard-zones-avalanches.thumb.jpg": {
+          "sha256": "353647df21f89f9d396d85453b547b5cb8b35970d1e1d0ee6d4162103f70b4df",
+          "size_bytes": 136708,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-avalanches/hazard-zones-avalanches.thumb.jpg",
+          "mtime": 1788449309.5085585
+        },
+        "README.md": {
+          "sha256": "06ca6fab3e7ce1cf0ef7c4a9ebeb7113064c0cb0324ecee3e866c1e7f44ba086",
+          "size_bytes": 4293,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-avalanches/README.md",
+          "mtime": 1788448923.2092383
+        }
+      },
+      "changes": [
+        "hazard-zones-avalanches.pmtiles",
+        "hazard-zones-avalanches.parquet",
+        "hazard-zones-avalanches.thumb.jpg",
+        "README.md"
+      ]
+    }
+  ]
+}

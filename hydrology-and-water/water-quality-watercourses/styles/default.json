@@ -1,0 +1,42 @@
+{
+  "version": 8,
+  "name": "WaterQuality-Watercourses",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../water-quality-watercourses.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 10
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-line",
+      "type": "line",
+      "source": "data",
+      "source-layer": "water-quality-watercourses",
+      "paint": {
+        "line-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          1,
+          "#1f78b4",
+          2,
+          "#33a02c",
+          3,
+          "#ffff00",
+          4,
+          "#ff7f00",
+          5,
+          "#e31a1c",
+          "#cccccc"
+        ],
+        "line-width": 3.0,
+        "line-opacity": 1.0
+      }
+    }
+  ]
+}

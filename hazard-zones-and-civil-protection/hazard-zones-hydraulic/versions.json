@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.392393Z",
+      "breaking": false,
+      "assets": {
+        "hazard-zones-hydraulic.parquet": {
+          "sha256": "2bb563f3fbf3ed1d0456398c779ce775bf2cba13087f8a29ab4071d8a7044743",
+          "size_bytes": 10606398,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-hydraulic/hazard-zones-hydraulic.parquet",
+          "source_mtime": 1788448803.4309454,
+          "mtime": 1788448803.4309454,
+          "feature_count": 52195,
+          "schema_fingerprint": "5e2d653d69789391"
+        },
+        "hazard-zones-hydraulic.thumb.jpg": {
+          "sha256": "fe30a198a3da6f26f07eeee6d5a2c84709eacd03ada408d76996f5214e84789a",
+          "size_bytes": 150026,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-hydraulic/hazard-zones-hydraulic.thumb.jpg",
+          "mtime": 1788449310.2445722
+        },
+        "hazard-zones-hydraulic.pmtiles": {
+          "sha256": "e902c28089fdf88cc67d502ed5e4794f340e89a1766dad69199d3bfaf1c4c1a1",
+          "size_bytes": 17626809,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-hydraulic/hazard-zones-hydraulic.pmtiles",
+          "mtime": 1788448868.7321973
+        },
+        "README.md": {
+          "sha256": "95b2b2ff338300a2a897ae52902416d6d113524561d773c5e80b707b89c502f5",
+          "size_bytes": 4429,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-hydraulic/README.md",
+          "mtime": 1788448923.2172384
+        }
+      },
+      "changes": [
+        "hazard-zones-hydraulic.parquet",
+        "hazard-zones-hydraulic.thumb.jpg",
+        "hazard-zones-hydraulic.pmtiles",
+        "README.md"
+      ]
+    }
+  ]
+}

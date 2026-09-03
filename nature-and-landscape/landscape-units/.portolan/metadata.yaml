@@ -1,0 +1,36 @@
+contact:
+  name: Cayetano Benavent
+  email: cayetano@cartodb.com
+source_url: https://data.civis.bz.it/dataset/linee-guida-natura-e-paesaggio-alto-adige-2002-fasce-paesaggistiche
+description: 'Community mirror of the dataset «Fasce paesaggistiche» published by the Provincia Autonoma
+  di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol as open data (CC0 1.0). Extracted on 2026-09-03
+  from WFS layer p_bz-Nature:LandscapeBelts and converted to GeoParquet. This copy is NOT the official
+  publication: the authoritative source is the Province''s geoportal and open-data portal (https://data.civis.bz.it/dataset/linee-guida-natura-e-paesaggio-alto-adige-2002-fasce-paesaggistiche).
+  Published for the OGC Metadata Summit 2026 demo.'
+keywords:
+- features
+- Landschaftsleitbild Südtirol
+- Linee guida natura e paesaggio Alto Adige
+- '2002'
+- Landschaftseinheiten
+- Fasce paesaggistiche
+- South Tyrol
+- Alto Adige
+- Südtirol
+- Bolzano
+- open data
+- mirror
+- Nature and landscape
+processing_notes: 'Extracted from wfs layer: p_bz-Nature:LandscapeBelts (Landschaftseinheiten - Fasce
+  paesaggistiche)'
+title: Landscape units — mirror of «Fasce paesaggistiche», Provincia Autonoma di Bolzano
+attribution: Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol, «Fasce paesaggistiche»,
+  CC0 1.0, https://data.civis.bz.it/dataset/linee-guida-natura-e-paesaggio-alto-adige-2002-fasce-paesaggistiche
+citations:
+- Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol (Provincia Autonoma di
+  Bolzano - Alto Adige). «Fasce paesaggistiche». Open data, licence CC0 1.0. https://data.civis.bz.it/dataset/linee-guida-natura-e-paesaggio-alto-adige-2002-fasce-paesaggistiche
+  — mirrored 2026-09-03 via WFS p_bz-Nature:LandscapeBelts (https://geoservices1.civis.bz.it/geoserver/ows).
+license: CC0-1.0
+license_url: https://creativecommons.org/publicdomain/zero/1.0/
+known_issues: Demo mirror; not an official publication. Point layers are locations, not service areas;
+  planning zones are not forecasts.

@@ -1,0 +1,33 @@
+contact:
+  name: Cayetano Benavent
+  email: cayetano@cartodb.com
+source_url: https://data.civis.bz.it/dataset/aree-di-tutela-dellacqua-potabile
+description: 'Community mirror of the dataset «Aree di tutela dell''acqua potabile» published by the Provincia
+  Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol as open data (CC0 1.0). Extracted
+  on 2026-09-03 from WFS layer p_bz-Hydrology:DrinkingWaterSafeZones and converted to GeoParquet. This
+  copy is NOT the official publication: the authoritative source is the Province''s geoportal and open-data
+  portal (https://data.civis.bz.it/dataset/aree-di-tutela-dellacqua-potabile). Published for the OGC Metadata
+  Summit 2026 demo.'
+keywords:
+- features
+- South Tyrol
+- Alto Adige
+- Südtirol
+- Bolzano
+- open data
+- mirror
+- Hydrology and water
+processing_notes: 'Extracted from wfs layer: p_bz-Hydrology:DrinkingWaterSafeZones (Trinkwasserschutzgebiete
+  - Aree di tutela dell''acqua potabile)'
+title: Drinking water protection areas — mirror of «Aree di tutela dell'acqua potabile», Provincia Autonoma
+  di Bolzano
+attribution: Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol, «Aree di
+  tutela dell'acqua potabile», CC0 1.0, https://data.civis.bz.it/dataset/aree-di-tutela-dellacqua-potabile
+citations:
+- Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol (Provincia Autonoma di
+  Bolzano - Alto Adige). «Aree di tutela dell'acqua potabile». Open data, licence CC0 1.0. https://data.civis.bz.it/dataset/aree-di-tutela-dellacqua-potabile
+  — mirrored 2026-09-03 via WFS p_bz-Hydrology:DrinkingWaterSafeZones (https://geoservices1.civis.bz.it/geoserver/ows).
+license: CC0-1.0
+license_url: https://creativecommons.org/publicdomain/zero/1.0/
+known_issues: Demo mirror; not an official publication. Point layers are locations, not service areas;
+  planning zones are not forecasts.

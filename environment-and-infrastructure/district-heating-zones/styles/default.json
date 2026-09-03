@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "name": "DistrictHeating-Zones",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../district-heating-zones.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "fill-0",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "district-heating-zones",
+      "paint": {
+        "fill-color": "#3ebb0c",
+        "fill-opacity": 0.4,
+        "fill-outline-color": "#185200"
+      }
+    }
+  ]
+}

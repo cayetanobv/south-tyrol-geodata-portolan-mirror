@@ -1,0 +1,12 @@
+# Data assets live in object storage, not in git (see README.md → "Repository")
+*.parquet
+*.pmtiles
+*.tif
+*.tiff
+*.gpkg
+*.geojson
+*.tmp.parquet
+.env
+.env.*
+.portolan/.versions.lock
+__pycache__/

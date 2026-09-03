@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.514860Z",
+      "breaking": false,
+      "assets": {
+        "gauging-stations.parquet": {
+          "sha256": "099ba1dd58048d187dee08e7298346782d98e5a41837e00653f8c3848d721e62",
+          "size_bytes": 11229,
+          "href": "hydrology-and-water/gauging-stations/gauging-stations.parquet",
+          "source_mtime": 1788447329.6859276,
+          "mtime": 1788447329.6859276,
+          "feature_count": 55,
+          "schema_fingerprint": "d6ee3a106761a9bc"
+        },
+        "gauging-stations.pmtiles": {
+          "sha256": "ec4dfaab463a9cb1df54dd6eeac04bd2904e8f15aaa7fe9f88d5b3def45f9c8d",
+          "size_bytes": 9188,
+          "href": "hydrology-and-water/gauging-stations/gauging-stations.pmtiles",
+          "mtime": 1788448433.5437415
+        },
+        "README.md": {
+          "sha256": "7251da8370daa6e45eeb6d3aab73291895f9ee95ed5d22725286afa1f2b13a5a",
+          "size_bytes": 3717,
+          "href": "hydrology-and-water/gauging-stations/README.md",
+          "mtime": 1788448923.29724
+        },
+        "gauging-stations.thumb.jpg": {
+          "sha256": "6c36c8117cfd2afad53368fa0c78b206868a2edc9c34c47cc59630306e673859",
+          "size_bytes": 48078,
+          "href": "hydrology-and-water/gauging-stations/gauging-stations.thumb.jpg",
+          "mtime": 1788449315.0726633
+        }
+      },
+      "changes": [
+        "gauging-stations.parquet",
+        "gauging-stations.pmtiles",
+        "README.md",
+        "gauging-stations.thumb.jpg"
+      ]
+    }
+  ]
+}

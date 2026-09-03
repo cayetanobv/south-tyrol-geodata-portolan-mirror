@@ -1,0 +1,55 @@
+{
+  "version": 8,
+  "name": "DrinkingWaterSafeZones",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../drinking-water-protection-areas.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "drinking-water-protection-areas",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          "a",
+          "#888888",
+          "b",
+          "#888888",
+          "c",
+          "#888888",
+          "s",
+          "#888888",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0,
+        "fill-outline-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          "a",
+          "#FF0000",
+          "b",
+          "#FFAF2E",
+          "c",
+          "#FFFF2E",
+          "s",
+          "#05FF84",
+          "#000000"
+        ]
+      }
+    }
+  ]
+}

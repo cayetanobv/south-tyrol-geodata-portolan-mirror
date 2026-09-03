@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.331477Z",
+      "breaking": false,
+      "assets": {
+        "main-faults.thumb.jpg": {
+          "sha256": "9848e01820208b8df2d030b7ff38c3c8d97555bfeb61cf79d0bd9ef179390923",
+          "size_bytes": 102277,
+          "href": "geology/main-faults/main-faults.thumb.jpg",
+          "mtime": 1788449307.9645293
+        },
+        "main-faults.parquet": {
+          "sha256": "273b3be393123260bf554433cc275701f1f1baf9187cb31f48e057e152cdd230",
+          "size_bytes": 110779,
+          "href": "geology/main-faults/main-faults.parquet",
+          "source_mtime": 1788447293.6932778,
+          "mtime": 1788447293.6932778,
+          "feature_count": 570,
+          "schema_fingerprint": "aa13cf91f158c49f"
+        },
+        "README.md": {
+          "sha256": "6d0844f179e040b7b908938138089ddf4f7f10a1cf2e85c3adfc2cbfb0817780",
+          "size_bytes": 3501,
+          "href": "geology/main-faults/README.md",
+          "mtime": 1788448923.1772377
+        },
+        "main-faults.pmtiles": {
+          "sha256": "0aee16c3358e48e338af94f110ae84215b67cc8c5111b4ba7d5c5247b8952342",
+          "size_bytes": 102190,
+          "href": "geology/main-faults/main-faults.pmtiles",
+          "mtime": 1788448365.086379
+        }
+      },
+      "changes": [
+        "main-faults.thumb.jpg",
+        "main-faults.parquet",
+        "README.md",
+        "main-faults.pmtiles"
+      ]
+    }
+  ]
+}

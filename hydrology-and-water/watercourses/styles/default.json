@@ -1,0 +1,62 @@
+{
+  "version": 8,
+  "name": "Watercourses",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../watercourses.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 10
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-line",
+      "type": "line",
+      "source": "data",
+      "source-layer": "watercourses",
+      "paint": {
+        "line-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          1,
+          "#93A3DF",
+          2,
+          "#93A3DF",
+          3,
+          "#93A3DF",
+          4,
+          "#93A3DF",
+          "#cccccc"
+        ],
+        "line-width": 1,
+        "line-opacity": 1.0
+      }
+    },
+    {
+      "id": "categorical-line-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "watercourses",
+      "layout": {
+        "text-field": [
+          "get",
+          ""
+        ],
+        "text-size": 12.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#93A3DF",
+        "text-halo-color": "#FFFFFF",
+        "text-halo-width": 1.0
+      }
+    }
+  ]
+}

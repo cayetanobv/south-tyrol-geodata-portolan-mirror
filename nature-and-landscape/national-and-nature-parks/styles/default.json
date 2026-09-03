@@ -1,0 +1,35 @@
+{
+  "version": 8,
+  "name": "LandscapePlan-NationalAndNaturalParks",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../national-and-nature-parks.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "national-and-nature-parks",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          1015201,
+          "#888888",
+          1015202,
+          "#888888",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0
+      }
+    }
+  ]
+}

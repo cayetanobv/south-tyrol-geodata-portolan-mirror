@@ -1,0 +1,55 @@
+{
+  "version": 8,
+  "name": "UrbanPlan-HazardZonePlan-Landslides",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../hazard-zones-landslides.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "hazard-zones-landslides",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          1040101,
+          "#888888",
+          1040102,
+          "#888888",
+          1040103,
+          "#888888",
+          1040104,
+          "#888888",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0,
+        "fill-outline-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          1040101,
+          "#B2B2B2",
+          1040102,
+          "#E6E600",
+          1040103,
+          "#005CE6",
+          1040104,
+          "#E60000",
+          "#000000"
+        ]
+      }
+    }
+  ]
+}

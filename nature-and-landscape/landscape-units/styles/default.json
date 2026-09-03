@@ -1,0 +1,50 @@
+{
+  "version": 8,
+  "name": "LandscapeBelts",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../landscape-units.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 8
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "landscape-units",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          1,
+          "#ffd6a8",
+          2,
+          "#4ea903",
+          3,
+          "#007e00",
+          4,
+          "#c1e699",
+          5,
+          "#cd6001",
+          6,
+          "#99e698",
+          7,
+          "#7e0040",
+          8,
+          "#4d4d4d",
+          9,
+          "#e5e698",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#232323"
+      }
+    }
+  ]
+}

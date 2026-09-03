@@ -1,0 +1,51 @@
+{
+  "version": 8,
+  "name": "ArchaeologicalSites",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../archaeological-sites-overview.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "archaeological-sites-overview",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "PRECAUTION"
+          ],
+          "V",
+          "#FF0000",
+          "C",
+          "#FF9D00",
+          "R",
+          "#FFFF00",
+          "#cccccc"
+        ],
+        "fill-opacity": 0.7,
+        "fill-outline-color": [
+          "match",
+          [
+            "get",
+            "PRECAUTION"
+          ],
+          "V",
+          "#A00000",
+          "C",
+          "#8A5000",
+          "R",
+          "#CDCD66",
+          "#000000"
+        ]
+      }
+    }
+  ]
+}

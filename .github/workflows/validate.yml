@@ -1,0 +1,23 @@
+name: validate
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  rashid:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the Portolan validator (spec v0.2.0 rules ship with rashid >= 0.1.8)
+        run: pip install "rashid>=0.1.8,<0.2.0"
+      - name: Report the validator version the gate uses
+        run: rashid --version
+      # Data files (GeoParquet, PMTiles) are not in git; they are served from the bucket.
+      # --no-data skips byte checks; structure, links, metadata and the v0.2.0 profile schema are still enforced.
+      - name: Validate the catalog metadata tree
+        run: rashid check . --schema --no-data

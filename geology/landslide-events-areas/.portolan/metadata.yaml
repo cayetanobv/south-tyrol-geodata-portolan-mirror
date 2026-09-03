@@ -1,0 +1,31 @@
+contact:
+  name: Cayetano Benavent
+  email: cayetano@cartodb.com
+source_url: https://data.civis.bz.it/dataset/eventi-di-frana
+description: 'Community mirror of the dataset «Tipologia di frana» published by the Provincia Autonoma
+  di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol as open data (CC0 1.0). Extracted on 2026-09-03
+  from WFS layer p_bz-Geology:IdroGEO-Landslides-Events-Areas and converted to GeoParquet. This copy is
+  NOT the official publication: the authoritative source is the Province''s geoportal and open-data portal
+  (https://data.civis.bz.it/dataset/eventi-di-frana). Published for the OGC Metadata Summit 2026 demo.'
+keywords:
+- features
+- South Tyrol
+- Alto Adige
+- Südtirol
+- Bolzano
+- open data
+- mirror
+- Geology
+processing_notes: 'Extracted from wfs layer: p_bz-Geology:IdroGEO-Landslides-Events-Areas (Art der Bewegung
+  - Tipologia di frana)'
+title: Landslide events areas — mirror of «Tipologia di frana», Provincia Autonoma di Bolzano
+attribution: Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol, «Tipologia
+  di frana», CC0 1.0, https://data.civis.bz.it/dataset/eventi-di-frana
+citations:
+- Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol (Provincia Autonoma di
+  Bolzano - Alto Adige). «Tipologia di frana». Open data, licence CC0 1.0. https://data.civis.bz.it/dataset/eventi-di-frana
+  — mirrored 2026-09-03 via WFS p_bz-Geology:IdroGEO-Landslides-Events-Areas (https://geoservices1.civis.bz.it/geoserver/ows).
+license: CC0-1.0
+license_url: https://creativecommons.org/publicdomain/zero/1.0/
+known_issues: Demo mirror; not an official publication. Point layers are locations, not service areas;
+  planning zones are not forecasts.

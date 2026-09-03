@@ -1,0 +1,56 @@
+{
+  "version": 8,
+  "name": "Infrastructures-RoadBridges",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../road-bridges.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-line",
+      "type": "line",
+      "source": "data",
+      "source-layer": "road-bridges",
+      "paint": {
+        "line-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          0,
+          "#555555",
+          "#cccccc"
+        ],
+        "line-width": 1,
+        "line-opacity": 1.0
+      }
+    },
+    {
+      "id": "categorical-line-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "road-bridges",
+      "layout": {
+        "text-field": [
+          "get",
+          "MAP_LABEL"
+        ],
+        "text-size": 13.0,
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#898989",
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 2.0
+      }
+    }
+  ]
+}

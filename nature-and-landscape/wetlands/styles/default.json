@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "name": "Wetlands",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../wetlands.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 6
+    }
+  },
+  "layers": [
+    {
+      "id": "circle-0",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "wetlands",
+      "paint": {
+        "circle-color": "#A5FAFF",
+        "circle-radius": 5.0,
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}

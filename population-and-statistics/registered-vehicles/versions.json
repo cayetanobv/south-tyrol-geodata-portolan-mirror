@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.675649Z",
+      "breaking": false,
+      "assets": {
+        "registered-vehicles.parquet": {
+          "sha256": "812a308daa838436a0a3f745a55e8a32c198eb8834f11ff699ce4d327b2d3c65",
+          "size_bytes": 421799,
+          "href": "population-and-statistics/registered-vehicles/registered-vehicles.parquet",
+          "source_mtime": 1788447238.748286,
+          "mtime": 1788447238.748286,
+          "feature_count": 116,
+          "schema_fingerprint": "77865579c91d22ea"
+        },
+        "registered-vehicles.thumb.jpg": {
+          "sha256": "00e66087f639b1582a75e3005abf1525b60634d5e17147a0bc62cf3203d91e91",
+          "size_bytes": 86542,
+          "href": "population-and-statistics/registered-vehicles/registered-vehicles.thumb.jpg",
+          "mtime": 1788449320.9207735
+        },
+        "README.md": {
+          "sha256": "d1e7eaf99f3d9c675b687be84d5c1e1932720319a59576e992eadad01059884c",
+          "size_bytes": 4244,
+          "href": "population-and-statistics/registered-vehicles/README.md",
+          "mtime": 1788448923.3972418
+        },
+        "registered-vehicles.pmtiles": {
+          "sha256": "ce9e1e6ef343affb357d3fa996c0328c4e6ead6eab4cb5cc03100f798cc91a4f",
+          "size_bytes": 528763,
+          "href": "population-and-statistics/registered-vehicles/registered-vehicles.pmtiles",
+          "mtime": 1788448494.3849432
+        }
+      },
+      "changes": [
+        "registered-vehicles.parquet",
+        "registered-vehicles.thumb.jpg",
+        "README.md",
+        "registered-vehicles.pmtiles"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "version": 8,
+  "name": "FamilyCounselingCenters",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../family-counselling-centres.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 6
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-circle",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "family-counselling-centres",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          1,
+          "#888888",
+          0,
+          "#888888",
+          "#cccccc"
+        ],
+        "circle-radius": 10,
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+contact:
+  name: Cayetano Benavent
+  email: cayetano@cartodb.com
+source_url: https://data.civis.bz.it/dataset/rete-ciclabile-sovracomunale
+description: 'Community mirror of the dataset «Rete ciclabile sovracomunale» published by the Provincia
+  Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol as open data (CC0 1.0). Extracted
+  on 2026-09-03 from WFS layer p_bz-TransportNetwork:Routes-CyclewaysIntermunicipalPaths and converted
+  to GeoParquet. This copy is NOT the official publication: the authoritative source is the Province''s
+  geoportal and open-data portal (https://data.civis.bz.it/dataset/rete-ciclabile-sovracomunale). Published
+  for the OGC Metadata Summit 2026 demo.'
+keywords:
+- features
+- Verkehrsnetze
+- Reti di trasporto
+- Routen
+- Percorsi
+- Übergemeindliche Routen
+- Percorsi sovracomunali
+- South Tyrol
+- Alto Adige
+- Südtirol
+- Bolzano
+- open data
+- mirror
+- Transport and mobility
+processing_notes: 'Extracted from wfs layer: p_bz-TransportNetwork:Routes-CyclewaysIntermunicipalPaths
+  (Übergemeindliches Fahrradnetz - Rete ciclabile sovracomunale)'
+title: Intermunicipal cycleways — mirror of «Rete ciclabile sovracomunale», Provincia Autonoma di Bolzano
+attribution: Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol, «Rete ciclabile
+  sovracomunale», CC0 1.0, https://data.civis.bz.it/dataset/rete-ciclabile-sovracomunale
+citations:
+- Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol (Provincia Autonoma di
+  Bolzano - Alto Adige). «Rete ciclabile sovracomunale». Open data, licence CC0 1.0. https://data.civis.bz.it/dataset/rete-ciclabile-sovracomunale
+  — mirrored 2026-09-03 via WFS p_bz-TransportNetwork:Routes-CyclewaysIntermunicipalPaths (https://geoservices1.civis.bz.it/geoserver/ows).
+license: CC0-1.0
+license_url: https://creativecommons.org/publicdomain/zero/1.0/
+known_issues: Demo mirror; not an official publication. Point layers are locations, not service areas;
+  planning zones are not forecasts.

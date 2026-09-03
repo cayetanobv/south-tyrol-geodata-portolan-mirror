@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "name": "Pharmacies",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../pharmacies.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 6
+    }
+  },
+  "layers": [
+    {
+      "id": "circle-0",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "pharmacies",
+      "paint": {
+        "circle-color": "#888888",
+        "circle-radius": 5.0,
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}

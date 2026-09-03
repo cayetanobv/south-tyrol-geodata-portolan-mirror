@@ -1,0 +1,55 @@
+{
+  "version": 8,
+  "name": "UrbanPlan-HazardZonePlan-Hydrology",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../hazard-zones-hydraulic.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "hazard-zones-hydraulic",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          1040201,
+          "#888888",
+          1040202,
+          "#888888",
+          1040203,
+          "#888888",
+          1040204,
+          "#888888",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0,
+        "fill-outline-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          1040201,
+          "#B2B2B2",
+          1040202,
+          "#E6E600",
+          1040203,
+          "#005CE6",
+          1040204,
+          "#E60000",
+          "#000000"
+        ]
+      }
+    }
+  ]
+}

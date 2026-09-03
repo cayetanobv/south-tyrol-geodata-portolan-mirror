@@ -1,0 +1,47 @@
+{
+  "version": 8,
+  "name": "UNESCO-Sites",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../unesco-sites.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "unesco-sites",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "TYPE"
+          ],
+          1,
+          "#888888",
+          2,
+          "#888888",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0,
+        "fill-outline-color": [
+          "match",
+          [
+            "get",
+            "TYPE"
+          ],
+          1,
+          "#0000C8",
+          2,
+          "#00C8FF",
+          "#000000"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "version": 8,
+  "name": "CorineLandCover-Official",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../corine-land-cover.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 9
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "corine-land-cover",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          111,
+          "#E6004D",
+          112,
+          "#FF0000",
+          121,
+          "#CC4DF2",
+          122,
+          "#CC0000",
+          124,
+          "#E6CCE6",
+          131,
+          "#A600CC",
+          142,
+          "#FFE6FF",
+          211,
+          "#FFFFA8",
+          221,
+          "#E68000",
+          222,
+          "#E0A64D",
+          231,
+          "#E6E64D",
+          242,
+          "#FFE64D",
+          243,
+          "#E6CC4D",
+          244,
+          "#F2CCA6",
+          311,
+          "#80FF00",
+          312,
+          "#00A600",
+          313,
+          "#4DFF00",
+          321,
+          "#CCF24D",
+          322,
+          "#A6FF80",
+          324,
+          "#A6F200",
+          331,
+          "#E6E6E6",
+          332,
+          "#CCCCCC",
+          333,
+          "#CCFFCC",
+          335,
+          "#A6E6CC",
+          411,
+          "#A6A6FF",
+          412,
+          "#4D4DFF",
+          511,
+          "#00CCF2",
+          512,
+          "#80F2E6",
+          "#cccccc"
+        ],
+        "fill-opacity": 0.3
+      }
+    }
+  ]
+}

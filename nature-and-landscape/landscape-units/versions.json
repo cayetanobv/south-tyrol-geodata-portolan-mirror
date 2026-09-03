@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.588278Z",
+      "breaking": false,
+      "assets": {
+        "landscape-units.thumb.jpg": {
+          "sha256": "9bcfe0fe69d93337fe00948755db67c07edaccb62e7071879bea70674f174df7",
+          "size_bytes": 149032,
+          "href": "nature-and-landscape/landscape-units/landscape-units.thumb.jpg",
+          "mtime": 1788449318.2567232
+        },
+        "landscape-units.parquet": {
+          "sha256": "f5e80079ea03487107e13781f7e45c1cb80c2938e3451599937fba21c4a05d58",
+          "size_bytes": 201944,
+          "href": "nature-and-landscape/landscape-units/landscape-units.parquet",
+          "source_mtime": 1788447301.8334246,
+          "mtime": 1788447301.8334246,
+          "feature_count": 312,
+          "schema_fingerprint": "56824290c4bff32a"
+        },
+        "landscape-units.pmtiles": {
+          "sha256": "f8f0a799460e7df082c0f8a1ef6bcb418d2a11f5cd5ad2f055fc75c711909453",
+          "size_bytes": 211457,
+          "href": "nature-and-landscape/landscape-units/landscape-units.pmtiles",
+          "mtime": 1788448461.9323032
+        },
+        "README.md": {
+          "sha256": "a807be06fe77b8aadb84d01a8604dbf6929164fc8461adccfb9871c70823db2f",
+          "size_bytes": 3901,
+          "href": "nature-and-landscape/landscape-units/README.md",
+          "mtime": 1788448923.3452408
+        }
+      },
+      "changes": [
+        "landscape-units.thumb.jpg",
+        "landscape-units.parquet",
+        "landscape-units.pmtiles",
+        "README.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": 8,
+  "name": "Infrastructures-TrafficCounters",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../traffic-counters.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 4
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-circle",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "traffic-counters",
+      "paint": {
+        "circle-color": [
+          "match",
+          [
+            "get",
+            "TYPE"
+          ],
+          1,
+          "#A80000",
+          "#cccccc"
+        ],
+        "circle-radius": 10.0,
+        "circle-opacity": 1.0
+      }
+    },
+    {
+      "id": "categorical-circle-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "traffic-counters",
+      "layout": {
+        "text-field": [
+          "get",
+          "INT_CODE"
+        ],
+        "text-size": 12.0,
+        "text-anchor": "top",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#A80000",
+        "text-halo-color": "#F0F0F0",
+        "text-halo-width": 1.2
+      }
+    }
+  ]
+}

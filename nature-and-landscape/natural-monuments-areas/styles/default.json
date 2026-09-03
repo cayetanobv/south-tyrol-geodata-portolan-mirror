@@ -1,0 +1,33 @@
+{
+  "version": 8,
+  "name": "LandscapePlan-NaturalMonuments-Polygons",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../natural-monuments-areas.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "natural-monuments-areas",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          1015301,
+          "#FF0000",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0
+      }
+    }
+  ]
+}

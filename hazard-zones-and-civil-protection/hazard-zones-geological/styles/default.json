@@ -1,0 +1,40 @@
+{
+  "version": 8,
+  "name": "UrbanPlan-HazardZonePlan-Geology",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../hazard-zones-geological.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "hazard-zones-geological",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "RISCHIO"
+          ],
+          4,
+          "#FFA5A5",
+          3,
+          "#4E91D8",
+          2,
+          "#FFFF00",
+          1,
+          "#C3FFC3",
+          "#cccccc"
+        ],
+        "fill-opacity": 0.5,
+        "fill-outline-color": "#FF0000"
+      }
+    }
+  ]
+}

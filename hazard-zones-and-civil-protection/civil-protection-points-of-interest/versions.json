@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.357114Z",
+      "breaking": false,
+      "assets": {
+        "civil-protection-points-of-interest.parquet": {
+          "sha256": "e551e4a24337ec47c5de5384538634abf7ec2a882937d6e5fa27ff07876e5c40",
+          "size_bytes": 97226,
+          "href": "hazard-zones-and-civil-protection/civil-protection-points-of-interest/civil-protection-points-of-interest.parquet",
+          "source_mtime": 1788447297.3733442,
+          "mtime": 1788447297.3733442,
+          "feature_count": 1261,
+          "schema_fingerprint": "ab6bfd6e288f88f7"
+        },
+        "civil-protection-points-of-interest.pmtiles": {
+          "sha256": "272ba4dee284abe4c39d57025858bef5d308129e772a426fcc9a723a6ef0035c",
+          "size_bytes": 152640,
+          "href": "hazard-zones-and-civil-protection/civil-protection-points-of-interest/civil-protection-points-of-interest.pmtiles",
+          "mtime": 1788448372.2785227
+        },
+        "README.md": {
+          "sha256": "bdc744e8502d7bca7f059029d0b624fa0535c2553a7a1f3f857482904383f8f4",
+          "size_bytes": 4076,
+          "href": "hazard-zones-and-civil-protection/civil-protection-points-of-interest/README.md",
+          "mtime": 1788448923.2012382
+        },
+        "civil-protection-points-of-interest.thumb.jpg": {
+          "sha256": "5562062f123bd9858abefc96696952272b7b4e2bbbd6e189c9b4cedce2eca8ad",
+          "size_bytes": 63518,
+          "href": "hazard-zones-and-civil-protection/civil-protection-points-of-interest/civil-protection-points-of-interest.thumb.jpg",
+          "mtime": 1788449308.852546
+        }
+      },
+      "changes": [
+        "civil-protection-points-of-interest.parquet",
+        "civil-protection-points-of-interest.pmtiles",
+        "README.md",
+        "civil-protection-points-of-interest.thumb.jpg"
+      ]
+    }
+  ]
+}

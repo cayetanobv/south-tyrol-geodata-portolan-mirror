@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "name": "RestHomes",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../rest-homes.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 5
+    }
+  },
+  "layers": [
+    {
+      "id": "circle-0",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "rest-homes",
+      "paint": {
+        "circle-color": "#1EDEDA",
+        "circle-radius": 5.0,
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}

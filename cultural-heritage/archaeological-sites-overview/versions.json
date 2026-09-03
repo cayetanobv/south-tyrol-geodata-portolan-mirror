@@ -1,0 +1,46 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-09-03T15:30:36.246984Z",
+      "breaking": false,
+      "assets": {
+        "archaeological-sites-overview.thumb.jpg": {
+          "sha256": "24b73edaf3d3613670d059c84be16992c850cbd5aa7091f7f29a4f751384119b",
+          "size_bytes": 100171,
+          "href": "cultural-heritage/archaeological-sites-overview/archaeological-sites-overview.thumb.jpg",
+          "mtime": 1788449303.9484537
+        },
+        "archaeological-sites-overview.parquet": {
+          "sha256": "6e109e7b697061b027aca69b926261a2de306eea1cde1d00ab78c205cf4a17d4",
+          "size_bytes": 1097658,
+          "href": "cultural-heritage/archaeological-sites-overview/archaeological-sites-overview.parquet",
+          "source_mtime": 1788448316.7934105,
+          "mtime": 1788448316.7934105,
+          "feature_count": 7263,
+          "schema_fingerprint": "d98ac70160bf65d9"
+        },
+        "README.md": {
+          "sha256": "6193d70002a0592bac4fd8a05d18f0db739e5d7d451e86ff61361febab7cbd91",
+          "size_bytes": 3806,
+          "href": "cultural-heritage/archaeological-sites-overview/README.md",
+          "mtime": 1788448923.1212366
+        },
+        "archaeological-sites-overview.pmtiles": {
+          "sha256": "07d53e69bced03e794ed95b6c3540c6dc147b0a63a897e996d7724c8ce025f79",
+          "size_bytes": 1604640,
+          "href": "cultural-heritage/archaeological-sites-overview/archaeological-sites-overview.pmtiles",
+          "mtime": 1788448341.8339136
+        }
+      },
+      "changes": [
+        "archaeological-sites-overview.thumb.jpg",
+        "archaeological-sites-overview.parquet",
+        "README.md",
+        "archaeological-sites-overview.pmtiles"
+      ]
+    }
+  ]
+}

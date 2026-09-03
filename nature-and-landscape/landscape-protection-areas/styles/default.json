@@ -1,0 +1,40 @@
+{
+  "version": 8,
+  "name": "LandscapePlan-ProtectedAreas",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../landscape-protection-areas.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 11
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "landscape-protection-areas",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "CODE"
+          ],
+          1015108,
+          "#888888",
+          1015203,
+          "#888888",
+          1015207,
+          "#888888",
+          1015208,
+          "#888888",
+          "#cccccc"
+        ],
+        "fill-opacity": 1.0,
+        "fill-outline-color": "#00CEAE"
+      }
+    }
+  ]
+}

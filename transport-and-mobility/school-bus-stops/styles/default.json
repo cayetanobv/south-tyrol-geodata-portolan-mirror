@@ -1,0 +1,69 @@
+{
+  "version": 8,
+  "name": "PublicTransport-SchoolBusStops",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../school-bus-stops.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 7
+    }
+  },
+  "layers": [
+    {
+      "id": "circle-0",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "school-bus-stops",
+      "paint": {
+        "circle-color": "#EE7C00",
+        "circle-radius": 3.5,
+        "circle-opacity": 1.0
+      }
+    },
+    {
+      "id": "circle-1",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "school-bus-stops",
+      "paint": {
+        "circle-color": "#888888",
+        "circle-radius": 5.0,
+        "circle-opacity": 1.0
+      }
+    },
+    {
+      "id": "circle-1-labels",
+      "type": "symbol",
+      "source": "data",
+      "source-layer": "school-bus-stops",
+      "layout": {
+        "text-field": [
+          "get",
+          "MAP_LABEL"
+        ],
+        "text-size": 12.0,
+        "text-anchor": "bottom",
+        "text-font": [
+          "Noto Sans Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "#1E321E",
+        "text-halo-color": "#FFF5C8",
+        "text-halo-width": 1.0
+      }
+    },
+    {
+      "id": "circle-3",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "school-bus-stops",
+      "paint": {
+        "circle-color": "#888888",
+        "circle-radius": 7.5,
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}

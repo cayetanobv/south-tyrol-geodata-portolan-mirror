@@ -1,0 +1,55 @@
+{
+  "version": 8,
+  "name": "GlaciersInventory",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../glacier-inventory.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 12
+    }
+  },
+  "layers": [
+    {
+      "id": "categorical-fill",
+      "type": "fill",
+      "source": "data",
+      "source-layer": "glacier-inventory",
+      "paint": {
+        "fill-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          1997,
+          "#B6E9F8",
+          2005,
+          "#A4E4F5",
+          2017,
+          "#99DEEE",
+          2023,
+          "#8AD3F0",
+          "#cccccc"
+        ],
+        "fill-opacity": 0.48,
+        "fill-outline-color": [
+          "match",
+          [
+            "get",
+            "#555555"
+          ],
+          1997,
+          "#C3C8D2",
+          2005,
+          "#A7D0FF",
+          2017,
+          "#82C3FF",
+          2023,
+          "#55A8F4",
+          "#000000"
+        ]
+      }
+    }
+  ]
+}

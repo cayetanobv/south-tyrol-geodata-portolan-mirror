@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "name": "Boreholes",
+  "sources": {
+    "data": {
+      "type": "vector",
+      "url": "pmtiles://../boreholes.pmtiles",
+      "minzoom": 0,
+      "maxzoom": 10
+    }
+  },
+  "layers": [
+    {
+      "id": "circle-0",
+      "type": "circle",
+      "source": "data",
+      "source-layer": "boreholes",
+      "paint": {
+        "circle-color": "#C80000",
+        "circle-radius": 5.0,
+        "circle-opacity": 1.0
+      }
+    }
+  ]
+}
