@@ -45,7 +45,7 @@ Community mirror of the dataset «Farmacie» published by the Provincia Autonoma
 |------|------|----------|
 | ./styles/default.json | 452 B | 122099a53a57... |
 | ./legends/source.png | 811 B | 122017824ec8... |
-| ./README.md | 3.3 KB | 1220768d845d... |
+| ./README.md | 3.3 KB | 1220032da0dc... |
 | ./pharmacies.parquet | 25.9 KB | 1220fcaf2f29... |
 | ./pharmacies.thumb.jpg | 55.5 KB | 1220e3e545d7... |
 | ./pharmacies.pmtiles | 45.0 KB | 1220df02286a... |

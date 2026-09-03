@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "tunnels.pmtiles",
         "README.md",
         "tunnels.parquet"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.460239Z",
+      "breaking": false,
+      "assets": {
+        "tunnels.thumb.jpg": {
+          "sha256": "30e8ebf6ce165a2b3c767140e5af50583e126e0e4429ef69c291335b5f681a64",
+          "size_bytes": 47953,
+          "href": "transport-and-mobility/tunnels/tunnels.thumb.jpg",
+          "mtime": 1788449327.7329018
+        },
+        "tunnels.pmtiles": {
+          "sha256": "07757fd1db7ce14d4aa6598c4164115a42448c1c6abb363c3082d4e0667f3ca5",
+          "size_bytes": 169034,
+          "href": "transport-and-mobility/tunnels/tunnels.pmtiles",
+          "mtime": 1788448541.9458773
+        },
+        "README.md": {
+          "sha256": "bb89f26afd2628ee4b83d7e22f15634e6751a742340371e19dbe91cbb485de2c",
+          "size_bytes": 4273,
+          "href": "transport-and-mobility/tunnels/README.md",
+          "mtime": 1788449438.0549774
+        },
+        "tunnels.parquet": {
+          "sha256": "782ff6026c1a63936aec1e0e58c06f445fd7b7a06008679aaf177e169fd52768",
+          "size_bytes": 41067,
+          "href": "transport-and-mobility/tunnels/tunnels.parquet",
+          "source_mtime": 1788447372.2506962,
+          "mtime": 1788447372.2506962,
+          "feature_count": 261,
+          "schema_fingerprint": "f16f373b88b3d07c"
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

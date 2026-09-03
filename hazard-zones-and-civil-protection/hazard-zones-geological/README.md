@@ -37,7 +37,7 @@ Community mirror of the dataset «Piano delle Zone di Pericolo: Zone rischio geo
 |------|------|----------|
 | ./styles/default.json | 757 B | 1220bc7d1a30... |
 | ./legends/source.png | 1.9 KB | 1220c2f77ce1... |
-| ./README.md | 4.2 KB | 1220cd67d901... |
+| ./README.md | 4.2 KB | 1220a7ce2cb5... |
 | ./hazard-zones-geological.parquet | 25.1 KB | 12205c328f5e... |
 | ./hazard-zones-geological.thumb.jpg | 32.3 KB | 12205bf4054c... |
 | ./hazard-zones-geological.pmtiles | 32.8 KB | 1220cbb05a47... |

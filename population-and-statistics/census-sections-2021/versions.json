@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "census-sections-2021.thumb.jpg",
         "README.md",
         "census-sections-2021.pmtiles"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.218885Z",
+      "breaking": false,
+      "assets": {
+        "census-sections-2021.parquet": {
+          "sha256": "473dc2b5def09d79d89fc70630b0d67aed628abb63bd7ee86d32a0a50672b530",
+          "size_bytes": 6186699,
+          "href": "population-and-statistics/census-sections-2021/census-sections-2021.parquet",
+          "source_mtime": 1788447424.4036381,
+          "mtime": 1788447424.4036381,
+          "feature_count": 12660,
+          "schema_fingerprint": "eb441dd89fb287f8"
+        },
+        "census-sections-2021.thumb.jpg": {
+          "sha256": "122b832e059ffbbe4481452ff6317dead83a50499918c70e09e12a20a789a9d6",
+          "size_bytes": 130325,
+          "href": "population-and-statistics/census-sections-2021/census-sections-2021.thumb.jpg",
+          "mtime": 1788449320.0647573
+        },
+        "README.md": {
+          "sha256": "5ad95eec435a19d6daa0feaea755eed5375b894fab5ed3dedfb65ab68029c29e",
+          "size_bytes": 3431,
+          "href": "population-and-statistics/census-sections-2021/README.md",
+          "mtime": 1788449437.9669757
+        },
+        "census-sections-2021.pmtiles": {
+          "sha256": "3ef2586777411ec0e593a5c095af31f8df362cc593258cd64de80117bad58bbf",
+          "size_bytes": 7351541,
+          "href": "population-and-statistics/census-sections-2021/census-sections-2021.pmtiles",
+          "mtime": 1788448485.9527771
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

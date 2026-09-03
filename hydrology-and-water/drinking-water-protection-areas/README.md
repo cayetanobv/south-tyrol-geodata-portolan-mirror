@@ -40,7 +40,7 @@ Community mirror of the dataset «Aree di tutela dell'acqua potabile» published
 | ./styles/default.json | 1022 B | 122009c42dea... |
 | ./legends/source.png | 821 B | 122063762e8f... |
 | ./drinking-water-protection-areas.parquet | 513.7 KB | 12206b06c073... |
-| ./README.md | 3.6 KB | 1220c070c6dc... |
+| ./README.md | 3.6 KB | 12205ee3699b... |
 | ./drinking-water-protection-areas.thumb.jpg | 93.2 KB | 122014aaa626... |
 | ./drinking-water-protection-areas.pmtiles | 1.2 MB | 12207700ebf2... |
 

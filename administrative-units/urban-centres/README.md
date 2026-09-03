@@ -39,7 +39,7 @@ Community mirror of the dataset «Centri edificati (LP 10/91)» published by the
 | ./styles/default.json | 718 B | 1220c1937739... |
 | ./legends/source.png | 139 B | 1220ae26556a... |
 | ./urban-centres.parquet | 298.1 KB | 122081a5b38a... |
-| ./README.md | 3.8 KB | 122081e64853... |
+| ./README.md | 3.8 KB | 12200e3c4da9... |
 | ./urban-centres.thumb.jpg | 68.1 KB | 1220dc0f6843... |
 | ./urban-centres.pmtiles | 442.4 KB | 12200688b507... |
 

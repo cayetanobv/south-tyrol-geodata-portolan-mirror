@@ -39,7 +39,7 @@ Community mirror of the dataset Â«Stato dei Piani di Protezione Civile comunaliÂ
 | ./styles/default.json | 715 B | 1220a2491877... |
 | ./legends/source.png | 1.0 KB | 1220cbb405de... |
 | ./civil-protection-plan-status.parquet | 461.1 KB | 1220488f9201... |
-| ./README.md | 4.0 KB | 12207739189e... |
+| ./README.md | 4.1 KB | 122063b649df... |
 | ./civil-protection-plan-status.thumb.jpg | 101.4 KB | 122026c9f660... |
 | ./civil-protection-plan-status.pmtiles | 476.3 KB | 1220c9aff964... |
 

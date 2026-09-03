@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "family-counselling-centres.parquet",
         "README.md",
         "family-counselling-centres.thumb.jpg"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.954488Z",
+      "breaking": false,
+      "assets": {
+        "family-counselling-centres.pmtiles": {
+          "sha256": "17558e94fb0afe3d42580ae18625cd665399a0eb0caf0f9a9dfc48e66f62132e",
+          "size_bytes": 18353,
+          "href": "health/family-counselling-centres/family-counselling-centres.pmtiles",
+          "mtime": 1788448406.8392115
+        },
+        "family-counselling-centres.parquet": {
+          "sha256": "2b4b429f7fd8d4db8dd46d89fae5837fe550fd7c1f5a75c41bb2d7197bf6628a",
+          "size_bytes": 13990,
+          "href": "health/family-counselling-centres/family-counselling-centres.parquet",
+          "source_mtime": 1788447240.5923193,
+          "mtime": 1788447240.5923193,
+          "feature_count": 42,
+          "schema_fingerprint": "74c3b5cbe553dd0b"
+        },
+        "README.md": {
+          "sha256": "2394fb91b831da15b18828e77fa356c331af2facd750b72793cb11ca7e97f1c8",
+          "size_bytes": 3856,
+          "href": "health/family-counselling-centres/README.md",
+          "mtime": 1788449437.822973
+        },
+        "family-counselling-centres.thumb.jpg": {
+          "sha256": "784554afec674b2385cf28394c8541852e231c8d2adcf430ac6bf3c10defae6b",
+          "size_bytes": 40065,
+          "href": "health/family-counselling-centres/family-counselling-centres.thumb.jpg",
+          "mtime": 1788449311.612598
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

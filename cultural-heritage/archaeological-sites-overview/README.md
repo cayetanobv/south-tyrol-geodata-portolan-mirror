@@ -31,7 +31,7 @@ Community mirror of the dataset «Zone archeologiche (visione generale)» publis
 | ./styles/default.json | 949 B | 1220d464985b... |
 | ./legends/source.png | 1.8 KB | 1220a73aeb45... |
 | ./archaeological-sites-overview.parquet | 1.0 MB | 12206e109e7b... |
-| ./README.md | 3.7 KB | 12206193d700... |
+| ./README.md | 3.7 KB | 12209b6281fc... |
 | ./archaeological-sites-overview.thumb.jpg | 97.8 KB | 122024b73eda... |
 | ./archaeological-sites-overview.pmtiles | 1.5 MB | 122007d53e69... |
 

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "README.md",
         "hazard-zones-geological.parquet",
         "hazard-zones-geological.thumb.jpg"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.913932Z",
+      "breaking": false,
+      "assets": {
+        "hazard-zones-geological.pmtiles": {
+          "sha256": "cbb05a47fe46cdcf77f50eb42c53a46e2c7dab880f1dcf94e2843c74a50e5e37",
+          "size_bytes": 33564,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-geological/hazard-zones-geological.pmtiles",
+          "mtime": 1788448384.410765
+        },
+        "README.md": {
+          "sha256": "a7ce2cb5ee2b3622fb89781c04404880bac06560fb21f9f8c7cf144be048edd6",
+          "size_bytes": 4306,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-geological/README.md",
+          "mtime": 1788449437.7949724
+        },
+        "hazard-zones-geological.parquet": {
+          "sha256": "5c328f5e117aab421531eccbb5d79660fe349c69701ae16a379619a5a934fac9",
+          "size_bytes": 25684,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-geological/hazard-zones-geological.parquet",
+          "source_mtime": 1788448322.5695267,
+          "mtime": 1788448322.5695267,
+          "feature_count": 49,
+          "schema_fingerprint": "c87d72a49ee165f4"
+        },
+        "hazard-zones-geological.thumb.jpg": {
+          "sha256": "5bf4054c20eb944cbcb3115f9852e1403fe2d0580c1488b4b054549180f03bbd",
+          "size_bytes": 33047,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-geological/hazard-zones-geological.thumb.jpg",
+          "mtime": 1788449309.9405665
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

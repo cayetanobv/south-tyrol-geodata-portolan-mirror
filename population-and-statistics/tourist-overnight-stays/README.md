@@ -39,7 +39,7 @@ Community mirror of the dataset «Turismo Pernottamenti [numero]» published by 
 |------|------|----------|
 | ./legends/source.png | 726 B | 1220791784bb... |
 | ./tourist-overnight-stays.parquet | 415.2 KB | 1220d8c9f602... |
-| ./README.md | 3.9 KB | 1220c7f8b7bb... |
+| ./README.md | 3.9 KB | 1220877b9125... |
 | ./tourist-overnight-stays.thumb.jpg | 84.5 KB | 122000e66087... |
 | ./tourist-overnight-stays.pmtiles | 577.4 KB | 1220ecfdaedc... |
 | ./styles/default.json | 502 B | 122004fa39a8... |

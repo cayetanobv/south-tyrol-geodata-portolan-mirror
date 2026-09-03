@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "cycle-routes-tyrol.pmtiles",
         "README.md",
         "cycle-routes-tyrol.thumb.jpg"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.321014Z",
+      "breaking": false,
+      "assets": {
+        "cycle-routes-tyrol.parquet": {
+          "sha256": "103809775ab1c5b49f26fd1315a19ec2988c8f2f8a3ccfd9dadb7c77bad91801",
+          "size_bytes": 2197302,
+          "href": "transport-and-mobility/cycle-routes-tyrol/cycle-routes-tyrol.parquet",
+          "source_mtime": 1788447351.1263146,
+          "mtime": 1788447351.1263146,
+          "feature_count": 1085,
+          "schema_fingerprint": "310440044dbd6541"
+        },
+        "cycle-routes-tyrol.pmtiles": {
+          "sha256": "5e61476654ebd8d35de2aec131f31c678b513e483c0eb81e4dbe16a8633bf0f4",
+          "size_bytes": 5540271,
+          "href": "transport-and-mobility/cycle-routes-tyrol/cycle-routes-tyrol.pmtiles",
+          "mtime": 1788448510.181254
+        },
+        "README.md": {
+          "sha256": "8293e6da3b81fb7c2134ea7bfc5693ced9bbf8203bf517706c58bcdd2a966e16",
+          "size_bytes": 3891,
+          "href": "transport-and-mobility/cycle-routes-tyrol/README.md",
+          "mtime": 1788449438.0149767
+        },
+        "cycle-routes-tyrol.thumb.jpg": {
+          "sha256": "1f600b813adb0f165b5e67d5bcaad85e69592fa7278c50bda6396c9864654173",
+          "size_bytes": 151012,
+          "href": "transport-and-mobility/cycle-routes-tyrol/cycle-routes-tyrol.thumb.jpg",
+          "mtime": 1788449322.9248111
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

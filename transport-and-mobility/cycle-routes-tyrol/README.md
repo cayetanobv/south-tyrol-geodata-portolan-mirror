@@ -48,7 +48,7 @@ Community mirror of the dataset «Percorsi ciclabili del Tirolo» published by t
 | ./styles/default.json | 1.1 KB | 12201ec96b8f... |
 | ./legends/source.png | 3.6 KB | 122020f171e7... |
 | ./cycle-routes-tyrol.parquet | 2.1 MB | 122010380977... |
-| ./README.md | 3.8 KB | 122096b940c7... |
+| ./README.md | 3.8 KB | 12208293e6da... |
 | ./cycle-routes-tyrol.thumb.jpg | 147.5 KB | 12201f600b81... |
 | ./cycle-routes-tyrol.pmtiles | 5.3 MB | 12205e614766... |
 

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "filling-stations.pmtiles",
         "README.md",
         "filling-stations.thumb.jpg"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.335697Z",
+      "breaking": false,
+      "assets": {
+        "filling-stations.parquet": {
+          "sha256": "4aea01ba71efc2089d0a92d2e18672732805f6fca1c7000487a6e4ea15d13e4f",
+          "size_bytes": 27618,
+          "href": "transport-and-mobility/filling-stations/filling-stations.parquet",
+          "source_mtime": 1788447365.6825776,
+          "mtime": 1788447365.6825776,
+          "feature_count": 160,
+          "schema_fingerprint": "459308882eaa9a90"
+        },
+        "filling-stations.pmtiles": {
+          "sha256": "a391d08f6115bddf1f38f159e8c7644d9c362998d3b217aa3fd3dc13cfa2c6ba",
+          "size_bytes": 34875,
+          "href": "transport-and-mobility/filling-stations/filling-stations.pmtiles",
+          "mtime": 1788448512.8173058
+        },
+        "README.md": {
+          "sha256": "f220093b1d1bd190109f84d34138960a3f559d4dcd696d5becb9400e6e20c1b0",
+          "size_bytes": 4584,
+          "href": "transport-and-mobility/filling-stations/README.md",
+          "mtime": 1788449438.0189767
+        },
+        "filling-stations.thumb.jpg": {
+          "sha256": "fc559f78ddf5bc9dab5eb7f172b4b3cbd76af941eee7e4dec0b97c22afec3e79",
+          "size_bytes": 56641,
+          "href": "transport-and-mobility/filling-stations/filling-stations.thumb.jpg",
+          "mtime": 1788449323.188816
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

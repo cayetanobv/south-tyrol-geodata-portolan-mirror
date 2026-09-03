@@ -41,7 +41,7 @@ Community mirror of the dataset «Corsi d'acqua» published by the Provincia Aut
 | ./styles/default.json | 1.2 KB | 1220c3962ff2... |
 | ./legends/source.png | 223 B | 1220f35d44f4... |
 | ./watercourses.parquet | 1.4 MB | 122021bdef3a... |
-| ./README.md | 3.7 KB | 1220b8aa32dd... |
+| ./README.md | 3.7 KB | 12207792f0d0... |
 | ./watercourses.thumb.jpg | 212.4 KB | 12204ef2d01c... |
 | ./watercourses.pmtiles | 3.6 MB | 1220ec6cff04... |
 

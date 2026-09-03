@@ -33,7 +33,7 @@ Community mirror of the dataset «Impianti di depurazione biologici» published 
 | ./styles/default.json | 847 B | 1220cd848b03... |
 | ./legends/source.png | 847 B | 122073b096bb... |
 | ./wastewater-treatment-plants.parquet | 8.6 KB | 12201f95aefb... |
-| ./README.md | 3.8 KB | 1220eeef2164... |
+| ./README.md | 3.8 KB | 1220fa6230da... |
 | ./wastewater-treatment-plants.thumb.jpg | 51.8 KB | 12208a77f466... |
 | ./wastewater-treatment-plants.pmtiles | 6.4 KB | 12201365343b... |
 

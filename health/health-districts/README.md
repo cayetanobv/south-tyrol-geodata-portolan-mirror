@@ -33,7 +33,7 @@ Community mirror of the dataset «Distretti sanitari» published by the Provinci
 |------|------|----------|
 | ./styles/default.json | 723 B | 122002a542c7... |
 | ./legends/source.png | 128 B | 122007a0bf8a... |
-| ./README.md | 3.4 KB | 1220302f6f08... |
+| ./README.md | 3.4 KB | 1220e1f46970... |
 | ./health-districts.parquet | 189.7 KB | 1220bfe88f08... |
 | ./health-districts.thumb.jpg | 64.2 KB | 122011810ce5... |
 | ./health-districts.pmtiles | 131.3 KB | 12208e6c37be... |

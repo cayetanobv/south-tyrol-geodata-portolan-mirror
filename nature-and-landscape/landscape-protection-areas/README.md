@@ -50,7 +50,7 @@ Community mirror of the dataset «Zone di tutela paesaggistica» published by th
 | ./styles/default.json | 780 B | 1220f237e208... |
 | ./legends/source.png | 3.6 KB | 12207516658d... |
 | ./landscape-protection-areas.parquet | 1.3 MB | 1220c48c5248... |
-| ./README.md | 4.2 KB | 122057a3dfa4... |
+| ./README.md | 4.2 KB | 12206561620c... |
 | ./landscape-protection-areas.thumb.jpg | 112.4 KB | 12202613d32f... |
 | ./landscape-protection-areas.pmtiles | 1.5 MB | 122096b545af... |
 

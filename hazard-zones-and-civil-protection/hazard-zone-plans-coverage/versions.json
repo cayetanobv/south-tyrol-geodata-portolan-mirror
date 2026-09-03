@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "hazard-zone-plans-coverage.parquet",
         "README.md",
         "hazard-zone-plans-coverage.pmtiles"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.893912Z",
+      "breaking": false,
+      "assets": {
+        "hazard-zone-plans-coverage.thumb.jpg": {
+          "sha256": "384f4655ed71b02442a4676440dd688d1620bcc880b862a3c5919a5421c1356b",
+          "size_bytes": 103842,
+          "href": "hazard-zones-and-civil-protection/hazard-zone-plans-coverage/hazard-zone-plans-coverage.thumb.jpg",
+          "mtime": 1788449309.224553
+        },
+        "hazard-zone-plans-coverage.parquet": {
+          "sha256": "99fea3cf483474d4e068739533caf7e569ac33793da0db5a864ae1324a05255a",
+          "size_bytes": 472071,
+          "href": "hazard-zones-and-civil-protection/hazard-zone-plans-coverage/hazard-zone-plans-coverage.parquet",
+          "source_mtime": 1788448320.7934911,
+          "mtime": 1788448320.7934911,
+          "feature_count": 116,
+          "schema_fingerprint": "c847025dfd1e637d"
+        },
+        "README.md": {
+          "sha256": "ea8bbd5245d39e3a00f5ac7016a438210817bc05be80a9e5a29080caeebe36d5",
+          "size_bytes": 4078,
+          "href": "hazard-zones-and-civil-protection/hazard-zone-plans-coverage/README.md",
+          "mtime": 1788449437.7869723
+        },
+        "hazard-zone-plans-coverage.pmtiles": {
+          "sha256": "fff628445874c8466e1dc03ca6539401103558e3aba1e2c741c8aa3609b90a0b",
+          "size_bytes": 470651,
+          "href": "hazard-zones-and-civil-protection/hazard-zone-plans-coverage/hazard-zone-plans-coverage.pmtiles",
+          "mtime": 1788448374.5025673
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

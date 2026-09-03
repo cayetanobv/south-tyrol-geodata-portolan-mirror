@@ -33,7 +33,7 @@ Community mirror of the dataset «Principali faglie» published by the Provincia
 | ./styles/default.json | 1.3 KB | 1220948e83a2... |
 | ./legends/source.png | 7.3 KB | 12209aa63513... |
 | ./main-faults.parquet | 108.2 KB | 1220273b3be3... |
-| ./README.md | 3.4 KB | 12206d0844f1... |
+| ./README.md | 3.4 KB | 1220e7017caf... |
 | ./main-faults.thumb.jpg | 99.9 KB | 12209848e018... |
 | ./main-faults.pmtiles | 99.8 KB | 12200aee16c3... |
 

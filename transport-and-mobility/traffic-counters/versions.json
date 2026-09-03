@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "traffic-counters.pmtiles",
         "README.md",
         "traffic-counters.thumb.jpg"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.443523Z",
+      "breaking": false,
+      "assets": {
+        "traffic-counters.parquet": {
+          "sha256": "7dcbe368e3dd515ce3584fe6f3621aab21acff59296027fe4fbc7a96aa542f32",
+          "size_bytes": 25866,
+          "href": "transport-and-mobility/traffic-counters/traffic-counters.parquet",
+          "source_mtime": 1788447378.982818,
+          "mtime": 1788447378.982818,
+          "feature_count": 107,
+          "schema_fingerprint": "da708a294302fd50"
+        },
+        "traffic-counters.pmtiles": {
+          "sha256": "18491764e5cd7663682d884a6ffd7d5974bdc9607ee44884911a886b83797473",
+          "size_bytes": 28858,
+          "href": "transport-and-mobility/traffic-counters/traffic-counters.pmtiles",
+          "mtime": 1788448539.7618344
+        },
+        "README.md": {
+          "sha256": "d7ec9b7c19b5ef5b81a3657d7eb6e6a0260ffcc0583c6bd0b30192cca25e0bcb",
+          "size_bytes": 4347,
+          "href": "transport-and-mobility/traffic-counters/README.md",
+          "mtime": 1788449438.0509772
+        },
+        "traffic-counters.thumb.jpg": {
+          "sha256": "50f67dc3455f84f573c60f14bd01d6fb6aa0d9a735822a64a99e8b1a0f61addf",
+          "size_bytes": 66062,
+          "href": "transport-and-mobility/traffic-counters/traffic-counters.thumb.jpg",
+          "mtime": 1788449327.0928898
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "natura-2000-sites.parquet",
         "natura-2000-sites.thumb.jpg",
         "natura-2000-sites.pmtiles",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.165619Z",
+      "breaking": false,
+      "assets": {
+        "natura-2000-sites.parquet": {
+          "sha256": "1e7b5ebc87b99e235b292307a55d86ee7edec49d37ba2623ee8ac947373241c1",
+          "size_bytes": 222530,
+          "href": "nature-and-landscape/natura-2000-sites/natura-2000-sites.parquet",
+          "source_mtime": 1788447311.4175978,
+          "mtime": 1788447311.4175978,
+          "feature_count": 44,
+          "schema_fingerprint": "39074b527f02ebdb"
+        },
+        "natura-2000-sites.thumb.jpg": {
+          "sha256": "8fced35939764bcc7a045522976f7eecbff5511ec1089e3cb21bc397a7510a4a",
+          "size_bytes": 72661,
+          "href": "nature-and-landscape/natura-2000-sites/natura-2000-sites.thumb.jpg",
+          "mtime": 1788449318.7647328
+        },
+        "natura-2000-sites.pmtiles": {
+          "sha256": "d103a5ecc2f7db229c7d1a7d7f08d2110267d99af49556b647b14288e638b4d6",
+          "size_bytes": 224562,
+          "href": "nature-and-landscape/natura-2000-sites/natura-2000-sites.pmtiles",
+          "mtime": 1788448465.6083758
+        },
+        "README.md": {
+          "sha256": "e566b6bc5adbfa79093d71c3e26b201fae796d00dfbb9a40a90235602e1b667f",
+          "size_bytes": 4117,
+          "href": "nature-and-landscape/natura-2000-sites/README.md",
+          "mtime": 1788449437.9349751
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

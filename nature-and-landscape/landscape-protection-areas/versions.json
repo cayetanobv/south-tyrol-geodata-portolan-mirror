@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "landscape-protection-areas.thumb.jpg",
         "landscape-protection-areas.pmtiles",
         "landscape-protection-areas.parquet",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.135304Z",
+      "breaking": false,
+      "assets": {
+        "landscape-protection-areas.thumb.jpg": {
+          "sha256": "2613d32f3fb3b220273f7c8ed849dac88f331bdb0bd746034b1f5d50f392ca83",
+          "size_bytes": 115123,
+          "href": "nature-and-landscape/landscape-protection-areas/landscape-protection-areas.thumb.jpg",
+          "mtime": 1788449317.9527175
+        },
+        "landscape-protection-areas.pmtiles": {
+          "sha256": "96b545af64a4f782eeb35491bbdfc3db91646e03136a86e66035a6a2a6d6b072",
+          "size_bytes": 1568706,
+          "href": "nature-and-landscape/landscape-protection-areas/landscape-protection-areas.pmtiles",
+          "mtime": 1788448459.7162595
+        },
+        "landscape-protection-areas.parquet": {
+          "sha256": "c48c52483af80f39165e8c2986690686d1e2b13f72bf52561caed5e23f7e15e5",
+          "size_bytes": 1337395,
+          "href": "nature-and-landscape/landscape-protection-areas/landscape-protection-areas.parquet",
+          "source_mtime": 1788447320.353759,
+          "mtime": 1788447320.353759,
+          "feature_count": 2415,
+          "schema_fingerprint": "d1c1cdbd0b03a8a1"
+        },
+        "README.md": {
+          "sha256": "6561620cd62e236fe17cd7677f01fe8445b41d87adf071fe88e0624efcc4dbce",
+          "size_bytes": 4328,
+          "href": "nature-and-landscape/landscape-protection-areas/README.md",
+          "mtime": 1788449437.9229748
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

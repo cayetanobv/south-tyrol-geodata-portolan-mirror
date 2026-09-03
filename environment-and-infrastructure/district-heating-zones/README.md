@@ -35,7 +35,7 @@ Community mirror of the dataset «Teleriscaldamento zone servite» published by 
 | ./styles/default.json | 491 B | 122036e65074... |
 | ./legends/source.png | 129 B | 1220283cbc93... |
 | ./district-heating-zones.parquet | 125.6 KB | 1220d3882e6c... |
-| ./README.md | 3.5 KB | 12200d4e84d0... |
+| ./README.md | 3.5 KB | 12202ceb4730... |
 | ./district-heating-zones.thumb.jpg | 50.1 KB | 1220c8f3735f... |
 | ./district-heating-zones.pmtiles | 141.9 KB | 1220ebd98435... |
 

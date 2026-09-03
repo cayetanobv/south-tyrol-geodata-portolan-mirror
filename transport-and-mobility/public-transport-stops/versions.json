@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "README.md",
         "public-transport-stops.thumb.jpg",
         "public-transport-stops.parquet"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.393456Z",
+      "breaking": false,
+      "assets": {
+        "public-transport-stops.pmtiles": {
+          "sha256": "9ba3d4c8b6eb59b7e2623d6cf05012000adf42fb2f751c5513e2682d5191db1b",
+          "size_bytes": 919780,
+          "href": "transport-and-mobility/public-transport-stops/public-transport-stops.pmtiles",
+          "mtime": 1788448532.701696
+        },
+        "README.md": {
+          "sha256": "9fe0bb3137781afd3c10c62b1f41a0d0b4ccc66d2163f75922900cee61d19bfa",
+          "size_bytes": 4181,
+          "href": "transport-and-mobility/public-transport-stops/README.md",
+          "mtime": 1788449438.034977
+        },
+        "public-transport-stops.thumb.jpg": {
+          "sha256": "84e66064d672951d5f327c755cf33c4a82290331471d8252fe05ec36a8d8c214",
+          "size_bytes": 111906,
+          "href": "transport-and-mobility/public-transport-stops/public-transport-stops.thumb.jpg",
+          "mtime": 1788449325.4048579
+        },
+        "public-transport-stops.parquet": {
+          "sha256": "440ab11b7a14f07849f301bea947cec0c8fdf0324407e2d356e85b573f992e68",
+          "size_bytes": 463989,
+          "href": "transport-and-mobility/public-transport-stops/public-transport-stops.parquet",
+          "source_mtime": 1788447289.1011949,
+          "mtime": 1788447289.1011949,
+          "feature_count": 7185,
+          "schema_fingerprint": "25fbbbe001a2a28a"
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

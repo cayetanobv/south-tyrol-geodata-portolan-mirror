@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "districts.pmtiles",
         "districts.parquet",
         "districts.thumb.jpg",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.723281Z",
+      "breaking": false,
+      "assets": {
+        "districts.pmtiles": {
+          "sha256": "872a127e9701a8b97840cf89df9b7fd987e76284fee1d06cce34ccfbc312d2ca",
+          "size_bytes": 88114,
+          "href": "administrative-units/districts/districts.pmtiles",
+          "mtime": 1788448330.4256847
+        },
+        "districts.parquet": {
+          "sha256": "6783cbc2e116da8183276b7c40415e02f80220f5bc9354a1b173d32bc40600c8",
+          "size_bytes": 151874,
+          "href": "administrative-units/districts/districts.parquet",
+          "source_mtime": 1788448314.8933723,
+          "mtime": 1788448314.8933723,
+          "feature_count": 8,
+          "schema_fingerprint": "c48a2069a1ed964e"
+        },
+        "districts.thumb.jpg": {
+          "sha256": "f8775cdf6ce704e8fb7cafae7e0c03d841c9036b0516397fb2285bfbe9016791",
+          "size_bytes": 65686,
+          "href": "administrative-units/districts/districts.thumb.jpg",
+          "mtime": 1788449302.7124302
+        },
+        "README.md": {
+          "sha256": "cdbbe574a1651777b259909dcdbcd43b9da982db2b866ffa62be13c09cd7a04f",
+          "size_bytes": 3654,
+          "href": "administrative-units/districts/README.md",
+          "mtime": 1788449437.6829705
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

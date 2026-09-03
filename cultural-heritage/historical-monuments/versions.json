@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "README.md",
         "historical-monuments.thumb.jpg",
         "historical-monuments.pmtiles"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.769983Z",
+      "breaking": false,
+      "assets": {
+        "historical-monuments.parquet": {
+          "sha256": "b6ca6ac2e0c9e9d7ca496082d224d7318cb9487acafe28cfd076159c018ea22e",
+          "size_bytes": 706765,
+          "href": "cultural-heritage/historical-monuments/historical-monuments.parquet",
+          "source_mtime": 1788448317.413423,
+          "mtime": 1788448317.413423,
+          "feature_count": 8144,
+          "schema_fingerprint": "8099c4ab47b00ddf"
+        },
+        "README.md": {
+          "sha256": "ee4eb07cb0ea2f0872459a25be7362e66a350a4d042a711ee9258dda9e77e9aa",
+          "size_bytes": 3960,
+          "href": "cultural-heritage/historical-monuments/README.md",
+          "mtime": 1788449437.7109709
+        },
+        "historical-monuments.thumb.jpg": {
+          "sha256": "2807dcdb526062e65283768f124f9f00ac761cfbf80af95ce6abca0f1ac827a7",
+          "size_bytes": 105121,
+          "href": "cultural-heritage/historical-monuments/historical-monuments.thumb.jpg",
+          "mtime": 1788449304.7524688
+        },
+        "historical-monuments.pmtiles": {
+          "sha256": "8a13c558b21a6ed38217e2c1bab89a61640921a163c2ad03ee145661e222c81c",
+          "size_bytes": 2292689,
+          "href": "cultural-heritage/historical-monuments/historical-monuments.pmtiles",
+          "mtime": 1788448345.297983
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

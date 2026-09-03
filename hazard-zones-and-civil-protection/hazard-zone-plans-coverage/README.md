@@ -38,7 +38,7 @@ Community mirror of the dataset «Piano delle Zone di Pericolo: Copertura» publ
 | ./styles/default.json | 697 B | 12202b912f93... |
 | ./legends/source.png | 723 B | 12207c4342fe... |
 | ./hazard-zone-plans-coverage.parquet | 461.0 KB | 122099fea3cf... |
-| ./README.md | 4.0 KB | 1220a9c1566a... |
+| ./README.md | 4.0 KB | 1220ea8bbd52... |
 | ./hazard-zone-plans-coverage.thumb.jpg | 101.4 KB | 1220384f4655... |
 | ./hazard-zone-plans-coverage.pmtiles | 459.6 KB | 1220fff62844... |
 

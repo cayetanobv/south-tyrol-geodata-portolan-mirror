@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "pharmacies.thumb.jpg",
         "README.md",
         "pharmacies.parquet"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.002794Z",
+      "breaking": false,
+      "assets": {
+        "pharmacies.pmtiles": {
+          "sha256": "df02286a127dd8a51da40bcb5ba5c1aa6b3a7ea6c505927ed7e2757f671d8a63",
+          "size_bytes": 46128,
+          "href": "health/pharmacies/pharmacies.pmtiles",
+          "mtime": 1788448418.5194435
+        },
+        "pharmacies.thumb.jpg": {
+          "sha256": "e3e545d71529b9e9d6fc48ffefbcfd5d58f0eb69f58d6c5e3d2912ed58b80904",
+          "size_bytes": 56841,
+          "href": "health/pharmacies/pharmacies.thumb.jpg",
+          "mtime": 1788449313.1566272
+        },
+        "README.md": {
+          "sha256": "032da0dcc4eb587eca4f0a11d9fad111da0a882a30572cb1612aa36fd4073417",
+          "size_bytes": 3429,
+          "href": "health/pharmacies/README.md",
+          "mtime": 1788449437.8469734
+        },
+        "pharmacies.parquet": {
+          "sha256": "fcaf2f29e2375e9739d34ac249692b430af5d816b8441c1bdb04d09625358419",
+          "size_bytes": 26486,
+          "href": "health/pharmacies/pharmacies.parquet",
+          "source_mtime": 1788447196.2075186,
+          "mtime": 1788447196.2075186,
+          "feature_count": 158,
+          "schema_fingerprint": "d06aef02ae37dbef"
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

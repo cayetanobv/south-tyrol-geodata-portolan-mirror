@@ -75,7 +75,7 @@ Community mirror of the dataset «Balneabilitá dei laghi» published by the Pro
 |------|------|----------|
 | ./styles/default.json | 1.3 KB | 1220ea33d3d0... |
 | ./legends/source.png | 4.3 KB | 122042513e52... |
-| ./README.md | 4.4 KB | 1220bcd31835... |
+| ./README.md | 4.4 KB | 12202f657e74... |
 | ./bathing-lakes-quality.parquet | 23.4 KB | 122062483a94... |
 | ./bathing-lakes-quality.thumb.jpg | 40.0 KB | 1220ceae1de0... |
 | ./bathing-lakes-quality.pmtiles | 21.9 KB | 1220a3e72584... |

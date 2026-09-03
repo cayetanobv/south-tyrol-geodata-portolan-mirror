@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "wetlands.pmtiles",
         "wetlands.thumb.jpg",
         "wetlands.parquet",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.208285Z",
+      "breaking": false,
+      "assets": {
+        "wetlands.pmtiles": {
+          "sha256": "d78aa4e84c15250b617d2dcbab5a05d1d761cad1dce25dfd111924a790d7c6cb",
+          "size_bytes": 59703,
+          "href": "nature-and-landscape/wetlands/wetlands.pmtiles",
+          "mtime": 1788448472.6485147
+        },
+        "wetlands.thumb.jpg": {
+          "sha256": "aaba1d7c30930c3fff8aadb23b04f544abfa311f2e2412e7080cbc9f5a950fcd",
+          "size_bytes": 111221,
+          "href": "nature-and-landscape/wetlands/wetlands.thumb.jpg",
+          "mtime": 1788449319.7487514
+        },
+        "wetlands.parquet": {
+          "sha256": "595b473e4bd4693aca17ade222bc45aa48fb124142c3ba5ce02e04df65618c3c",
+          "size_bytes": 43850,
+          "href": "nature-and-landscape/wetlands/wetlands.parquet",
+          "source_mtime": 1788447242.9283614,
+          "mtime": 1788447242.9283614,
+          "feature_count": 715,
+          "schema_fingerprint": "6eec719c3a3b1301"
+        },
+        "README.md": {
+          "sha256": "ceb2fa9883692f7c190e34a7b766a2a5c6f11ce46e99028bf221dc3768e9c968",
+          "size_bytes": 3132,
+          "href": "nature-and-landscape/wetlands/README.md",
+          "mtime": 1788449437.9549756
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

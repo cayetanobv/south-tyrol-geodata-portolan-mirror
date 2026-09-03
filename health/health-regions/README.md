@@ -30,7 +30,7 @@ Community mirror of the dataset «Comprensori sanitari» published by the Provin
 |------|------|----------|
 | ./styles/default.json | 715 B | 122074d471a5... |
 | ./legends/source.png | 96 B | 1220d9102711... |
-| ./README.md | 3.3 KB | 1220e562988d... |
+| ./README.md | 3.3 KB | 1220e10bf3ca... |
 | ./health-regions.parquet | 103.4 KB | 1220430051de... |
 | ./health-regions.thumb.jpg | 53.9 KB | 1220d3731a83... |
 | ./health-regions.pmtiles | 61.0 KB | 12202c5a63fa... |

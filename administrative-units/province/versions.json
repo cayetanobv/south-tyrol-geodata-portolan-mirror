@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "province.parquet",
         "province.thumb.jpg",
         "province.pmtiles",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.742217Z",
+      "breaking": false,
+      "assets": {
+        "province.parquet": {
+          "sha256": "a3f87f9a91f95d6298389f4ee9514cc1e431875a5bb062b0fcd284e505bb69fe",
+          "size_bytes": 118068,
+          "href": "administrative-units/province/province.parquet",
+          "source_mtime": 1788448315.7093887,
+          "mtime": 1788448315.7093887,
+          "feature_count": 2,
+          "schema_fingerprint": "a061e5f788781630"
+        },
+        "province.thumb.jpg": {
+          "sha256": "ff6a0164cef0014641e7711fcedabed415c17b17c9349f45a96eb55f7dcb883d",
+          "size_bytes": 37802,
+          "href": "administrative-units/province/province.thumb.jpg",
+          "mtime": 1788449303.3644426
+        },
+        "province.pmtiles": {
+          "sha256": "7c00d5a9e67465ec151b76be98f275d3272095229e996871d8b81c482617179d",
+          "size_bytes": 210937,
+          "href": "administrative-units/province/province.pmtiles",
+          "mtime": 1788448336.1738
+        },
+        "README.md": {
+          "sha256": "9d381f9cac04a95477e36b8997322f23103eb93b14b1f59b1b64c8049e32a771",
+          "size_bytes": 3224,
+          "href": "administrative-units/province/README.md",
+          "mtime": 1788449437.6949706
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

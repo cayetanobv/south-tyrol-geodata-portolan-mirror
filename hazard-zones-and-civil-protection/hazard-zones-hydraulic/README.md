@@ -48,7 +48,7 @@ Community mirror of the dataset «Piano delle Zone di Pericolo: Pericoli idrauli
 | ./styles/default.json | 1.0 KB | 122071be8f63... |
 | ./legends/source.png | 4.4 KB | 1220ce6a26b3... |
 | ./hazard-zones-hydraulic.parquet | 10.1 MB | 12202bb563f3... |
-| ./README.md | 4.3 KB | 122095b2b2ff... |
+| ./README.md | 4.3 KB | 122011e5fe06... |
 | ./hazard-zones-hydraulic.thumb.jpg | 146.5 KB | 1220fe30a198... |
 | ./hazard-zones-hydraulic.pmtiles | 16.8 MB | 1220e902c280... |
 

@@ -206,7 +206,7 @@
       "type": "struct<xmin: double, ymin: double, xmax: double, ymax: double>"
     }
   ],
-  "updated": "2026-09-03T15:30:36Z",
+  "updated": "2026-09-03T15:44:10Z",
   "pmtiles:min_zoom": 0,
   "pmtiles:max_zoom": 5,
   "pmtiles:tile_type": "mvt",
@@ -293,7 +293,7 @@
       "href": "./README.md",
       "type": "text/markdown",
       "file:size": 4584,
-      "file:checksum": "1220f220093b1d1bd190109f84d34138960a3f559d4dcd696d5becb9400e6e20c1b0",
+      "file:checksum": "1220240539ba93ff01b980b596a635181a688d4235bcfefb50387d348ba0a1232c27",
       "roles": [
         "documentation"
       ]

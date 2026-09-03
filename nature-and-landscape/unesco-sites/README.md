@@ -35,7 +35,7 @@ Community mirror of the dataset «Siti UNESCO» published by the Provincia Auton
 | ./styles/default.json | 816 B | 122002897d2f... |
 | ./legends/source.png | 726 B | 1220c6d5914b... |
 | ./unesco-sites.parquet | 101.6 KB | 1220de254eaa... |
-| ./README.md | 3.3 KB | 1220177af6e0... |
+| ./README.md | 3.3 KB | 12205699b80e... |
 | ./unesco-sites.thumb.jpg | 66.1 KB | 12201c0daf73... |
 | ./unesco-sites.pmtiles | 90.1 KB | 122034001104... |
 

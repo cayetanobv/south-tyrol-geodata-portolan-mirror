@@ -36,7 +36,7 @@ Community mirror of the dataset «Bacini imbriferi» published by the Provincia 
 | ./styles/default.json | 908 B | 122050e2f095... |
 | ./legends/source.png | 1.4 KB | 122037a029ae... |
 | ./drainage-basins.parquet | 235.9 KB | 1220e4e72cf7... |
-| ./README.md | 3.6 KB | 122025101ca8... |
+| ./README.md | 3.6 KB | 1220fe16f6c8... |
 | ./drainage-basins.thumb.jpg | 103.2 KB | 12204439de60... |
 | ./drainage-basins.pmtiles | 187.6 KB | 1220d34dad2f... |
 

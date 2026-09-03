@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "national-and-nature-parks.parquet",
         "README.md",
         "national-and-nature-parks.pmtiles"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.155428Z",
+      "breaking": false,
+      "assets": {
+        "national-and-nature-parks.thumb.jpg": {
+          "sha256": "aba152dd905323a7c2cbe8aa40cb7c66b551fe94199c34374af9490e0441eaa1",
+          "size_bytes": 58925,
+          "href": "nature-and-landscape/national-and-nature-parks/national-and-nature-parks.thumb.jpg",
+          "mtime": 1788449318.520728
+        },
+        "national-and-nature-parks.parquet": {
+          "sha256": "18df6d930d003e545568600816f8b32db64b4f8cfd14184ca4976c0094c5be01",
+          "size_bytes": 172716,
+          "href": "nature-and-landscape/national-and-nature-parks/national-and-nature-parks.parquet",
+          "source_mtime": 1788447330.92995,
+          "mtime": 1788447330.92995,
+          "feature_count": 8,
+          "schema_fingerprint": "6bbb75bb2e329c21"
+        },
+        "README.md": {
+          "sha256": "54b136b217abefb76c46aa74a7472d5ab5c4bca4febf8e93bfe4ec519e0ed71d",
+          "size_bytes": 4423,
+          "href": "nature-and-landscape/national-and-nature-parks/README.md",
+          "mtime": 1788449437.9309752
+        },
+        "national-and-nature-parks.pmtiles": {
+          "sha256": "8974be5522cc104029f4ea51fcbb15b15809e9cda130e566b5fbd6e4131c2b42",
+          "size_bytes": 131064,
+          "href": "nature-and-landscape/national-and-nature-parks/national-and-nature-parks.pmtiles",
+          "mtime": 1788448463.7803397
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

@@ -152,7 +152,7 @@ Community mirror of the dataset «Qualitá dei corsi d'acqua» published by the 
 | ./styles/default.json | 776 B | 122065f1aca9... |
 | ./legends/source.png | 253 B | 12206e3e89d7... |
 | ./water-quality-watercourses.parquet | 423.9 KB | 122038d915a1... |
-| ./README.md | 6.7 KB | 1220fe89388c... |
+| ./README.md | 6.7 KB | 122025131321... |
 | ./water-quality-watercourses.thumb.jpg | 140.9 KB | 12203f62d1a4... |
 | ./water-quality-watercourses.pmtiles | 911.1 KB | 1220e09efd1d... |
 

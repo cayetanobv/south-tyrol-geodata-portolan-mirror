@@ -42,7 +42,7 @@ Community mirror of the dataset «Punti di interesse dei Piani di Protezione Civ
 | ./styles/default.json | 677 B | 12208cda3fca... |
 | ./legends/source.png | 3.4 KB | 12205149fe32... |
 | ./civil-protection-points-of-interest.parquet | 94.9 KB | 1220e551e4a2... |
-| ./README.md | 4.0 KB | 1220bdc744e8... |
+| ./README.md | 4.0 KB | 122090a2a544... |
 | ./civil-protection-points-of-interest.thumb.jpg | 62.0 KB | 12205562062f... |
 | ./civil-protection-points-of-interest.pmtiles | 149.1 KB | 1220272ba4de... |
 

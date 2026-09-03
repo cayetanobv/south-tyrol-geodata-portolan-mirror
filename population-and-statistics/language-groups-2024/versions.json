@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "language-groups-2024.parquet",
         "README.md",
         "language-groups-2024.thumb.jpg"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.230330Z",
+      "breaking": false,
+      "assets": {
+        "language-groups-2024.pmtiles": {
+          "sha256": "1e0933f6251f3713dc580b69432ef3bdaf839139360caf6cffdcbd7feba1649c",
+          "size_bytes": 594544,
+          "href": "population-and-statistics/language-groups-2024/language-groups-2024.pmtiles",
+          "mtime": 1788448489.8328536
+        },
+        "language-groups-2024.parquet": {
+          "sha256": "6a60506da3ba312b3eff826270730aebaf2207416ef9822548ba71334bd51908",
+          "size_bytes": 429140,
+          "href": "population-and-statistics/language-groups-2024/language-groups-2024.parquet",
+          "source_mtime": 1788447359.4024642,
+          "mtime": 1788447359.4024642,
+          "feature_count": 116,
+          "schema_fingerprint": "0928e7d8a98c1583"
+        },
+        "README.md": {
+          "sha256": "d455d3d44682aaa59bbd306acb74a0809ae37191b22ad6c6ab8736f15f89ebd8",
+          "size_bytes": 4131,
+          "href": "population-and-statistics/language-groups-2024/README.md",
+          "mtime": 1788449437.9709759
+        },
+        "language-groups-2024.thumb.jpg": {
+          "sha256": "00e66087f639b1582a75e3005abf1525b60634d5e17147a0bc62cf3203d91e91",
+          "size_bytes": 86542,
+          "href": "population-and-statistics/language-groups-2024/language-groups-2024.thumb.jpg",
+          "mtime": 1788449320.368763
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

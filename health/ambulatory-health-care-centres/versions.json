@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "ambulatory-health-care-centres.thumb.jpg",
         "ambulatory-health-care-centres.parquet",
         "ambulatory-health-care-centres.pmtiles",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.944482Z",
+      "breaking": false,
+      "assets": {
+        "ambulatory-health-care-centres.thumb.jpg": {
+          "sha256": "348dcf8c2f94a46d7638195cc9d1384263b85f46a7159a1265ca79ff27b83f4e",
+          "size_bytes": 44753,
+          "href": "health/ambulatory-health-care-centres/ambulatory-health-care-centres.thumb.jpg",
+          "mtime": 1788449311.18059
+        },
+        "ambulatory-health-care-centres.parquet": {
+          "sha256": "55f125b258a6eb43fb1f8ff04e10741695d782149d53c72a19d4656780b96b62",
+          "size_bytes": 14428,
+          "href": "health/ambulatory-health-care-centres/ambulatory-health-care-centres.parquet",
+          "source_mtime": 1788447278.6810067,
+          "mtime": 1788447278.6810067,
+          "feature_count": 38,
+          "schema_fingerprint": "a1bc940adad666af"
+        },
+        "ambulatory-health-care-centres.pmtiles": {
+          "sha256": "5d518ebbd9147661e0a665301cd5694a5627e6597494ecb9447f63d865767377",
+          "size_bytes": 13796,
+          "href": "health/ambulatory-health-care-centres/ambulatory-health-care-centres.pmtiles",
+          "mtime": 1788448404.8791726
+        },
+        "README.md": {
+          "sha256": "7cd3ea07b42031de51aee3909ab89b1993aa84aebfa16bcb245462ef85bb5c65",
+          "size_bytes": 3716,
+          "href": "health/ambulatory-health-care-centres/README.md",
+          "mtime": 1788449437.818973
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

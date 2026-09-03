@@ -1,4 +1,4 @@
-# Transport and mobility — mirror of Provincia Autonoma di Bolzano – Alto Adige open data
+# Transport and mobility
 
 Public transport stops, school buses, cycle and hiking routes, road infrastructure and counters. Community MIRROR of the Province's open geodata (CC0 1.0), extracted 2026-09-03 from the provincial WFS; not an official publication. Attribution to the Province is given in every collection.
 

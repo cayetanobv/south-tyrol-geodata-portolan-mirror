@@ -48,7 +48,7 @@ Community mirror of the dataset «Punti di conteggio biciclette» published by t
 | ./styles/default.json | 1.2 KB | 1220e6b8b9b5... |
 | ./legends/source.png | 96 B | 12204a7221c6... |
 | ./bicycle-counters.parquet | 14.9 KB | 122072336c66... |
-| ./README.md | 4.2 KB | 12206acfa787... |
+| ./README.md | 4.2 KB | 1220af139605... |
 | ./bicycle-counters.thumb.jpg | 40.5 KB | 122023907706... |
 | ./bicycle-counters.pmtiles | 17.4 KB | 122017da5b36... |
 

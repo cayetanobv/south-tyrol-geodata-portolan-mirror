@@ -48,7 +48,7 @@ Community mirror of the dataset «Piano delle Zone di Pericolo: Valanghe» publi
 | ./styles/default.json | 1.0 KB | 12202cbdd54d... |
 | ./legends/source.png | 4.7 KB | 12200e89c022... |
 | ./hazard-zones-avalanches.parquet | 3.6 MB | 12201cba11fb... |
-| ./README.md | 4.2 KB | 122006ca6fab... |
+| ./README.md | 4.2 KB | 1220d1b57591... |
 | ./hazard-zones-avalanches.thumb.jpg | 133.5 KB | 1220353647df... |
 | ./hazard-zones-avalanches.pmtiles | 5.2 MB | 1220c4fd64a9... |
 

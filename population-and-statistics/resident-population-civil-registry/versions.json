@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "resident-population-civil-registry.thumb.jpg",
         "resident-population-civil-registry.pmtiles",
         "resident-population-civil-registry.parquet",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.280558Z",
+      "breaking": false,
+      "assets": {
+        "resident-population-civil-registry.thumb.jpg": {
+          "sha256": "00e66087f639b1582a75e3005abf1525b60634d5e17147a0bc62cf3203d91e91",
+          "size_bytes": 86542,
+          "href": "population-and-statistics/resident-population-civil-registry/resident-population-civil-registry.thumb.jpg",
+          "mtime": 1788449321.4127827
+        },
+        "resident-population-civil-registry.pmtiles": {
+          "sha256": "99a069ebbc280c86f54fec071a8cb698a0747534333cd65a093338777a64ff6f",
+          "size_bytes": 550520,
+          "href": "population-and-statistics/resident-population-civil-registry/resident-population-civil-registry.pmtiles",
+          "mtime": 1788448498.9250326
+        },
+        "resident-population-civil-registry.parquet": {
+          "sha256": "5a8b16184120156d2e76f5b39eb34e232f3fb77e855b66c57ac76a4ed501a3c8",
+          "size_bytes": 423103,
+          "href": "population-and-statistics/resident-population-civil-registry/resident-population-civil-registry.parquet",
+          "source_mtime": 1788447387.526972,
+          "mtime": 1788447387.526972,
+          "feature_count": 116,
+          "schema_fingerprint": "b5751ed62ec0b098"
+        },
+        "README.md": {
+          "sha256": "ab7439b227fbcf5a57751d8c83d3e90c1e1f0aa1b0440d3ce61a7ad405531fa9",
+          "size_bytes": 4125,
+          "href": "population-and-statistics/resident-population-civil-registry/README.md",
+          "mtime": 1788449437.990976
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

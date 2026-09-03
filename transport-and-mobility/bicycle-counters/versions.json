@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "bicycle-counters.thumb.jpg",
         "bicycle-counters.pmtiles",
         "bicycle-counters.parquet",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.307166Z",
+      "breaking": false,
+      "assets": {
+        "bicycle-counters.thumb.jpg": {
+          "sha256": "239077062cf07416419878bfdb4d972b0f3bc5be44b1780cba487a2f27950168",
+          "size_bytes": 41435,
+          "href": "transport-and-mobility/bicycle-counters/bicycle-counters.thumb.jpg",
+          "mtime": 1788449322.1007957
+        },
+        "bicycle-counters.pmtiles": {
+          "sha256": "17da5b360562041c9c617d77bcf8c543b594186ed838ad1f7501f8671e9fb1d5",
+          "size_bytes": 17799,
+          "href": "transport-and-mobility/bicycle-counters/bicycle-counters.pmtiles",
+          "mtime": 1788448504.2051365
+        },
+        "bicycle-counters.parquet": {
+          "sha256": "72336c663f26931901b1f4343327c7236254da28db4573325dc6a1648fa6f4f1",
+          "size_bytes": 15232,
+          "href": "transport-and-mobility/bicycle-counters/bicycle-counters.parquet",
+          "source_mtime": 1788447236.2082403,
+          "mtime": 1788447236.2082403,
+          "feature_count": 43,
+          "schema_fingerprint": "bc23c4c3488a5b4e"
+        },
+        "README.md": {
+          "sha256": "af1396058dbe3103b198edebb1d474e0ddda5b3884043b890860771061f0bb86",
+          "size_bytes": 4326,
+          "href": "transport-and-mobility/bicycle-counters/README.md",
+          "mtime": 1788449438.0069766
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

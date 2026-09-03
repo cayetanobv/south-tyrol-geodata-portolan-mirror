@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "biotopes.pmtiles",
         "biotopes.parquet",
         "biotopes.thumb.jpg",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.125222Z",
+      "breaking": false,
+      "assets": {
+        "biotopes.pmtiles": {
+          "sha256": "36661e4a9fbd95e8deaef5b87c72d4f49aba661c74b5bbb0585893b818cf0c55",
+          "size_bytes": 427848,
+          "href": "nature-and-landscape/biotopes/biotopes.pmtiles",
+          "mtime": 1788448455.9281845
+        },
+        "biotopes.parquet": {
+          "sha256": "fab9b6bb47f4d886a82568ef3f75a60b792c1e0019e1dceb5a70ee2a5c6f585b",
+          "size_bytes": 152771,
+          "href": "nature-and-landscape/biotopes/biotopes.parquet",
+          "source_mtime": 1788447227.3600805,
+          "mtime": 1788447227.3600805,
+          "feature_count": 251,
+          "schema_fingerprint": "9f812357c42d2dcc"
+        },
+        "biotopes.thumb.jpg": {
+          "sha256": "7dadd8a0fbc2021b9525fe2630b25c7c8e5c40bef1346ab404359d1169782ccb",
+          "size_bytes": 50441,
+          "href": "nature-and-landscape/biotopes/biotopes.thumb.jpg",
+          "mtime": 1788449317.6807125
+        },
+        "README.md": {
+          "sha256": "22c9e9219957163f695ad7b75aa7743a0404f976bbace2fcdbe49bd7c94ec9b0",
+          "size_bytes": 3939,
+          "href": "nature-and-landscape/biotopes/README.md",
+          "mtime": 1788449437.9189749
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

@@ -46,7 +46,7 @@ Community mirror of the dataset «Aggregazione Funzionale Territoriale» publish
 | ./styles/default.json | 530 B | 12201662d66e... |
 | ./legends/source.png | 184 B | 12208c9b6015... |
 | ./functional-territorial-aggregations.parquet | 13.2 KB | 1220187cbab9... |
-| ./README.md | 4.0 KB | 1220b95cb530... |
+| ./README.md | 4.0 KB | 12200519b865... |
 | ./functional-territorial-aggregations.thumb.jpg | 39.0 KB | 1220b62e48bf... |
 | ./functional-territorial-aggregations.pmtiles | 10.3 KB | 12202a8a106a... |
 

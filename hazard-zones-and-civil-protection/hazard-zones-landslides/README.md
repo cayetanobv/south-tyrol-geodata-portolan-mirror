@@ -47,7 +47,7 @@ Community mirror of the dataset «Piano delle Zone di Pericolo: Frane» publishe
 | ./styles/default.json | 1.0 KB | 1220b2462292... |
 | ./legends/source.png | 5.1 KB | 122089ebfff1... |
 | ./hazard-zones-landslides.parquet | 4.8 MB | 12202582d557... |
-| ./README.md | 4.2 KB | 122086ae7aaa... |
+| ./README.md | 4.2 KB | 12200edc88dc... |
 | ./hazard-zones-landslides.thumb.jpg | 135.3 KB | 122070714cc3... |
 | ./hazard-zones-landslides.pmtiles | 8.5 MB | 1220eb4bebff... |
 

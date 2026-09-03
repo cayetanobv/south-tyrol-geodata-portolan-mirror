@@ -37,7 +37,7 @@ Community mirror of the dataset «Stazioni idrometriche» published by the Provi
 | ./styles/default.json | 716 B | 122047de319b... |
 | ./legends/source.png | 170 B | 122057f32685... |
 | ./gauging-stations.parquet | 11.0 KB | 1220099ba1dd... |
-| ./README.md | 3.6 KB | 12207251da83... |
+| ./README.md | 3.6 KB | 1220f40f5fa5... |
 | ./gauging-stations.thumb.jpg | 47.0 KB | 12206c36c811... |
 | ./gauging-stations.pmtiles | 9.0 KB | 1220ec4dfaab... |
 

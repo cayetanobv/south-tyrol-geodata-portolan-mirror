@@ -34,7 +34,7 @@ Community mirror of the dataset «Trasporto alunni: Nodi di partenza» published
 | ./styles/default.json | 1.4 KB | 1220512389c5... |
 | ./legends/source.png | 592 B | 1220d61361aa... |
 | ./school-bus-stops.parquet | 177.0 KB | 1220c9c1c32a... |
-| ./README.md | 3.8 KB | 12200243c73c... |
+| ./README.md | 3.8 KB | 1220d7d92e76... |
 | ./school-bus-stops.thumb.jpg | 112.6 KB | 1220194aec53... |
 | ./school-bus-stops.pmtiles | 218.4 KB | 12207a29edf5... |
 

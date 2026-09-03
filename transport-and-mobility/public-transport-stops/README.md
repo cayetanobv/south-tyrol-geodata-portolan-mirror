@@ -42,7 +42,7 @@ Community mirror of the dataset «Fermate del trasporto pubblico» published by 
 |------|------|----------|
 | ./styles/default.json | 1.4 KB | 122051da559d... |
 | ./legends/source.png | 2.5 KB | 1220d5ded45f... |
-| ./README.md | 4.1 KB | 1220ed5eef9a... |
+| ./README.md | 4.1 KB | 12209fe0bb31... |
 | ./public-transport-stops.parquet | 453.1 KB | 1220440ab11b... |
 | ./public-transport-stops.thumb.jpg | 109.3 KB | 122084e66064... |
 | ./public-transport-stops.pmtiles | 898.2 KB | 12209ba3d4c8... |

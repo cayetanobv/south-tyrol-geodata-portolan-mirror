@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "README.md",
         "natural-monuments-areas.thumb.jpg",
         "natural-monuments-areas.parquet"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.176255Z",
+      "breaking": false,
+      "assets": {
+        "natural-monuments-areas.pmtiles": {
+          "sha256": "a5be0d7683ba2a5bb2b4cafda2a9f291fed06b5892149b77648a9a01858fe6d3",
+          "size_bytes": 667663,
+          "href": "nature-and-landscape/natural-monuments-areas/natural-monuments-areas.pmtiles",
+          "mtime": 1788448467.492413
+        },
+        "README.md": {
+          "sha256": "a8edfa89016edb32c02f1477325342a79aad27d991ca983e88c5165a774736b9",
+          "size_bytes": 4328,
+          "href": "nature-and-landscape/natural-monuments-areas/README.md",
+          "mtime": 1788449437.9429753
+        },
+        "natural-monuments-areas.thumb.jpg": {
+          "sha256": "8f9413929402cfea92ecac4cc140915c3cd142b1768e54f17fd7a6f20d1755da",
+          "size_bytes": 62503,
+          "href": "nature-and-landscape/natural-monuments-areas/natural-monuments-areas.thumb.jpg",
+          "mtime": 1788449318.988737
+        },
+        "natural-monuments-areas.parquet": {
+          "sha256": "7a06320e725761f3c19ce6ca95b7617f71f9db28f17c040d3b1cc9a9902651eb",
+          "size_bytes": 227593,
+          "href": "nature-and-landscape/natural-monuments-areas/natural-monuments-areas.parquet",
+          "source_mtime": 1788447317.521708,
+          "mtime": 1788447317.521708,
+          "feature_count": 487,
+          "schema_fingerprint": "9f812357c42d2dcc"
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

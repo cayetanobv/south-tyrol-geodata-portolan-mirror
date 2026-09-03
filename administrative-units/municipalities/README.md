@@ -42,7 +42,7 @@ Community mirror of the dataset «Comuni» published by the Provincia Autonoma d
 | ./styles/default.json | 4.0 KB | 122003f3359e... |
 | ./legends/source.png | 104 B | 1220bbcc74d0... |
 | ./municipalities.parquet | 464.1 KB | 1220719a37ab... |
-| ./README.md | 3.6 KB | 122074206f68... |
+| ./README.md | 3.6 KB | 12204c3a637b... |
 | ./municipalities.thumb.jpg | 55.3 KB | 12203900ab1c... |
 | ./municipalities.pmtiles | 520.0 KB | 1220ca2bac8a... |
 

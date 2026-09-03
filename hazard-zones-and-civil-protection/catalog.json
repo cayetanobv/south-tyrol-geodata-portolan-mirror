@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "hazard-zones-and-civil-protection",
   "stac_version": "1.1.0",
-  "title": "Hazard zones and civil protection — mirror of Provincia Autonoma di Bolzano – Alto Adige open data",
+  "title": "Hazard zones and civil protection",
   "description": "Approved municipal hazard-zone plans (hydraulic, avalanche, landslide, geological) and civil-protection plan data. Community MIRROR of the Province's open geodata (CC0 1.0), extracted 2026-09-03 from the provincial WFS; not an official publication. Attribution to the Province is given in every collection.",
   "links": [
     {

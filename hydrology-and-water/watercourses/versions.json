@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "watercourses.pmtiles",
         "watercourses.thumb.jpg",
         "watercourses.parquet",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.106088Z",
+      "breaking": false,
+      "assets": {
+        "watercourses.pmtiles": {
+          "sha256": "ec6cff04422ff1003d2f1b18aadd446e63c7330ccfd639b0cfa15cdf70c3c9ad",
+          "size_bytes": 3777871,
+          "href": "hydrology-and-water/watercourses/watercourses.pmtiles",
+          "mtime": 1788448448.6520407
+        },
+        "watercourses.thumb.jpg": {
+          "sha256": "4ef2d01c5000c75d29be6456f86a0757d6bba11336cb7a9ed6d1d7d5da16803e",
+          "size_bytes": 217536,
+          "href": "hydrology-and-water/watercourses/watercourses.thumb.jpg",
+          "mtime": 1788449316.8326964
+        },
+        "watercourses.parquet": {
+          "sha256": "21bdef3a5ceaa37e73ac1c12cbffc4cdc2885a5c1425b53f6af9f6ee148a84a9",
+          "size_bytes": 1446205,
+          "href": "hydrology-and-water/watercourses/watercourses.parquet",
+          "source_mtime": 1788447248.8644686,
+          "mtime": 1788447248.8644686,
+          "feature_count": 5116,
+          "schema_fingerprint": "aed69c342bd08c4a"
+        },
+        "README.md": {
+          "sha256": "7792f0d0335c489645eb667437d54e90a9b52ddde6ccf0dd059910edc9075097",
+          "size_bytes": 3787,
+          "href": "hydrology-and-water/watercourses/README.md",
+          "mtime": 1788449437.8989744
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

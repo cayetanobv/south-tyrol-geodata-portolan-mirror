@@ -33,7 +33,7 @@ Community mirror of the dataset «Copertura del suolo CORINE» published by the 
 |------|------|----------|
 | ./styles/default.json | 1.5 KB | 12202c9bdd76... |
 | ./legends/source.png | 16.2 KB | 1220336cb389... |
-| ./README.md | 3.4 KB | 1220b9de1f7b... |
+| ./README.md | 3.4 KB | 1220d20a5662... |
 | ./corine-land-cover.parquet | 1.2 MB | 1220c571b146... |
 | ./corine-land-cover.thumb.jpg | 222.8 KB | 122084291d96... |
 | ./corine-land-cover.pmtiles | 1.5 MB | 12207f3c0959... |

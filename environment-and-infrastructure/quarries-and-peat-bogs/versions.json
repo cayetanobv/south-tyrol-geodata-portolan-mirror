@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "quarries-and-peat-bogs.thumb.jpg",
         "README.md",
         "quarries-and-peat-bogs.pmtiles"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.797736Z",
+      "breaking": false,
+      "assets": {
+        "quarries-and-peat-bogs.parquet": {
+          "sha256": "269f67f96a6fd89f78da55c0796532f99da44b06a21f48719d1e069dc52d152f",
+          "size_bytes": 22728,
+          "href": "environment-and-infrastructure/quarries-and-peat-bogs/quarries-and-peat-bogs.parquet",
+          "source_mtime": 1788448318.209439,
+          "mtime": 1788448318.209439,
+          "feature_count": 80,
+          "schema_fingerprint": "04470efa3a57f29d"
+        },
+        "quarries-and-peat-bogs.thumb.jpg": {
+          "sha256": "a45cf1e272e4b329502275882bb0cf2a070059cb76ddd1dc21d768752f8576b1",
+          "size_bytes": 36151,
+          "href": "environment-and-infrastructure/quarries-and-peat-bogs/quarries-and-peat-bogs.thumb.jpg",
+          "mtime": 1788449305.8644898
+        },
+        "README.md": {
+          "sha256": "69c2a14d6e35992fa632a1e6b8c46c18ba44273e404b905910688d5f3536a254",
+          "size_bytes": 3749,
+          "href": "environment-and-infrastructure/quarries-and-peat-bogs/README.md",
+          "mtime": 1788449437.7309713
+        },
+        "quarries-and-peat-bogs.pmtiles": {
+          "sha256": "3eef1e0533de5b885a8162a70fc7824fc636f20ffc1343bf10ca1a8a77263afa",
+          "size_bytes": 44563,
+          "href": "environment-and-infrastructure/quarries-and-peat-bogs/quarries-and-peat-bogs.pmtiles",
+          "mtime": 1788448349.9700766
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

@@ -33,7 +33,7 @@ Community mirror of the dataset «Fasce paesaggistiche» published by the Provin
 | ./styles/default.json | 889 B | 1220c00e35e8... |
 | ./legends/source.png | 6.4 KB | 12204f3f3af7... |
 | ./landscape-units.parquet | 197.2 KB | 1220f5e80079... |
-| ./README.md | 3.8 KB | 1220a807be06... |
+| ./README.md | 3.8 KB | 12202c1f1716... |
 | ./landscape-units.thumb.jpg | 145.5 KB | 12209bcfe0fe... |
 | ./landscape-units.pmtiles | 206.5 KB | 1220f8f0a799... |
 

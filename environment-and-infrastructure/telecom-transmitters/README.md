@@ -41,7 +41,7 @@ Community mirror of the dataset «Impianti trasmittenti» published by the Provi
 | ./styles/default.json | 711 B | 1220cd3cdde9... |
 | ./legends/source.png | 1.4 KB | 12203951dbbd... |
 | ./telecom-transmitters.parquet | 86.8 KB | 1220499f3de9... |
-| ./README.md | 4.0 KB | 1220df6f9505... |
+| ./README.md | 4.0 KB | 1220b7add280... |
 | ./telecom-transmitters.thumb.jpg | 58.9 KB | 122040990ad5... |
 | ./telecom-transmitters.pmtiles | 183.9 KB | 1220babac30e... |
 

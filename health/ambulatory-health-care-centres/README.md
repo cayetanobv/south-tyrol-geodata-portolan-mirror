@@ -46,7 +46,7 @@ Community mirror of the dataset «Ambulatori distrettuali» published by the Pro
 | ./styles/default.json | 666 B | 1220ec387ac7... |
 | ./legends/source.png | 1.5 KB | 12207a638c6f... |
 | ./ambulatory-health-care-centres.parquet | 14.1 KB | 122055f125b2... |
-| ./README.md | 3.6 KB | 1220c92df0b3... |
+| ./README.md | 3.6 KB | 12207cd3ea07... |
 | ./ambulatory-health-care-centres.thumb.jpg | 43.7 KB | 1220348dcf8c... |
 | ./ambulatory-health-care-centres.pmtiles | 13.5 KB | 12205d518ebb... |
 

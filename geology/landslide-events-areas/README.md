@@ -42,7 +42,7 @@ Community mirror of the dataset «Tipologia di frana» published by the Provinci
 | ./styles/default.json | 1.6 KB | 12205070a1b4... |
 | ./legends/source.png | 6.1 KB | 1220013e4d3a... |
 | ./landslide-events-areas.parquet | 2.5 MB | 1220a9a79934... |
-| ./README.md | 3.5 KB | 1220875ee0e3... |
+| ./README.md | 3.5 KB | 12201c91a19f... |
 | ./landslide-events-areas.thumb.jpg | 139.4 KB | 122013c32e98... |
 | ./landslide-events-areas.pmtiles | 5.8 MB | 1220c985ae2f... |
 

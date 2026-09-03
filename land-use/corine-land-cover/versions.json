@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "corine-land-cover.thumb.jpg",
         "README.md",
         "corine-land-cover.parquet"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.115411Z",
+      "breaking": false,
+      "assets": {
+        "corine-land-cover.pmtiles": {
+          "sha256": "7f3c09596ab0db0dc1e2eff65981147cca226830c4d987d0d8db843c34d445e2",
+          "size_bytes": 1558410,
+          "href": "land-use/corine-land-cover/corine-land-cover.pmtiles",
+          "mtime": 1788448849.0358202
+        },
+        "corine-land-cover.thumb.jpg": {
+          "sha256": "84291d9622a162e79f63aa759704b356f4fca4c797d8580cd96167a06075a78c",
+          "size_bytes": 228195,
+          "href": "land-use/corine-land-cover/corine-land-cover.thumb.jpg",
+          "mtime": 1788449317.1687028
+        },
+        "README.md": {
+          "sha256": "d20a56626546205b3425ce840a96de82465d157cf9cf969fb10eb12315da271f",
+          "size_bytes": 3477,
+          "href": "land-use/corine-land-cover/README.md",
+          "mtime": 1788449437.9069746
+        },
+        "corine-land-cover.parquet": {
+          "sha256": "c571b146c8f0568f5de827ae4fd69c44c7d109f808cc79db0ab36985f31e01f3",
+          "size_bytes": 1276970,
+          "href": "land-use/corine-land-cover/corine-land-cover.parquet",
+          "source_mtime": 1788448794.5707753,
+          "mtime": 1788448794.5707753,
+          "feature_count": 2553,
+          "schema_fingerprint": "cfd7080bbc6796a4"
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

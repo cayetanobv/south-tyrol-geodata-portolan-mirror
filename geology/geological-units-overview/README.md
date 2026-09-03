@@ -32,7 +32,7 @@ Community mirror of the dataset «Unità geologiche principali» published by th
 |------|------|----------|
 | ./styles/default.json | 1.9 KB | 1220644f0d6b... |
 | ./legends/source.png | 22.6 KB | 12208df50b87... |
-| ./README.md | 3.7 KB | 12208e2400ba... |
+| ./README.md | 3.7 KB | 12207464ec62... |
 | ./geological-units-overview.parquet | 135.1 KB | 122049171c9c... |
 | ./geological-units-overview.thumb.jpg | 152.3 KB | 1220f54bed4c... |
 | ./geological-units-overview.pmtiles | 112.3 KB | 1220ec0c81ff... |

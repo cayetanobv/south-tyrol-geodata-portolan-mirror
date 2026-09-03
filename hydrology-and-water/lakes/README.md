@@ -48,7 +48,7 @@ Community mirror of the dataset «Laghi» published by the Provincia Autonoma di
 | ./styles/default.json | 1.0 KB | 12209dcf6821... |
 | ./legends/source.png | 133 B | 122006543e68... |
 | ./lakes.parquet | 88.4 KB | 12208d2bf834... |
-| ./README.md | 3.6 KB | 1220bac0f2e4... |
+| ./README.md | 3.6 KB | 1220c669282d... |
 | ./lakes.thumb.jpg | 46.3 KB | 122050e05cee... |
 | ./lakes.pmtiles | 244.1 KB | 1220ee6aee7f... |
 

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "municipalities.parquet",
         "README.md",
         "municipalities.thumb.jpg"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.732363Z",
+      "breaking": false,
+      "assets": {
+        "municipalities.pmtiles": {
+          "sha256": "ca2bac8a986403903f4fe2eed8bf2d0ceaf25f86dbaed989794d348b673bde27",
+          "size_bytes": 532444,
+          "href": "administrative-units/municipalities/municipalities.pmtiles",
+          "mtime": 1788448332.641729
+        },
+        "municipalities.parquet": {
+          "sha256": "719a37abd3f23007da3ea9e84048a720fb34b0ef7181597d31cddfbc49bd8045",
+          "size_bytes": 475270,
+          "href": "administrative-units/municipalities/municipalities.parquet",
+          "source_mtime": 1788448315.3133807,
+          "mtime": 1788448315.3133807,
+          "feature_count": 116,
+          "schema_fingerprint": "94dda7069ef0d005"
+        },
+        "README.md": {
+          "sha256": "4c3a637bdd4dd762d8a6d5a241f85ba4cdac94181137c2ed26c9beabb0175929",
+          "size_bytes": 3677,
+          "href": "administrative-units/municipalities/README.md",
+          "mtime": 1788449437.6909707
+        },
+        "municipalities.thumb.jpg": {
+          "sha256": "3900ab1c3434586594fcb499bcb742d20b892547d3d0b160f8c346f03a1c8601",
+          "size_bytes": 56644,
+          "href": "administrative-units/municipalities/municipalities.thumb.jpg",
+          "mtime": 1788449303.0484366
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

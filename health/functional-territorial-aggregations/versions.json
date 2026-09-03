@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "functional-territorial-aggregations.thumb.jpg",
         "README.md",
         "functional-territorial-aggregations.pmtiles"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.964299Z",
+      "breaking": false,
+      "assets": {
+        "functional-territorial-aggregations.parquet": {
+          "sha256": "187cbab942300f973ba824a6cfd44759be8542bbebb381915fdcce4f3ee59f35",
+          "size_bytes": 13500,
+          "href": "health/functional-territorial-aggregations/functional-territorial-aggregations.parquet",
+          "source_mtime": 1788447379.7268312,
+          "mtime": 1788447379.7268312,
+          "feature_count": 26,
+          "schema_fingerprint": "69bfe937d0f01900"
+        },
+        "functional-territorial-aggregations.thumb.jpg": {
+          "sha256": "b62e48bf3d62c5aaa9da03d3ae73f57dad289763c761e8c1cd8266e9a857b1e3",
+          "size_bytes": 39907,
+          "href": "health/functional-territorial-aggregations/functional-territorial-aggregations.thumb.jpg",
+          "mtime": 1788449312.028606
+        },
+        "README.md": {
+          "sha256": "0519b865748ace1883e0d39bb4e28f7ddddfd1a5157e0899492d8e972bc5dd0e",
+          "size_bytes": 4123,
+          "href": "health/functional-territorial-aggregations/README.md",
+          "mtime": 1788449437.8269732
+        },
+        "functional-territorial-aggregations.pmtiles": {
+          "sha256": "2a8a106a9543e66aa5882d0d1c8482b4d1d83cb7b1741e86648a8d1df14f4928",
+          "size_bytes": 10556,
+          "href": "health/functional-territorial-aggregations/functional-territorial-aggregations.pmtiles",
+          "mtime": 1788448409.1632576
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

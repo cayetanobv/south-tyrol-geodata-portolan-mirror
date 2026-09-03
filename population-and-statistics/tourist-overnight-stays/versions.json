@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "tourist-overnight-stays.thumb.jpg",
         "README.md",
         "tourist-overnight-stays.pmtiles"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.293927Z",
+      "breaking": false,
+      "assets": {
+        "tourist-overnight-stays.parquet": {
+          "sha256": "d8c9f6024c23aa06673a99be18d31b5475dcc746d7951c2eb6dca6dfca1de4fc",
+          "size_bytes": 425162,
+          "href": "population-and-statistics/tourist-overnight-stays/tourist-overnight-stays.parquet",
+          "source_mtime": 1788447370.6746678,
+          "mtime": 1788447370.6746678,
+          "feature_count": 116,
+          "schema_fingerprint": "8195796643776bf1"
+        },
+        "tourist-overnight-stays.thumb.jpg": {
+          "sha256": "00e66087f639b1582a75e3005abf1525b60634d5e17147a0bc62cf3203d91e91",
+          "size_bytes": 86542,
+          "href": "population-and-statistics/tourist-overnight-stays/tourist-overnight-stays.thumb.jpg",
+          "mtime": 1788449321.6607873
+        },
+        "README.md": {
+          "sha256": "877b912565ec3e1e26e1f4c2667e280dcebeeb019319a0d9545d4cadd926c695",
+          "size_bytes": 3968,
+          "href": "population-and-statistics/tourist-overnight-stays/README.md",
+          "mtime": 1788449437.9949763
+        },
+        "tourist-overnight-stays.pmtiles": {
+          "sha256": "ecfdaedc56f585d4c1d89443ca80b70ec186c46b2325626967111571d4cb3e83",
+          "size_bytes": 591215,
+          "href": "population-and-statistics/tourist-overnight-stays/tourist-overnight-stays.pmtiles",
+          "mtime": 1788448501.8970912
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

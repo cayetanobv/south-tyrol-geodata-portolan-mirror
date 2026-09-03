@@ -32,7 +32,7 @@ Community mirror of the dataset «Stazioni di misura della qualità dell’aria�
 | ./styles/default.json | 735 B | 1220653688c0... |
 | ./legends/source.png | 377 B | 1220c3c2efea... |
 | ./air-quality-stations.parquet | 5.5 KB | 1220b98a0db3... |
-| ./README.md | 3.8 KB | 1220c2439dab... |
+| ./README.md | 3.8 KB | 122092962362... |
 | ./air-quality-stations.pmtiles | 4.4 KB | 1220f1b041c1... |
 | ./air-quality-stations.thumb.jpg | 30.3 KB | 1220b2e9b4c7... |
 

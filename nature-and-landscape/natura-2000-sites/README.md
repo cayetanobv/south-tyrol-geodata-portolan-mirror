@@ -50,7 +50,7 @@ Community mirror of the dataset «Siti Natura 2000» published by the Provincia 
 | ./styles/default.json | 443 B | 1220990d56f1... |
 | ./legends/source.png | 332 B | 1220d4198f8a... |
 | ./natura-2000-sites.parquet | 217.3 KB | 12201e7b5ebc... |
-| ./README.md | 4.0 KB | 122068a7703c... |
+| ./README.md | 4.0 KB | 1220e566b6bc... |
 | ./natura-2000-sites.thumb.jpg | 71.0 KB | 12208fced359... |
 | ./natura-2000-sites.pmtiles | 219.3 KB | 1220d103a5ec... |
 

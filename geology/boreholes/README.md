@@ -38,7 +38,7 @@ Community mirror of the dataset «Sondaggi» published by the Provincia Autonoma
 |------|------|----------|
 | ./styles/default.json | 450 B | 12200cb52752... |
 | ./legends/source.png | 215 B | 1220de7446da... |
-| ./README.md | 3.4 KB | 1220821641fe... |
+| ./README.md | 3.4 KB | 12204599f7eb... |
 | ./boreholes.parquet | 307.7 KB | 12201ffab774... |
 | ./boreholes.thumb.jpg | 84.9 KB | 122047f0b2dc... |
 | ./boreholes.pmtiles | 671.7 KB | 1220df20f670... |

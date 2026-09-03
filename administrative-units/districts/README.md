@@ -33,7 +33,7 @@ Community mirror of the dataset «Comunità comprensoriali» published by the Pr
 | ./styles/default.json | 1.3 KB | 12207f514b25... |
 | ./legends/source.png | 95 B | 122082fe72b2... |
 | ./districts.parquet | 148.3 KB | 12206783cbc2... |
-| ./README.md | 3.6 KB | 1220cd8b6f96... |
+| ./README.md | 3.6 KB | 1220cdbbe574... |
 | ./districts.thumb.jpg | 64.1 KB | 1220f8775cdf... |
 | ./districts.pmtiles | 86.0 KB | 1220872a127e... |
 

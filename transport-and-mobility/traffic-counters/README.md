@@ -55,7 +55,7 @@ Community mirror of the dataset «Stazioni contatraffico» published by the Prov
 | ./styles/default.json | 1.1 KB | 122092e0514d... |
 | ./legends/source.png | 266 B | 122054803646... |
 | ./traffic-counters.parquet | 25.3 KB | 12207dcbe368... |
-| ./README.md | 4.2 KB | 1220ee57c8e1... |
+| ./README.md | 4.2 KB | 1220d7ec9b7c... |
 | ./traffic-counters.thumb.jpg | 64.5 KB | 122050f67dc3... |
 | ./traffic-counters.pmtiles | 28.2 KB | 122018491764... |
 

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "rest-homes.parquet",
         "README.md",
         "rest-homes.pmtiles"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.012715Z",
+      "breaking": false,
+      "assets": {
+        "rest-homes.thumb.jpg": {
+          "sha256": "6fc7c7deaf59dbe026462ed336a1aef7d5cc7654bdafb133fe0dea86d004cb88",
+          "size_bytes": 45681,
+          "href": "health/rest-homes/rest-homes.thumb.jpg",
+          "mtime": 1788449313.3926315
+        },
+        "rest-homes.parquet": {
+          "sha256": "86428ab98713fbec572db39f49cc3b0b4ec9918d367a4107bc5f88cef37342f0",
+          "size_bytes": 18518,
+          "href": "health/rest-homes/rest-homes.parquet",
+          "source_mtime": 1788447187.3393586,
+          "mtime": 1788447187.3393586,
+          "feature_count": 79,
+          "schema_fingerprint": "a6c27b5e3ca58973"
+        },
+        "README.md": {
+          "sha256": "03c430a0c22c0ee49fa8a4b7efb1d437a6e9982e7643b5b58c09cbee6ee2073c",
+          "size_bytes": 3534,
+          "href": "health/rest-homes/README.md",
+          "mtime": 1788449437.8509736
+        },
+        "rest-homes.pmtiles": {
+          "sha256": "21064e4d492299d995f0931eb006f85988d8c4a7c1bc6b306714b39b2344dc71",
+          "size_bytes": 27686,
+          "href": "health/rest-homes/rest-homes.pmtiles",
+          "mtime": 1788448420.9554918
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

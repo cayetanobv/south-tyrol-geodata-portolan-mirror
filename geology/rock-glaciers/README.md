@@ -42,7 +42,7 @@ Community mirror of the dataset «Rock glacier» published by the Provincia Auto
 |------|------|----------|
 | ./styles/default.json | 962 B | 1220a8894412... |
 | ./legends/source.png | 1.1 KB | 1220f6afb8fc... |
-| ./README.md | 3.6 KB | 1220b6fc7114... |
+| ./README.md | 3.6 KB | 1220de0f8aae... |
 | ./rock-glaciers.parquet | 1.2 MB | 122036b2e841... |
 | ./rock-glaciers.thumb.jpg | 69.3 KB | 12204882feca... |
 | ./rock-glaciers.pmtiles | 1.6 MB | 1220ac6dc451... |

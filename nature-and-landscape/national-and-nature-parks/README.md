@@ -50,7 +50,7 @@ Community mirror of the dataset «Parchi naturali e parco nazionale» published 
 | ./styles/default.json | 666 B | 12203f37b51e... |
 | ./legends/source.png | 736 B | 12209b3f7185... |
 | ./national-and-nature-parks.parquet | 168.7 KB | 122018df6d93... |
-| ./README.md | 4.3 KB | 1220721989f2... |
+| ./README.md | 4.3 KB | 122054b136b2... |
 | ./national-and-nature-parks.thumb.jpg | 57.5 KB | 1220aba152dd... |
 | ./national-and-nature-parks.pmtiles | 128.0 KB | 12208974be55... |
 

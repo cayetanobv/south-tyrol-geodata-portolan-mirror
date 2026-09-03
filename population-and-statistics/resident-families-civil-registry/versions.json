@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "resident-families-civil-registry.parquet",
         "README.md",
         "resident-families-civil-registry.thumb.jpg"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.267527Z",
+      "breaking": false,
+      "assets": {
+        "resident-families-civil-registry.pmtiles": {
+          "sha256": "1ab7bd1faeeefef865c011b3339940a6bf080c2a7d5cc62a94e6b8606bd2dc61",
+          "size_bytes": 601712,
+          "href": "population-and-statistics/resident-families-civil-registry/resident-families-civil-registry.pmtiles",
+          "mtime": 1788448496.6409876
+        },
+        "resident-families-civil-registry.parquet": {
+          "sha256": "66a873a9f85466ba313f27da690ca14b9b92db0d60f0d733b2ad1c6ca0d1f2f3",
+          "size_bytes": 427661,
+          "href": "population-and-statistics/resident-families-civil-registry/resident-families-civil-registry.parquet",
+          "source_mtime": 1788447186.639346,
+          "mtime": 1788447186.639346,
+          "feature_count": 116,
+          "schema_fingerprint": "22a3eb72c3a6a19f"
+        },
+        "README.md": {
+          "sha256": "6448a5d24897e3209fe16a4bd7759fa12fd40b93a098059797803537a5062e92",
+          "size_bytes": 4279,
+          "href": "population-and-statistics/resident-families-civil-registry/README.md",
+          "mtime": 1788449437.9869761
+        },
+        "resident-families-civil-registry.thumb.jpg": {
+          "sha256": "00e66087f639b1582a75e3005abf1525b60634d5e17147a0bc62cf3203d91e91",
+          "size_bytes": 86542,
+          "href": "population-and-statistics/resident-families-civil-registry/resident-families-civil-registry.thumb.jpg",
+          "mtime": 1788449321.160778
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

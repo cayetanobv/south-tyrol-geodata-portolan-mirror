@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "glacier-inventory.pmtiles",
         "README.md",
         "glacier-inventory.thumb.jpg"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.072699Z",
+      "breaking": false,
+      "assets": {
+        "glacier-inventory.parquet": {
+          "sha256": "f51be698fa70f04dd45d632688f0942f461496ad79b5d5144273f43dde39948f",
+          "size_bytes": 1307529,
+          "href": "hydrology-and-water/glacier-inventory/glacier-inventory.parquet",
+          "source_mtime": 1788447295.0133016,
+          "mtime": 1788447295.0133016,
+          "feature_count": 2015,
+          "schema_fingerprint": "0135dbcc3de6912a"
+        },
+        "glacier-inventory.pmtiles": {
+          "sha256": "68b8dd66a113d2eac8cdbdc73bca1c7417f62625c7508f2909efccd6550ea50f",
+          "size_bytes": 2388921,
+          "href": "hydrology-and-water/glacier-inventory/glacier-inventory.pmtiles",
+          "mtime": 1788448439.615862
+        },
+        "README.md": {
+          "sha256": "f1c945ee698ace0d7763d3373d052741a4194a40a0fe6677b7f79682e0ecc15c",
+          "size_bytes": 3862,
+          "href": "hydrology-and-water/glacier-inventory/README.md",
+          "mtime": 1788449437.8829741
+        },
+        "glacier-inventory.thumb.jpg": {
+          "sha256": "a3a54745bb587c926700df5c59ef4729a811240f967ef81fe149c4dcc9ed1d60",
+          "size_bytes": 50408,
+          "href": "hydrology-and-water/glacier-inventory/glacier-inventory.thumb.jpg",
+          "mtime": 1788449315.3526685
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "hazard-zones-landslides.thumb.jpg",
         "README.md",
         "hazard-zones-landslides.pmtiles"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.934127Z",
+      "breaking": false,
+      "assets": {
+        "hazard-zones-landslides.parquet": {
+          "sha256": "2582d557ded9fcaedaa84c37eef086daf67d1fc820a0c964af91cd2081fee3a5",
+          "size_bytes": 5033127,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-landslides/hazard-zones-landslides.parquet",
+          "source_mtime": 1788447279.5970232,
+          "mtime": 1788447279.5970232,
+          "feature_count": 24840,
+          "schema_fingerprint": "e39408f73d98fe5b"
+        },
+        "hazard-zones-landslides.thumb.jpg": {
+          "sha256": "70714cc360e3781e6b89561494296486ef34c1d5b4ccf49ca142e688a722a9ae",
+          "size_bytes": 138579,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-landslides/hazard-zones-landslides.thumb.jpg",
+          "mtime": 1788449310.6685803
+        },
+        "README.md": {
+          "sha256": "0edc88dc39bb1c92a239ecc613f653ff1b442fe4015c0cccc5d3867434178c48",
+          "size_bytes": 4260,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-landslides/README.md",
+          "mtime": 1788449437.8069727
+        },
+        "hazard-zones-landslides.pmtiles": {
+          "sha256": "eb4bebff321c3b78e2926987ba46f267b8bb9ca3be05e25b14a346896daf1d0e",
+          "size_bytes": 8913539,
+          "href": "hazard-zones-and-civil-protection/hazard-zones-landslides/hazard-zones-landslides.pmtiles",
+          "mtime": 1788448400.6670887
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

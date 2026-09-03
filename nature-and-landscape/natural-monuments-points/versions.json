@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "natural-monuments-points.thumb.jpg",
         "natural-monuments-points.parquet",
         "natural-monuments-points.pmtiles",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.187875Z",
+      "breaking": false,
+      "assets": {
+        "natural-monuments-points.thumb.jpg": {
+          "sha256": "8b451dacf72dfd7305eb94b0ae23899366216b057e77dac4dd48be1f20201119",
+          "size_bytes": 134501,
+          "href": "nature-and-landscape/natural-monuments-points/natural-monuments-points.thumb.jpg",
+          "mtime": 1788449319.2327416
+        },
+        "natural-monuments-points.parquet": {
+          "sha256": "91dc954da47c986ce613e007d8bd882b70d1cbef36f55725c2d32deb9049a471",
+          "size_bytes": 71023,
+          "href": "nature-and-landscape/natural-monuments-points/natural-monuments-points.parquet",
+          "source_mtime": 1788447319.077736,
+          "mtime": 1788447319.077736,
+          "feature_count": 701,
+          "schema_fingerprint": "8a324b470561024e"
+        },
+        "natural-monuments-points.pmtiles": {
+          "sha256": "be0d77e5aec47c027bd464eac1d218e18032ee1ce9774383a934cb8856fcabb1",
+          "size_bytes": 132248,
+          "href": "nature-and-landscape/natural-monuments-points/natural-monuments-points.pmtiles",
+          "mtime": 1788448469.1844466
+        },
+        "README.md": {
+          "sha256": "9a580cdb9190318900879ac8de620e1b6afdf4ed584dd3ab0f1518cd41120034",
+          "size_bytes": 4214,
+          "href": "nature-and-landscape/natural-monuments-points/README.md",
+          "mtime": 1788449437.9469755
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

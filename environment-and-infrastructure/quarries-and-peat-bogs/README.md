@@ -32,7 +32,7 @@ Community mirror of the dataset «Cave e torbiere (aree)» published by the Prov
 | ./styles/default.json | 983 B | 122068894ef1... |
 | ./legends/source.png | 131 B | 1220903b5cec... |
 | ./quarries-and-peat-bogs.parquet | 22.2 KB | 1220269f67f9... |
-| ./README.md | 3.7 KB | 12203e432ef6... |
+| ./README.md | 3.7 KB | 122069c2a14d... |
 | ./quarries-and-peat-bogs.thumb.jpg | 35.3 KB | 1220a45cf1e2... |
 | ./quarries-and-peat-bogs.pmtiles | 43.5 KB | 12203eef1e05... |
 

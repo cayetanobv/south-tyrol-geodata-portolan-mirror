@@ -42,7 +42,7 @@ Community mirror of the dataset «Catasto dei ghiacciai» published by the Provi
 | ./styles/default.json | 998 B | 12204e58afd1... |
 | ./legends/source.png | 1.3 KB | 1220c1a4a6b9... |
 | ./glacier-inventory.parquet | 1.2 MB | 1220f51be698... |
-| ./README.md | 3.8 KB | 12205a30afec... |
+| ./README.md | 3.8 KB | 1220f1c945ee... |
 | ./glacier-inventory.thumb.jpg | 49.2 KB | 1220a3a54745... |
 | ./glacier-inventory.pmtiles | 2.3 MB | 122068b8dd66... |
 

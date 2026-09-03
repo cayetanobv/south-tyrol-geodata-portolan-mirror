@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "README.md",
         "bathing-lakes-quality.parquet",
         "bathing-lakes-quality.pmtiles"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.033559Z",
+      "breaking": false,
+      "assets": {
+        "bathing-lakes-quality.thumb.jpg": {
+          "sha256": "ceae1de09541180889e19a6e525466243ddb06c527a01fc4d1fd89bac234daa7",
+          "size_bytes": 40934,
+          "href": "hydrology-and-water/bathing-lakes-quality/bathing-lakes-quality.thumb.jpg",
+          "mtime": 1788449314.2446477
+        },
+        "README.md": {
+          "sha256": "2f657e740496f8db6a0c499e6b0304869bf86cb0f9d75bca2f157d70ba9454ee",
+          "size_bytes": 4515,
+          "href": "hydrology-and-water/bathing-lakes-quality/README.md",
+          "mtime": 1788449437.8669739
+        },
+        "bathing-lakes-quality.parquet": {
+          "sha256": "62483a940898ce9f375d114c6998c51dd14eb3d45c8480d9395f862f8813f244",
+          "size_bytes": 23967,
+          "href": "hydrology-and-water/bathing-lakes-quality/bathing-lakes-quality.parquet",
+          "source_mtime": 1788447196.123517,
+          "mtime": 1788447196.123517,
+          "feature_count": 13,
+          "schema_fingerprint": "a564cadb3715c0ae"
+        },
+        "bathing-lakes-quality.pmtiles": {
+          "sha256": "a3e7258478f8dc1f07f20d0d5ee9dc5db52089e2b202fce5d446995f0d0a8d7e",
+          "size_bytes": 22382,
+          "href": "hydrology-and-water/bathing-lakes-quality/bathing-lakes-quality.pmtiles",
+          "mtime": 1788448425.3235786
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

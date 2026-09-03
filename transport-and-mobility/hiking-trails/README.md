@@ -33,7 +33,7 @@ Community mirror of the dataset «Percorsi escursionistici» published by the Pr
 | ./styles/default.json | 1.1 KB | 12201294f52f... |
 | ./legends/source.png | 297 B | 12204f5e74fe... |
 | ./hiking-trails.parquet | 5.6 MB | 12203f08499a... |
-| ./README.md | 3.6 KB | 1220fe2ec41a... |
+| ./README.md | 3.6 KB | 12206a4a935c... |
 | ./hiking-trails.thumb.jpg | 285.9 KB | 1220c2be8a42... |
 | ./hiking-trails.pmtiles | 5.1 MB | 1220cf78adf5... |
 

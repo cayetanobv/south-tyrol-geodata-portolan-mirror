@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -40,6 +40,43 @@
         "rock-glaciers.pmtiles",
         "README.md",
         "rock-glaciers.parquet"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:09.865096Z",
+      "breaking": false,
+      "assets": {
+        "rock-glaciers.thumb.jpg": {
+          "sha256": "4882feca68f98a79f4bf9636a8ed3076395ed0866950b3abb92af5505626d2a5",
+          "size_bytes": 70964,
+          "href": "geology/rock-glaciers/rock-glaciers.thumb.jpg",
+          "mtime": 1788449308.3005357
+        },
+        "rock-glaciers.pmtiles": {
+          "sha256": "ac6dc451414cd5bdaa337a172f669cfb91b92041793363a1c316fc164311da4d",
+          "size_bytes": 1666182,
+          "href": "geology/rock-glaciers/rock-glaciers.pmtiles",
+          "mtime": 1788448368.0024374
+        },
+        "README.md": {
+          "sha256": "de0f8aae2fc409d9063efdd6049e5d1e3a7156fd0e796bd466d9f6f138a65646",
+          "size_bytes": 3675,
+          "href": "geology/rock-glaciers/README.md",
+          "mtime": 1788449437.766972
+        },
+        "rock-glaciers.parquet": {
+          "sha256": "36b2e8412de4af429777e972188ee877af268e891f3d952240153b213848fe61",
+          "size_bytes": 1216106,
+          "href": "geology/rock-glaciers/rock-glaciers.parquet",
+          "source_mtime": 1788448319.8214715,
+          "mtime": 1788448319.8214715,
+          "feature_count": 2760,
+          "schema_fingerprint": "c23212112178716d"
+        }
+      },
+      "changes": [
+        "README.md"
       ]
     }
   ]

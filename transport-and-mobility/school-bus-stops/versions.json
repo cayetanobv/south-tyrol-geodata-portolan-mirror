@@ -1,6 +1,6 @@
 {
   "spec_version": "1.0.0",
-  "current_version": "1.0.0",
+  "current_version": "1.0.1",
   "versions": [
     {
       "version": "1.0.0",
@@ -39,6 +39,43 @@
         "school-bus-stops.parquet",
         "school-bus-stops.pmtiles",
         "school-bus-stops.thumb.jpg",
+        "README.md"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-09-03T15:44:10.427350Z",
+      "breaking": false,
+      "assets": {
+        "school-bus-stops.parquet": {
+          "sha256": "c9c1c32aa6c29847b2e3c1d2ed5ed705e482feda09e0712e75d5f4963d26460e",
+          "size_bytes": 181299,
+          "href": "transport-and-mobility/school-bus-stops/school-bus-stops.parquet",
+          "source_mtime": 1788447348.1982617,
+          "mtime": 1788447348.1982617,
+          "feature_count": 2969,
+          "schema_fingerprint": "6b835b238aff98ff"
+        },
+        "school-bus-stops.pmtiles": {
+          "sha256": "7a29edf5c1c0f30f4ef316881a75bb216c7ecbdcd58fd91a57d626ddc388cde4",
+          "size_bytes": 223591,
+          "href": "transport-and-mobility/school-bus-stops/school-bus-stops.pmtiles",
+          "mtime": 1788448537.6097922
+        },
+        "school-bus-stops.thumb.jpg": {
+          "sha256": "194aec537248b9063dbaf09667d746f446fba5077917c49e015a29b162bef27a",
+          "size_bytes": 115292,
+          "href": "transport-and-mobility/school-bus-stops/school-bus-stops.thumb.jpg",
+          "mtime": 1788449326.7168827
+        },
+        "README.md": {
+          "sha256": "d7d92e76d529de6dbf43648c24b69586369584651fada89bd0d0739ff3dfbff4",
+          "size_bytes": 3915,
+          "href": "transport-and-mobility/school-bus-stops/README.md",
+          "mtime": 1788449438.0469773
+        }
+      },
+      "changes": [
         "README.md"
       ]
     }

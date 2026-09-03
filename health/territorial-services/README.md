@@ -39,7 +39,7 @@ Community mirror of the dataset «Servizi territoriali» published by the Provin
 | ./styles/default.json | 737 B | 1220e7b498b5... |
 | ./legends/source.png | 2.0 KB | 12208b7d2244... |
 | ./territorial-services.parquet | 8.0 KB | 1220c0f32040... |
-| ./README.md | 3.6 KB | 122011914176... |
+| ./README.md | 3.6 KB | 12204555be1c... |
 | ./territorial-services.thumb.jpg | 42.7 KB | 12202c1ecb69... |
 | ./territorial-services.pmtiles | 14.3 KB | 12205a4c1ca7... |
 

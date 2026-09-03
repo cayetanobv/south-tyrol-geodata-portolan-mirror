@@ -33,7 +33,7 @@ Community mirror of the dataset «Sezioni di censimento 2021» published by the 
 | ./styles/default.json | 1.7 KB | 1220dbf89c4f... |
 | ./legends/source.png | 95 B | 12200ecda24d... |
 | ./census-sections-2021.parquet | 5.9 MB | 1220473dc2b5... |
-| ./README.md | 3.3 KB | 12201d2ead4b... |
+| ./README.md | 3.4 KB | 12205ad95eec... |
 | ./census-sections-2021.thumb.jpg | 127.3 KB | 1220122b832e... |
 | ./census-sections-2021.pmtiles | 7.0 MB | 12203ef25867... |
 

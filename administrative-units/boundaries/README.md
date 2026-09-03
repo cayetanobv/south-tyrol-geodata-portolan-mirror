@@ -42,7 +42,7 @@ Community mirror of the dataset «Limiti amministrativi» published by the Provi
 | ./styles/default.json | 1.1 KB | 1220cf18b952... |
 | ./legends/source.png | 2.4 KB | 1220280ff183... |
 | ./boundaries.parquet | 331.8 KB | 1220333caf82... |
-| ./README.md | 3.6 KB | 122001a188fe... |
+| ./README.md | 3.6 KB | 12202d261114... |
 | ./boundaries.thumb.jpg | 131.3 KB | 1220e8bdacda... |
 | ./boundaries.pmtiles | 348.7 KB | 122034723399... |
 

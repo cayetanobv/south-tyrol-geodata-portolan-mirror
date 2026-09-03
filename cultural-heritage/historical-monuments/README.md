@@ -49,7 +49,7 @@ Community mirror of the dataset «Monumenti architettonici» published by the Pr
 | ./styles/default.json | 638 B | 1220ed48c97d... |
 | ./legends/source.png | 1.6 KB | 1220780cb9e6... |
 | ./historical-monuments.parquet | 690.2 KB | 1220b6ca6ac2... |
-| ./README.md | 3.9 KB | 1220556a0324... |
+| ./README.md | 3.9 KB | 1220ee4eb07c... |
 | ./historical-monuments.thumb.jpg | 102.7 KB | 12202807dcdb... |
 | ./historical-monuments.pmtiles | 2.2 MB | 12208a13c558... |
 

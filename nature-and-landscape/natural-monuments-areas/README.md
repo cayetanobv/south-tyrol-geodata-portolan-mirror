@@ -49,7 +49,7 @@ Community mirror of the dataset «Monumenti naturali (aree)» published by the P
 |------|------|----------|
 | ./styles/default.json | 624 B | 122072e901b2... |
 | ./legends/source.png | 178 B | 12202e77d9e7... |
-| ./README.md | 4.2 KB | 122078480050... |
+| ./README.md | 4.2 KB | 1220a8edfa89... |
 | ./natural-monuments-areas.parquet | 222.3 KB | 12207a06320e... |
 | ./natural-monuments-areas.thumb.jpg | 61.0 KB | 12208f941392... |
 | ./natural-monuments-areas.pmtiles | 652.0 KB | 1220a5be0d76... |
