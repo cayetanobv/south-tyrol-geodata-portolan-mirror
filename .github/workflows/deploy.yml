@@ -1,0 +1,37 @@
+name: deploy
+# Publishes the metadata tree to the bucket every time main changes (pull requests merged; main is protected).
+# Auth: a key of the service account south-tyrol-mirror-ci@cartobq (storage.objectAdmin on this bucket only), stored as the GCP_SA_KEY secret.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: deploy-main
+  cancel-in-progress: false
+env:
+  BUCKET: gs://south-tyrol-geodata-portolan-mirror/
+  PUBLIC_URL: https://storage.googleapis.com/south-tyrol-geodata-portolan-mirror/
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the Portolan CLI and validator
+        run: pip install "portolan-cli>=0.8.0,<0.9.0" "rashid>=0.1.8,<0.2.0"
+      - name: Validate the metadata tree before publishing (data files live in the bucket, not in git)
+        run: rashid check . --schema --no-data
+      - name: Authenticate to Google Cloud (service-account key from the GCP_SA_KEY secret)
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+      - name: Publish with portolan push (metadata files and versions; no data files are present here, none are touched)
+        run: portolan push "$BUCKET" --max-connections 16 --verbose
+      - name: Check the hosting contract on the live catalog (range requests, CORS, sizes)
+        # Informational: the data checks need the bucket to answer; a transient network failure must not mark the deploy red.
+        continue-on-error: true
+        run: rashid check . --schema --no-data --live --live-base-url "$PUBLIC_URL"
