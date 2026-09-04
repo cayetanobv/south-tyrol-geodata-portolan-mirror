@@ -4,6 +4,14 @@
 
 Community MIRROR of 69 open datasets of the Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol, grouped in 11 themes (administrative units, population and statistics, health, hazard zones and civil protection, nature and landscape, hydrology and water, transport and mobility, cultural heritage, environment and infrastructure, geology, land use). Extracted on 2026-09-03 from the provincial WFS (207 INSPIRE-themed layers) and republished as a Portolan (spec v0.2.0) catalog for the OGC Metadata Summit 2026, Bolzano. This is NOT an official publication of the Province: the authoritative sources are the Province's geoportal (https://geoservices1.civis.bz.it) and open-data portal (https://data.civis.bz.it). All data CC0 1.0; attribution to the Province is given in every collection.
 
+## Access
+
+- **Browse it in the Portolan browser:** https://browser.portolan-sdi.org/#/external/storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json
+- **Catalog root (STAC, for software and agents):** https://storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json
+- **Metadata source and issue tracker (this repository):** https://github.com/cayetanobv/south-tyrol-geodata-portolan-mirror
+
+The data files (GeoParquet, PMTiles) are served from the bucket next to the metadata; this repository holds the metadata tree only. See [REPOSITORY.md](REPOSITORY.md) for how it is validated and published.
+
 ## Source
 
 [https://geoservices1.civis.bz.it/geoserver/ows](https://geoservices1.civis.bz.it/geoserver/ows)
