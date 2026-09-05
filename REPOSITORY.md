@@ -8,8 +8,8 @@ This repository is the **git-backed metadata tree** of the Portolan catalog
   `cayetanobv/south-tyrol-geodata-portolan-mirror`, same slug).
 - **Browse it:** https://browser.portolan-sdi.org/#/external/storage.googleapis.com/south-tyrol-geodata-portolan-mirror/catalog.json
 - **What is here:** `catalog.json`, the 11 theme `catalog.json` files, 69 `collection.json` files, every `README.md`
-  and `AGENTS.md`, styles, legends and thumbnails. **Not here:** the GeoParquet and PMTiles data files (~140 MB), which
-  are served from the bucket; `.gitignore` refuses them.
+  and `AGENTS.md`, styles, legends, thumbnails, and the catalog logo in `_assets/`. **Not here:** the GeoParquet and
+  PMTiles data files (~140 MB), which are served from the bucket; `.gitignore` refuses them.
 - **This is a community MIRROR, not an official publication** of the Autonomous Province of Bolzano – South Tyrol.
   All data are the Province's open data (CC0 1.0), attributed in every collection. Authoritative sources:
   https://geoservices1.civis.bz.it and https://data.civis.bz.it.
