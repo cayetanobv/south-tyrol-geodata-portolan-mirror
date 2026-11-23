@@ -57,7 +57,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.3.0/schema.json",
     "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Polygon",
@@ -206,7 +206,7 @@
       "file:size": 7351541,
       "file:checksum": "12203ef2586777411ec0e593a5c095af31f8df362cc593258cd64de80117bad58bbf",
       "roles": [
-        "data"
+        "visual"
       ]
     }
   }

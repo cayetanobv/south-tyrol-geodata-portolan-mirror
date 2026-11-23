@@ -57,7 +57,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/table/v1.2.0/schema.json",
     "https://stac-extensions.github.io/file/v2.1.0/schema.json",
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.3.0/schema.json",
     "https://stac-extensions.github.io/web-map-links/v1.3.0/schema.json"
   ],
   "geoparquet:geometry_type": "Point",
@@ -230,7 +230,7 @@
       "file:size": 14660,
       "file:checksum": "12205a4c1ca7f1fb2615aa9d1fb6e04b485c246c5849a88a514578f1046db9d7e19f",
       "roles": [
-        "data"
+        "visual"
       ]
     }
   }

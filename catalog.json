@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "south-tyrol-geodata-portolan-mirror",
   "stac_version": "1.1.0",
-  "description": "Community MIRROR of 69 open datasets of the Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol, grouped in 11 themes (administrative units, population and statistics, health, hazard zones and civil protection, nature and landscape, hydrology and water, transport and mobility, cultural heritage, environment and infrastructure, geology, land use). Extracted on 2026-09-03 from the provincial WFS (207 INSPIRE-themed layers) and republished as a Portolan (spec v0.2.0) catalog for the OGC Metadata Summit 2026, Bolzano. This is NOT an official publication of the Province: the authoritative sources are the Province's geoportal (https://geoservices1.civis.bz.it) and open-data portal (https://data.civis.bz.it). All data CC0 1.0; attribution to the Province is given in every collection.",
+  "description": "Community MIRROR of 69 open datasets of the Provincia Autonoma di Bolzano – Alto Adige / Autonome Provinz Bozen – Südtirol, grouped in 11 themes (administrative units, population and statistics, health, hazard zones and civil protection, nature and landscape, hydrology and water, transport and mobility, cultural heritage, environment and infrastructure, geology, land use). Extracted on 2026-09-03 from the provincial WFS (207 INSPIRE-themed layers) and republished as a Portolan (spec v0.3.0) catalog for the OGC Metadata Summit 2026, Bolzano. This is NOT an official publication of the Province: the authoritative sources are the Province's geoportal (https://geoservices1.civis.bz.it) and open-data portal (https://data.civis.bz.it). All data CC0 1.0; attribution to the Province is given in every collection.",
   "links": [
     {
       "rel": "root",
@@ -109,7 +109,7 @@
   ],
   "title": "South Tyrol open geodata — community mirror (OGC Metadata Summit 2026 demo)",
   "stac_extensions": [
-    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+    "https://schemas.portolan-sdi.org/portolan/v0.3.0/schema.json"
   ],
   "updated": "2026-09-03T15:44:10Z"
 }
