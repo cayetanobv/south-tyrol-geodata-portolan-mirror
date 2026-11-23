@@ -7,7 +7,7 @@ description: 'Community MIRROR of 69 open datasets of the Provincia Autonoma di 
   Autonome Provinz Bozen – Südtirol, grouped in 11 themes (administrative units, population and statistics,
   health, hazard zones and civil protection, nature and landscape, hydrology and water, transport and
   mobility, cultural heritage, environment and infrastructure, geology, land use). Extracted on 2026-09-03
-  from the provincial WFS (207 INSPIRE-themed layers) and republished as a Portolan (spec v0.2.0) catalog
+  from the provincial WFS (207 INSPIRE-themed layers) and republished as a Portolan (spec v0.3.0) catalog
   for the OGC Metadata Summit 2026, Bolzano. This is NOT an official publication of the Province: the
   authoritative sources are the Province''s geoportal (https://geoservices1.civis.bz.it) and open-data
   portal (https://data.civis.bz.it). All data CC0 1.0; attribution to the Province is given in every collection.'
